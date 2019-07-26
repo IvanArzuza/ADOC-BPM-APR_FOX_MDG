@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.QName' i='471DAFAC55EC9E6C814111DCA447003005C6B92C'/>
+<M c='1' q='mc.servicereferences.ServiceReference' i='471DAFAC55EE250E814111DC8ECA003005C6B92C'/>
+<M c='1' q='mc.servicereferences.serviceref_logicalSystem' i='471DAFAC55EFABA2814111DCC1B9003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_authenticationProfile' i='471DAFAC55EFABA5814111DCA3E1003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_qname' i='471DAFAC55F13240814111DCC062003005C6B92C' se='1' ce='1' oe='-1'/>
+<M c='1' q='mc.servicereferences.ServiceReferenceCustomAttributes' i='E071FFE67B8562C5384611E09E32002710A58A9C'/>
+<M c='1' q='mc.servicereferences.ref_CustomAttributes' i='E071FFE6FAC645EF384611E08198002710A58A9C' se='1' ce='-1' oe='-1'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E02C978B5AFBA355A96D11E9BCD8547C7E8EAE14' key='senderServiceName' value='TEST'/>
+<mc.logicalsystem.QName m:c='1' m:i='E0367719E5B74BED944311E9B043547C7E8EAE14' name='SampleTimer' namespace='http://sap.com/glx/sampletimer/'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E0367719E5B74BEE944311E9A89F547C7E8EAE14' id='b99775a2-9bd3-4531-a235-dfe3c8266651' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.logicalsystem.QName m:c='1' m:i='E088335F3890B0BF939D11E999D0547C7E8EAE14' name='Calc_BPM_InBo' namespace='urn:empresasadoc.com:test'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E088335F3890B0C0939D11E9A6CD547C7E8EAE14' id='a193e051-4d8b-4a77-8f94-86dbb6e94064' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E088335F6E0B6DEC939D11E9B7CA547C7E8EAE14' name='BPM_Calc_OutB' namespace='urn:empresasadoc.com:test'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E088335F6E0B6DED939D11E9BE68547C7E8EAE14' id='0245a028-b3bb-4cc0-b46f-a19c80c67199' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E088335F933786C3939D11E9CAB6547C7E8EAE14' name='Calculadora_InBo' namespace='urn:empresasadoc.com:test'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E088335F933786C4939D11E989F3547C7E8EAE14' id='9c6449c7-b59a-4c6d-8e7e-4caf952e7a5c' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E088335FA642D721939C11E99DC7547C7E8EAE14' name='Calculadora_OutB' namespace='urn:empresasadoc.com:test'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E088335FA6434BCF939C11E98C78547C7E8EAE14' id='c91017c9-8e84-4046-854e-9b529d8eb12b' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0E14F860B0254DDA97911E9BE0B547C7E8EAE14' key='senderServiceName' value='TEST'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0E14F8617BF83C5A97911E9AA08547C7E8EAE14' key='senderServiceName' value='TEST'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0E14F8661948BCEA97911E9A2FF547C7E8EAE14' key='senderServiceName' value='demo_sap_com_calculadora_con_bpm'/>
+<mc.servicereferences.serviceref_logicalSystem c='1'>
+<L f='local:4925559F5D230461B6FD11DD82620018717335EB' s='E0367719E5B74BEE944311E9A89F547C7E8EAE14'/>
+<L f='local:E088335FA63C349D939C11E9B8D6547C7E8EAE14' s='E088335F3890B0C0939D11E9A6CD547C7E8EAE14'/>
+<L f='local:E088335FA63C349D939C11E9B8D6547C7E8EAE14' s='E088335F6E0B6DED939D11E9BE68547C7E8EAE14'/>
+<L f='local:E088335FA63C349D939C11E9B8D6547C7E8EAE14' s='E088335F933786C4939D11E989F3547C7E8EAE14'/>
+<L f='local:E016575C1BD8FDA1A99511E99E0B547C7E8EAE14' s='E088335FA6434BCF939C11E98C78547C7E8EAE14'/>
+</mc.servicereferences.serviceref_logicalSystem>
+<mc.servicereferences.serviceref_authenticationProfile c='1'>
+<L f='local:E088335FA6421A8A939C11E98AFB547C7E8EAE14' s='E0367719E5B74BEE944311E9A89F547C7E8EAE14'/>
+<L f='local:E088335FA6421A8A939C11E98AFB547C7E8EAE14' s='E088335F3890B0C0939D11E9A6CD547C7E8EAE14'/>
+<L f='local:E088335FA6421A8A939C11E98AFB547C7E8EAE14' s='E088335F6E0B6DED939D11E9BE68547C7E8EAE14'/>
+<L f='local:E088335FA6421A8A939C11E98AFB547C7E8EAE14' s='E088335F933786C4939D11E989F3547C7E8EAE14'/>
+<L f='local:E088335FA6421A8A939C11E98AFB547C7E8EAE14' s='E088335FA6434BCF939C11E98C78547C7E8EAE14'/>
+</mc.servicereferences.serviceref_authenticationProfile>
+<mc.servicereferences.serviceref_qname c='1'>
+<L f='E0367719E5B74BED944311E9B043547C7E8EAE14' s='E0367719E5B74BEE944311E9A89F547C7E8EAE14'/>
+<L f='E088335F3890B0BF939D11E999D0547C7E8EAE14' s='E088335F3890B0C0939D11E9A6CD547C7E8EAE14'/>
+<L f='E088335F6E0B6DEC939D11E9B7CA547C7E8EAE14' s='E088335F6E0B6DED939D11E9BE68547C7E8EAE14'/>
+<L f='E088335F933786C3939D11E9CAB6547C7E8EAE14' s='E088335F933786C4939D11E989F3547C7E8EAE14'/>
+<L f='E088335FA642D721939C11E99DC7547C7E8EAE14' s='E088335FA6434BCF939C11E98C78547C7E8EAE14'/>
+</mc.servicereferences.serviceref_qname>
+<mc.servicereferences.ref_CustomAttributes c='1'>
+<L f='E0E14F860B0254DDA97911E9BE0B547C7E8EAE14' s='E088335F3890B0C0939D11E9A6CD547C7E8EAE14'/>
+<L f='E02C978B5AFBA355A96D11E9BCD8547C7E8EAE14' s='E088335F6E0B6DED939D11E9BE68547C7E8EAE14'/>
+<L f='E0E14F8617BF83C5A97911E9AA08547C7E8EAE14' s='E088335F933786C4939D11E989F3547C7E8EAE14'/>
+<L f='E0E14F8661948BCEA97911E9A2FF547C7E8EAE14' s='E088335FA6434BCF939C11E98C78547C7E8EAE14'/>
+</mc.servicereferences.ref_CustomAttributes>
+</Partition>

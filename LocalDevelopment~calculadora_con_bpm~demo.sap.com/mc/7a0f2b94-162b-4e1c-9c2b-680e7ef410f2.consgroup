@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.LogicalSystem' i='471DAFAC55EC9E66814111DCC42E003005C6B92C'/>
+<mc.logicalsystem.LogicalSystem m:c='1' m:i='E088335FA63C349D939C11E9B8D6547C7E8EAE14' name='Calculadora_Con_BPM_ServiceGroup_XI' origin='' guid='7a0f2b94-162b-4e1c-9c2b-680e7ef410f2' isLocalProviderSystem='false'>
+<displayName maxWidth='120' originalText='Calculadora_Con_BPM_ServiceGroup' resType='label' translate='false' transUnitId='A63C349C939C11E9A0BC547C7E8EAE14' resName='7a0f2b94-162b-4e1c-9c2b-680e7ef410f2.consgroup.name'/>
+<description maxWidth='120' originalText='Calculadorac con BPM - ServiceGroup para XI' resType='description' translate='true' transUnitId='A63C0D35939C11E9C48F547C7E8EAE14' resName='7a0f2b94-162b-4e1c-9c2b-680e7ef410f2.consgroup.description'/>
+</mc.logicalsystem.LogicalSystem>
+</Partition>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xliff version="1.1" xmlns="urn:oasis:names:tc:xliff:document:1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<file tool="MOIN S2X File Generator" original="self" source-language="en" product-name="MOIN S2X File Generator" datatype="s2x">
+<header>
+<skl>
+</skl>
+<phase-group>
+</phase-group>
+<s2x xmlns="http://www.sap.com">
+<dtr>
+<dc></dc>
+<rel></rel>
+<sc></sc>
+</dtr>
+<giltDirectives>
+<develContact></develContact>
+<domain></domain>
+<collection></collection>
+<originalLocale xml:lang="en"/>
+<maxLength>255</maxLength>
+</giltDirectives>
+</s2x>
+</header>
+<body>
+<group restype="label">
+<trans-unit id="A63C349C939C11E9A0BC547C7E8EAE14" resname="7a0f2b94-162b-4e1c-9c2b-680e7ef410f2.consgroup.name" maxwidth="120" translate="no"><source>Calculadora_Con_BPM_ServiceGroup</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+</group>
+<group restype="description">
+<trans-unit id="A63C0D35939C11E9C48F547C7E8EAE14" resname="7a0f2b94-162b-4e1c-9c2b-680e7ef410f2.consgroup.description" maxwidth="120" translate="yes"><source>Calculadorac con BPM - ServiceGroup para XI</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+</group>
+</body>
+</file>
+</xliff>

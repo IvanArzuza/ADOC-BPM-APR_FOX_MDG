@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.LogicalSystem' i='471DAFAC55EC9E66814111DCC42E003005C6B92C'/>
+<mc.logicalsystem.LogicalSystem m:c='1' m:i='E016575C1BD8FDA1A99511E99E0B547C7E8EAE14' name='Calculadora_Con_BPM_ServiceGroup_WS' guid='4b04ca19-d0b1-464e-bac4-343525f29129' isLocalProviderSystem='false'>
+<displayName maxWidth='120' originalText='Calculadora_Con_BPM_ServiceGroup_WS' resType='label' translate='false' transUnitId='1BD8FDA0A99511E9C04F547C7E8EAE14' resName='4b04ca19-d0b1-464e-bac4-343525f29129.consgroup.name'/>
+<description maxWidth='120' originalText='Calculadorac con BPM - ServiceGroup para WS' resType='description' translate='true' transUnitId='1BD8C4F0A99511E9A30C547C7E8EAE14' resName='4b04ca19-d0b1-464e-bac4-343525f29129.consgroup.description'/>
+</mc.logicalsystem.LogicalSystem>
+</Partition>
