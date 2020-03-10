@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="urn:empresasadoc.com:data_maestra:php:BPM" xmlns:p2="urn:empresasadoc.com:data_maestra:php:estructuras" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="CrearArticulo_Out" targetNamespace="urn:empresasadoc.com:data_maestra:php:BPM">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>7d52fae5bac811e9bb990000001b79ca</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="tegroup"/>
+      <changed by="tegroup" on="1565370747233"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:runtime:application:client"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_basic"/>
+    <ifw:interfacePattern p2p="true"/>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="03502a0b14c232c1b989be9e1d52c474"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="CrearArticulo_Out">
+        <ifw:isSynchron>false</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_async"/>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="p2.MDG_Articulo_Req">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">MDG_Articulo_Req</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:empresasadoc.com:data_maestra:php:estructuras</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:empresasadoc.com:data_maestra:php:estructuras</ifw:technicalNamespace>
+        <ifw:VersionID>44ae8b22bac711e9c6b50000001b79ca</ifw:VersionID>
+        <ifw:xmlNamespace>urn:empresasadoc.com:data_maestra:php:estructuras</ifw:xmlNamespace>
+        <ifw:dataType name="MDG_Articulo" namespace="urn:empresasadoc.com:data_maestra:php:estructuras" swcvId="888847a0b85e11e9ba71d958c0a8107a" uri="name=MDG_Articulo~namespace=urn:empresasadoc.com:data_maestra:php:estructuras~swcvId=888847a0b85e11e9ba71d958c0a8107a"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>888847a0b85e11e9ba71d958c0a8107a</ifw:guid>
+        <ifw:name>ADOC_I_DATA_MAESTRA_SENDER 1.0 of empresasadoc.com</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:folder>
+        <ifw:guid>1hn###o#####k##</ifw:guid>
+      </ifw:folder>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_03502a0b14c232c1b989be9e1d52c474_ifmmessif</name>
+        <namespace>urn:empresasadoc.com:data_maestra:php:BPM</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_CrearArticulo_Out"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:empresasadoc.com:data_maestra:php:estructuras" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:empresasadoc.com:data_maestra:php:estructuras">
+      <xsd:element name="MDG_Articulo_Req" type="MDG_Articulo"/>
+      <xsd:complexType name="MDG_Articulo">
+        <xsd:sequence>
+          <xsd:element name="row">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="MARA_MTART" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>MODE (L7) o ZMOD (L1)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ATTYP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>CATEGORIA</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_MATKL" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>GRUPO ARTICULO</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_CHAR_VALUE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>TALLAS INTRODUCIR SI ES ROPA O ACCESORIO</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_NODE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>NODO</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_MAKTX" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>DESCRIPCION</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_GROES" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>ESTILO</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_FREE_CHAR" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>COLOR</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_BRAND_ID" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>MARCA</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_WHERL" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>PAIS DE FABRICACION</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_WSTAW" type="xsd:integer">
+                  <xsd:annotation>
+                    <xsd:documentation>PARTIDA ARANCELARIA</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_SEASON" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>TEMPORADA</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_SEASON_YR" type="xsd:integer">
+                  <xsd:annotation>
+                    <xsd:documentation>AÑO</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_PUERTO_ORIG" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>PUERTO SALIDA</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_ESTATUS" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>ESTATUS</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_ART_PROV" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>GENERO</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_TIP_ESTILO" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>CLASIFICACION NUEVA</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_COD_PICT" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>CODIGO DEL PICTOGRAMA (L1 - L7)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_DELTAM" type="xsd:integer">
+                  <xsd:annotation>
+                    <xsd:documentation>DELTAM (L1 - L7)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_ALTAM" type="xsd:integer">
+                  <xsd:annotation>
+                    <xsd:documentation>ALTAM (L1 - L7)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_TAM_MED" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>TAMAÑO MEDIO "flag" (L1 - L7)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_ALU" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>ALU (BISMT) (L1 - L7)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_ZZ_CLASE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:documentation>CLASE</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_EAN11" type="xsd:integer">
+                  <xsd:annotation>
+                    <xsd:documentation>UPC (L1 - L7 - CAT - TNF)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_LIFNR" type="xsd:integer">
+                  <xsd:annotation>
+                    <xsd:documentation>PROVEEDOR</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_IDNLF">
+                  <xsd:annotation>
+                    <xsd:documentation>DESCRIPCION ARTICULO PROVEEDOR</xsd:documentation>
+                  </xsd:annotation>
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                      <xsd:maxLength value="50"/>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MARA_IDNLF_2">
+                  <xsd:annotation>
+                    <xsd:documentation>DESCRIPCION ARTICULO PROVEEDOR 2</xsd:documentation>
+                  </xsd:annotation>
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                      <xsd:maxLength value="50"/>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="EINE_NETPR">
+                  <xsd:annotation>
+                    <xsd:documentation>PRECIO NETO  (FOB)</xsd:documentation>
+                  </xsd:annotation>
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:decimal">
+                      <xsd:fractionDigits value="2"/>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="VERPR" type="xsd:integer">
+                  <xsd:annotation>
+                    <xsd:documentation>PRECIO VENTA</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Linea_1" type="FOX_L1_Statement"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FOX_L1_Statement">
+        <xsd:sequence>
+          <xsd:element name="Statement_response">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="row">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="bismt" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Numero de material anterior</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_desc_tec" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Desc. Técnica</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_avio_ext" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Avio externo</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_patron" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Patrón</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_horma" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Horma</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_tip_const" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Tipo Construcción</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_mezcla" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Codigo de mezcla</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_plant_fab" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Planta de Fabricación</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_cod_pict" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="zz_deltam" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="zz_altam" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="zz_tam_med" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="estatus" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="fecha_registro" type="xsd:date"/>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="p2.MDG_Articulo_Req">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:MDG_Articulo_Req" name="MDG_Articulo_Req"/>
+  </wsdl:message>
+  <wsdl:portType name="CrearArticulo_Out">
+    <wsdl:documentation/>
+    <wsdl:operation name="CrearArticulo_Out">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_CrearArticulo_Out"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:p2.MDG_Articulo_Req"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CrearArticulo_OutBinding" type="p1:CrearArticulo_Out">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="CrearArticulo_Out">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

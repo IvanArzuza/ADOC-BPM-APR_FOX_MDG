@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/mi/gfw/mm' i='1' v='1.0'/>
+<M c='1' q='links.PictogramLinkReferencesBusinessObjects' i='45E806E30284FE5FB2DF4EEE3C28FAD397F8DCD7' se='1' ce='-1' oe='0'/>
+<M c='1' q='pictograms.ConnectionStartsAtAnchor' i='45E806E308B17408B49D40731BCBA3D70B50316A' se='1' ce='-1' oe='-1'/>
+<M c='1' q='pictograms.RoundedRectangle' i='45E806E30B111639635B45AD24A896FDC10DD7D2' ova='renderingStyle'/>
+<M c='1' q='datatypes.Color' i='45E806E31BEE0BFC06414C9B3C40BD0ABFB5FC54'/>
+<M c='1' q='pictograms.Shape' i='45E806E31FD033AD65384259299DEBAA310F446D'/>
+<M c='1' q='pictograms.ConnectionContainsConnectionDecorators' i='45E806E32B4E1991DC38488135D0E28ED9340535' se='1' ce='1' oe='-1'/>
+<M c='1' q='pictograms.GraphicsAlgorithmHasForegroundColor' i='45E806E339C380ACB9D54742385FA5A67110FC14' se='1' ce='-1' oe='-1'/>
+<M c='1' q='pictograms.DiagramContainsColors' i='45E806E346B62DC200B947272E8FDE657EE11680' se='1' ce='1' oe='-1'/>
+<M c='1' q='links.DiagramLinkReferencesDiagram' i='45E806E34864C34AAB914D1B0575B8FF0AE0200F' se='1' ce='-1' oe='-1'/>
+<M c='1' q='pictograms.ContainershapeContainsShapes' i='45E806E34DAA68EC93FA462426FBB19CF45B7D2E' se='1' ce='1' oe='0'/>
+<M c='1' q='pictograms.Image' i='45E806E353FEC7AFE8BF4ED114A7CEA6587A9600' ova='renderingStyle'/>
+<M c='1' q='links.PictogramLink' i='45E806E357AEC9BF0C7D4C3417DA8693C081773B'/>
+<M c='1' q='pictograms.Font' i='45E806E35856AAF1B14B4F923905D5D6147B02C7'/>
+<M c='1' q='pictograms.RenderingStyle' i='45E806E35FC54737B8C242AB002CC014A8DEA9DF'/>
+<M c='1' q='pictograms.GraphicsAlgorithmContainsGraphicsAlgorithms' i='45E806E369D37BBE0A1A4E2E3EEFCF9F8305FE0A' se='0' ce='0' oe='1'/>
+<M c='1' q='links.DiagramLinkReferencesPictogramLinks' i='45E806E369DC288747324E4122F8E53651800C8C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='pictograms.Rectangle' i='45E806E37120AD4D7CC74AC23483FCA2046A785F' ova='renderingStyle'/>
+<M c='1' q='pictograms.ContainerShape' i='45E806E37581995B8D82418E1867F74ADBD2C64E'/>
+<M c='1' q='pictograms.ConnectionDecorator' i='45E806E3823C2857C9934BCF2144E2FB68FB4D69'/>
+<M c='1' q='pictograms.Ellipse' i='45E806E382BF5E26C64846B90538E8C23BABA3D0' ova='renderingStyle'/>
+<M c='1' q='pictograms.DiagramAggregatesConnections' i='45E806E391102595F404410628AEB33F0B572BA1' se='1' ce='1' oe='-1'/>
+<M c='1' q='pictograms.ChopboxAnchor' i='45E806E3940A148E39184EB42774A56C14F847CD'/>
+<M c='1' q='pictograms.GraphicsAlgorithmHasBackgroundColor' i='45E806E39B5A5621D3A049D41BDCF825E4F1DFCD' se='0' ce='-1' oe='-1'/>
+<M c='1' q='pictograms.Polygon' i='45E806E39CA8988B64AE496E1611E79464444C32' ova='renderingStyle'/>
+<M c='1' q='pictograms.FreeFormConnection' i='45E806E39F302197BFF04AA81DC1DEDE91076514'/>
+<M c='1' q='pictograms.Text' i='45E806E3A3CF4A417DA2471C338590FC98B94E68' ova='renderingStyle,font'/>
+<M c='1' q='links.PictogramElementContainsPictogramLink' i='45E806E3A923DD06475A493C25D3E37647D0913C' se='0' ce='0' oe='-1'/>
+<M c='1' q='pictograms.Diagram' i='45E806E3B28EF07AFA0A4F2C342AC45B58528277'/>
+<M c='1' q='pictograms.AnchorcontainerAggregatesAnchors' i='45E806E3C1BD2143396B4C431D6F8DCA605AD011' se='1' ce='1' oe='-1'/>
+<M c='1' q='pictograms.Polyline' i='45E806E3D229789CCBAB417F1E1AD3B2356BC7B0' ova='renderingStyle'/>
+<M c='1' q='pictograms.ConnectionEndsAtAnchor' i='45E806E3EEA012BCF524491F27BACC87C8BA3CFC' se='1' ce='-1' oe='-1'/>
+<M c='1' q='links.DiagramLink' i='45E806E3F50C9691A7AD41B1112AD1FB129489D9'/>
+<M c='1' q='pictograms.PictogramelementContainsGraphicsalgorithm' i='45E806E3FAA2BB1CBA6D4FD32BB3E5E85E90D191' se='1' ce='1' oe='-1'/>
+<M c='1' q='pictograms.MultiText' i='4649B449B306D1A783B7407702D58FB97D352380' ova='renderingStyle,font'/>
+<M c='1' q='pictograms.Style' i='46973F2C80BDECBB311F11DCC8D8001125D59A18' ova='renderingStyle,font'/>
+<M c='1' q='pictograms.StyleContainerContainsStyles' i='46973F2C80C28091311F11DCAD2F001125D59A18' se='1' ce='1' oe='-1'/>
+<M c='1' q='pictograms.GraphicsAlgorithmReferencesStyle' i='46973F2C80C28094311F11DCB45C001125D59A18' se='1' ce='-1' oe='-1'/>
+<pictograms.ContainerShape m:c='1' m:i='E012BF1E2DC7BB37CE9311E9C910547C7E8EAE14' visible='true' active='true'>
+<properties key='dataObjectsReference' value='false'/>
+</pictograms.ContainerShape>
+<pictograms.Rectangle m:c='1' m:i='E012BF1E2DC7BB38CE9311E9B935547C7E8EAE14' filled='false' lineVisible='false' width='90' height='62' x='51' y='123'/>
+<pictograms.Polygon m:c='1' m:i='E012BF1E2DC7BB39CE9311E99455547C7E8EAE14' lineWidth='1' filled='true' width='30' height='42' x='30' y='0'>
+<points x='0' y='0' before='0' after='0'/>
+<points x='23' y='0' before='0' after='0'/>
+<points x='30' y='7' before='0' after='0'/>
+<points x='30' y='42' before='0' after='0'/>
+<points x='0' y='42' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+</pictograms.Polygon>
+<pictograms.Polygon m:c='1' m:i='E012BF1E2DC7BB3ACE9311E9B4FB547C7E8EAE14' lineWidth='1' filled='true' width='0' height='0' x='0' y='0'>
+<points x='23' y='0' before='0' after='0'/>
+<points x='23' y='7' before='0' after='0'/>
+<points x='30' y='7' before='0' after='0'/>
+<points x='23' y='0' before='0' after='0'/>
+</pictograms.Polygon>
+<pictograms.ChopboxAnchor m:c='1' m:i='E012BF1E2DC7F138CE9311E98204547C7E8EAE14' visible='false' active='false'/>
+<pictograms.Text m:c='1' m:i='E012BF1E2DC7F139CE9311E9C55A547C7E8EAE14' width='90' height='20' x='0' y='42' font='E012BF1E2DC7F13ACE9311E9C6C3547C7E8EAE14' horizontalAlignment='ALIGNMENT_CENTER' value='L1_Statement'/>
+<pictograms.Font m:c='1' m:i='E012BF1E2DC7F13ACE9311E9C6C3547C7E8EAE14' name='Arial' size='8' italic='false' bold='false'/>
+<links.PictogramLink m:c='1' m:i='E012BF1E2DC7F13BCE9311E9C402547C7E8EAE14'/>
+<pictograms.Diagram m:c='1' m:i='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14' visible='true' active='false' gridUnit='10' diagramTypeId='com.sap.glx.ide.diagramtype.flow' name='Articulo_Crear_APR_FOX_MDG' snapToGrid='true' showGuides='true'>
+<properties key='dataFlowVisible' value='true'/>
+<properties key='dataObjectsVisible' value='true'/>
+<properties key='annotationsFlowVisible' value='true'/>
+<properties key='containerOrientation' value='orientationVertical'/>
+</pictograms.Diagram>
+<pictograms.Rectangle m:c='1' m:i='E06CA680DC936C31CD9B11E98BE9547C7E8EAE14' width='1000' height='1000' x='0' y='0'/>
+<datatypes.Color m:c='1' m:i='E06CA680DC938E38CD9B11E9BF3C547C7E8EAE14' red='227' green='238' blue='249'/>
+<datatypes.Color m:c='1' m:i='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14' red='255' green='255' blue='255'/>
+<links.PictogramLink m:c='1' m:i='E06CA680DC93C2DBCD9B11E9A2E0547C7E8EAE14'/>
+<links.DiagramLink m:c='1' m:i='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266ABC828BBCDA011E99249547C7E8EAE14' visible='true' active='true'>
+<properties key='dataObjectsReference' value='false'/>
+</pictograms.ContainerShape>
+<pictograms.Rectangle m:c='1' m:i='E0A44266ABC828BCCDA011E9C521547C7E8EAE14' filled='false' lineVisible='false' width='90' height='62' x='51' y='50'/>
+<pictograms.Polygon m:c='1' m:i='E0A44266ABC828BDCDA011E99F11547C7E8EAE14' lineWidth='1' filled='true' width='30' height='42' x='30' y='0'>
+<points x='0' y='0' before='0' after='0'/>
+<points x='23' y='0' before='0' after='0'/>
+<points x='30' y='7' before='0' after='0'/>
+<points x='30' y='42' before='0' after='0'/>
+<points x='0' y='42' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+</pictograms.Polygon>
+<pictograms.Polygon m:c='1' m:i='E0A44266ABC86575CDA011E999EC547C7E8EAE14' lineWidth='1' filled='true' width='0' height='0' x='0' y='0'>
+<points x='23' y='0' before='0' after='0'/>
+<points x='23' y='7' before='0' after='0'/>
+<points x='30' y='7' before='0' after='0'/>
+<points x='23' y='0' before='0' after='0'/>
+</pictograms.Polygon>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0A44266ABC86576CDA011E9C4E6547C7E8EAE14' visible='false' active='false'/>
+<pictograms.Text m:c='1' m:i='E0A44266ABC86577CDA011E9A920547C7E8EAE14' width='90' height='20' x='0' y='42' font='E0A44266ABC86578CDA011E98312547C7E8EAE14' horizontalAlignment='ALIGNMENT_CENTER' value='PlaceHolderProduct'/>
+<pictograms.Font m:c='1' m:i='E0A44266ABC86578CDA011E98312547C7E8EAE14' name='Arial' size='8' italic='false' bold='false'/>
+<links.PictogramLink m:c='1' m:i='E0A44266ABC8858CCDA011E9B0F7547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266B47EAF44CD9F11E98B90547C7E8EAE14' visible='true' active='true'/>
+<pictograms.Rectangle m:c='1' m:i='E0A44266B47EAF45CD9F11E9B65B547C7E8EAE14' filled='false' lineVisible='false' width='100' height='60' x='45' y='93'/>
+<pictograms.Polygon m:c='1' m:i='E0A44266B47ED912CD9F11E99CDF547C7E8EAE14' filled='true' renderingStyle='E0A44266B47F0680CD9F11E9C6F0547C7E8EAE14' width='40' height='40' x='30' y='0'>
+<points x='20' y='0' before='0' after='0'/>
+<points x='40' y='20' before='0' after='0'/>
+<points x='20' y='40' before='0' after='0'/>
+<points x='0' y='20' before='0' after='0'/>
+</pictograms.Polygon>
+<pictograms.RenderingStyle m:c='1' m:i='E0A44266B47F0680CD9F11E9C6F0547C7E8EAE14' predefinedStyleId='blue-white-gloss'/>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0A44266B47F0681CD9F11E99978547C7E8EAE14' visible='false' active='false'/>
+<pictograms.Text m:c='1' m:i='E0A44266B47F1E79CD9F11E99E43547C7E8EAE14' width='100' height='20' x='0' y='40' value='Linea de producto'/>
+<pictograms.Polygon m:c='1' m:i='E0A44266B47F3716CD9F11E9C289547C7E8EAE14' lineWidth='0' filled='true' lineVisible='false' width='0' height='0' x='0' y='0'>
+<points x='11' y='12' before='0' after='0'/>
+<points x='17' y='12' before='0' after='0'/>
+<points x='29' y='28' before='0' after='0'/>
+<points x='23' y='28' before='0' after='0'/>
+<points x='11' y='12' before='0' after='0'/>
+</pictograms.Polygon>
+<pictograms.Polygon m:c='1' m:i='E0A44266B47F3717CD9F11E98BDD547C7E8EAE14' lineWidth='0' filled='true' lineVisible='false' width='0' height='0' x='0' y='0'>
+<points x='11' y='28' before='0' after='0'/>
+<points x='23' y='12' before='0' after='0'/>
+<points x='29' y='12' before='0' after='0'/>
+<points x='17' y='28' before='0' after='0'/>
+<points x='11' y='28' before='0' after='0'/>
+</pictograms.Polygon>
+<links.PictogramLink m:c='1' m:i='E0A44266B47F6581CD9F11E9B900547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14' visible='true' active='true'>
+<properties key='containerExpanded' value='true'/>
+<properties key='containerWidth' value='601'/>
+<properties key='containerHeight' value='371'/>
+</pictograms.ContainerShape>
+<pictograms.Rectangle m:c='1' m:i='E0A44266DD2B4D95CD9B11E98000547C7E8EAE14' width='601' height='371' x='50' y='30'/>
+<pictograms.Font m:c='1' m:i='E0A44266DD2C4329CD9B11E99444547C7E8EAE14' name='Arial' size='8' italic='false' bold='false'/>
+<pictograms.Font m:c='1' m:i='E0A44266DD2C432BCD9B11E9C377547C7E8EAE14' name='Arial' size='8' italic='false' bold='true'/>
+<pictograms.Font m:c='1' m:i='E0A44266DD2C432DCD9B11E9B843547C7E8EAE14' name='Arial' size='8' italic='false' bold='true'/>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0A44266DD2C6F0BCD9B11E98F64547C7E8EAE14' visible='false' active='false'/>
+<pictograms.Shape m:c='1' m:i='E0A44266DD2C6F0CCD9B11E9BBFE547C7E8EAE14' visible='true' active='false'/>
+<pictograms.Text m:c='1' m:i='E0A44266DD2C6F0DCD9B11E98FC0547C7E8EAE14' width='565' height='20' x='18' y='5' angle='0' value='Notificar creación de articulo (APR to MDG)'/>
+<links.PictogramLink m:c='1' m:i='E0A44266DD2C8F8BCD9B11E9965D547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14' visible='true' active='true'>
+<properties key='lanePreMoveX' value='0'/>
+<properties key='lanePreMoveY' value='27'/>
+<properties key='resizedLaneInitialX' value='0'/>
+<properties key='resizedLaneInitialY' value='27'/>
+</pictograms.ContainerShape>
+<pictograms.Rectangle m:c='1' m:i='E0A44266DD2E84EDCD9B11E994A5547C7E8EAE14' width='405' height='344' x='0' y='27'/>
+<pictograms.Shape m:c='1' m:i='E0A44266DD2E8DE7CD9B11E98EC9547C7E8EAE14' visible='true' active='false'/>
+<pictograms.Text m:c='1' m:i='E0A44266DD2E8DE8CD9B11E99B46547C7E8EAE14' transparency='0.0' width='405' height='20' x='0' y='5' angle='0' value='Flujo del proceso'/>
+<links.PictogramLink m:c='1' m:i='E0A44266DD2E8DEACD9B11E9835A547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266DD30CBA5CD9B11E9BC1E547C7E8EAE14' visible='true' active='true'/>
+<pictograms.Rectangle m:c='1' m:i='E0A44266DD30CBA6CD9B11E9C2E9547C7E8EAE14' filled='false' lineVisible='false' width='91' height='51' x='50' y='33'/>
+<pictograms.Ellipse m:c='1' m:i='E0A44266DD30CBA7CD9B11E991EA547C7E8EAE14' renderingStyle='E0A44266DD30CBA8CD9B11E9A30E547C7E8EAE14' width='31' height='31' x='30' y='0'/>
+<pictograms.RenderingStyle m:c='1' m:i='E0A44266DD30CBA8CD9B11E9A30E547C7E8EAE14' predefinedStyleId='blue-white-gloss'/>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0A44266DD30D38DCD9B11E983E3547C7E8EAE14' visible='false' active='false'/>
+<pictograms.Text m:c='1' m:i='E0A44266DD3113D3CD9B11E9835C547C7E8EAE14' width='91' height='20' x='0' y='31' value='Start'/>
+<links.PictogramLink m:c='1' m:i='E0A44266DD3113D4CD9B11E9CFBC547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266DD319559CD9B11E98A25547C7E8EAE14' visible='true' active='true'/>
+<pictograms.Rectangle m:c='1' m:i='E0A44266DD31955ACD9B11E9A6F6547C7E8EAE14' filled='false' lineVisible='false' width='91' height='51' x='50' y='283'/>
+<pictograms.Ellipse m:c='1' m:i='E0A44266DD31AFCFCD9B11E995A3547C7E8EAE14' lineWidth='4' renderingStyle='E0A44266DD31AFD0CD9B11E9B91B547C7E8EAE14' width='31' height='31' x='30' y='0'/>
+<pictograms.RenderingStyle m:c='1' m:i='E0A44266DD31AFD0CD9B11E9B91B547C7E8EAE14' predefinedStyleId='blue-white-gloss'/>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0A44266DD31CDB4CD9B11E98540547C7E8EAE14' visible='false' active='false'/>
+<pictograms.Text m:c='1' m:i='E0A44266DD31CDB5CD9B11E9A0AA547C7E8EAE14' width='91' height='20' x='0' y='31' value='End'/>
+<links.PictogramLink m:c='1' m:i='E0A44266DD31CDB6CD9B11E9824C547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266E96C08DECD9B11E9BA91547C7E8EAE14' visible='true' active='true'>
+<properties key='lanePreMoveX' value='403'/>
+<properties key='lanePreMoveY' value='27'/>
+<properties key='resizedLaneInitialX' value='390'/>
+<properties key='resizedLaneInitialY' value='27'/>
+</pictograms.ContainerShape>
+<pictograms.Rectangle m:c='1' m:i='E0A44266E96C08DFCD9B11E9C503547C7E8EAE14' width='198' height='344' x='403' y='27'/>
+<pictograms.Shape m:c='1' m:i='E0A44266E96C1555CD9B11E9B939547C7E8EAE14' visible='true' active='false'/>
+<pictograms.Text m:c='1' m:i='E0A44266E96C1556CD9B11E9A504547C7E8EAE14' width='198' height='20' x='0' y='5' angle='0' value='Estructuras'/>
+<links.PictogramLink m:c='1' m:i='E0A44266E96C428CCD9B11E98A34547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266ED8F6AA4CDA211E9AE6C547C7E8EAE14' visible='true' active='true'/>
+<pictograms.Rectangle m:c='1' m:i='E0A44266ED8F92D9CDA211E98CC0547C7E8EAE14' filled='false' lineVisible='false' width='153' height='107' x='194' y='60'/>
+<pictograms.RoundedRectangle m:c='1' m:i='E0A44266ED8F92DACDA211E9883B547C7E8EAE14' width='101' height='55' x='26' y='26' cornerHeight='12' cornerWidth='12'/>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0A44266ED8F92DBCDA211E98E8F547C7E8EAE14' visible='false' active='false'/>
+<pictograms.MultiText m:c='1' m:i='E0A44266ED8FB225CDA211E998CC547C7E8EAE14' width='83' height='45' x='15' y='5' value='Consula a FOX'/>
+<pictograms.Image m:c='1' m:i='E0A44266ED8FB227CDA211E9A679547C7E8EAE14' width='24' height='24' x='0' y='0' id='Automated' stretchH='false' stretchV='false' proportional='false'/>
+<pictograms.Image m:c='1' m:i='E0A44266ED8FE5B9CDA211E9A904547C7E8EAE14' width='48' height='24' x='26' y='31' id='image.common.empty' stretchH='false' stretchV='false' proportional='false'/>
+<links.PictogramLink m:c='1' m:i='E0A44266ED8FE5BACDA211E9AFD5547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0A44266F42C36B3CD9F11E9865E547C7E8EAE14' visible='true' active='true'/>
+<pictograms.Rectangle m:c='1' m:i='E0A44266F42C36B4CD9F11E9C236547C7E8EAE14' filled='false' lineVisible='false' width='185' height='107' x='3' y='167'/>
+<pictograms.RoundedRectangle m:c='1' m:i='E0A44266F42C6043CD9F11E9C67B547C7E8EAE14' width='133' height='55' x='26' y='26' cornerHeight='12' cornerWidth='12'/>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0A44266F42C9D23CD9F11E98711547C7E8EAE14' visible='false' active='false'/>
+<pictograms.MultiText m:c='1' m:i='E0A44266F42C9D24CD9F11E9AB7A547C7E8EAE14' width='115' height='45' x='15' y='5' value='Notificar producto L7 a MDG'/>
+<pictograms.Image m:c='1' m:i='E0A44266F42CDD72CD9F11E9CAE0547C7E8EAE14' width='24' height='24' x='0' y='0' id='Automated' stretchH='false' stretchV='false' proportional='false'/>
+<pictograms.Image m:c='1' m:i='E0A44266F42CDD73CD9F11E99560547C7E8EAE14' width='48' height='24' x='42' y='31' id='image.common.empty' stretchH='false' stretchV='false' proportional='false'/>
+<links.PictogramLink m:c='1' m:i='E0A44266F42D0D64CD9F11E999F0547C7E8EAE14'/>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279E627DACE6CDA111E9BDF3547C7E8EAE14' visible='true' active='false' locationRelative='true' location='1.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E627DE85ACDA111E9C24B547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-7' y='3' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+<points x='-7' y='-3' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.Polygon m:c='1' m:i='E0C8279E634F70DBCE5011E9999D547C7E8EAE14' filled='false' lineVisible='false' width='0' height='0' x='0' y='0'>
+<points x='21' y='7' before='0' after='0'/>
+<points x='15' y='21' before='0' after='0'/>
+</pictograms.Polygon>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279E6B753CA0CDA111E98A8E547C7E8EAE14' visible='true' active='false' locationRelative='true' location='1.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E6B758F91CDA111E9B3D0547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-7' y='3' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+<points x='-7' y='-3' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279E6B75E36DCDA111E9A32A547C7E8EAE14' visible='true' active='false' locationRelative='true' location='0.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E6B75F21DCDA111E9C547547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-5' y='5' before='0' after='0'/>
+<points x='-10' y='-5' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.Rectangle m:c='1' m:i='E0C8279E703DEEB6CE5011E9AB9F547C7E8EAE14' lineWidth='1' renderingStyle='E0C8279E703E206CCE5011E9AEA3547C7E8EAE14' width='14' height='9' x='9' y='11'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E703E206ACE5011E98A62547C7E8EAE14' lineWidth='1' filled='false' width='0' height='0' x='0' y='0'>
+<points x='0' y='0' before='0' after='0'/>
+<points x='8' y='6' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.Polyline m:c='1' m:i='E0C8279E703E206BCE5011E9BE2C547C7E8EAE14' lineWidth='1' filled='false' width='0' height='0' x='0' y='0'>
+<points x='6' y='6' before='0' after='0'/>
+<points x='14' y='0' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.RenderingStyle m:c='1' m:i='E0C8279E703E206CCE5011E9AEA3547C7E8EAE14' predefinedStyleId='blue-white-gloss'/>
+<pictograms.FreeFormConnection m:c='1' m:i='E0C8279E82032492CDA111E9AA18547C7E8EAE14' visible='true' active='true'/>
+<links.PictogramLink m:c='1' m:i='E0C8279E82032493CDA111E9936B547C7E8EAE14'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E820358B0CDA111E9C254547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'/>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279E820358B1CDA111E9A7DF547C7E8EAE14' visible='true' active='false' locationRelative='true' location='1.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E820358B2CDA111E9B16B547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-7' y='3' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+<points x='-7' y='-3' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.FreeFormConnection m:c='1' m:i='E0C8279E9A7AC614CDB211E9AAB7547C7E8EAE14' visible='true' active='true'>
+<bendpoints x='320' y='205' before='0' after='0'/>
+<bendpoints x='321' y='205' before='0' after='0'/>
+</pictograms.FreeFormConnection>
+<links.PictogramLink m:c='1' m:i='E0C8279E9A7B0910CDB211E9BAB3547C7E8EAE14'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E9A7B4619CDB211E9AF8D547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'/>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279E9A7B6E25CDB211E9CAF1547C7E8EAE14' visible='true' active='false' locationRelative='true' location='1.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279E9A7B6E26CDB211E9B17D547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-7' y='3' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+<points x='-7' y='-3' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.FreeFormConnection m:c='1' m:i='E0C8279EA0DD091ECDB211E9993B547C7E8EAE14' visible='true' active='true'>
+<properties key='mTC' value='true'/>
+<bendpoints x='320' y='310' before='0' after='0'/>
+<bendpoints x='320' y='355' before='0' after='0'/>
+</pictograms.FreeFormConnection>
+<links.PictogramLink m:c='1' m:i='E0C8279EA0DD091FCDB211E9AA85547C7E8EAE14'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279EA0DD6A4ECDB211E99253547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'/>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279EA0DD8BB1CDB211E9C19B547C7E8EAE14' visible='true' active='false' locationRelative='true' location='1.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279EA0DD8BB2CDB211E9B4E6547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-7' y='3' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+<points x='-7' y='-3' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.FreeFormConnection m:c='1' m:i='E0C8279EB4817AEFCD9F11E9C709547C7E8EAE14' visible='true' active='true'/>
+<links.PictogramLink m:c='1' m:i='E0C8279EB48187A2CD9F11E98294547C7E8EAE14'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279EB481A5A1CD9F11E981D1547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'/>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279EB481DA52CD9F11E9B6FD547C7E8EAE14' visible='true' active='false' locationRelative='true' location='1.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279EB481DA53CD9F11E9925F547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-7' y='3' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+<points x='-7' y='-3' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2B899ACD9B11E9C61E547C7E8EAE14' id='STYLES'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14' lineWidth='2' filled='true' id='com.sap.glx.ide.flow.patterns.WorkflowPattern'/>
+<datatypes.Color m:c='1' m:i='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' red='0' green='0' blue='0'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2BB3FBCD9B11E9C741547C7E8EAE14' lineWidth='2' renderingStyle='E0C8279EDD2BB3FDCD9B11E99833547C7E8EAE14' transparency='0.4' id='com.sap.glx.ide.flow.patterns.LanePattern'/>
+<datatypes.Color m:c='1' m:i='E0C8279EDD2BB3FCCD9B11E99792547C7E8EAE14' red='182' green='191' blue='172'/>
+<pictograms.RenderingStyle m:c='1' m:i='E0C8279EDD2BB3FDCD9B11E99833547C7E8EAE14' predefinedStyleId='light-yellow'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2BB3FECD9B11E98C93547C7E8EAE14' lineStyle='DASH' renderingStyle='E0C8279EDD2BB3FFCD9B11E9A439547C7E8EAE14' id='com.sap.glx.ide.flow.patterns.LanePattern.INACTIVE'/>
+<pictograms.RenderingStyle m:c='1' m:i='E0C8279EDD2BB3FFCD9B11E9A439547C7E8EAE14' predefinedStyleId='light-gray'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2BDBCFCD9B11E9856A547C7E8EAE14' lineWidth='2' renderingStyle='E0C8279EDD2BDBD0CD9B11E9B852547C7E8EAE14' transparency='0.4' id='com.sap.glx.ide.flow.patterns.PoolPattern'/>
+<pictograms.RenderingStyle m:c='1' m:i='E0C8279EDD2BDBD0CD9B11E9B852547C7E8EAE14' predefinedStyleId='light-yellow'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2BDBD1CD9B11E9C4A1547C7E8EAE14' lineStyle='DASH' renderingStyle='E0C8279EDD2BDBD2CD9B11E9C045547C7E8EAE14' id='com.sap.glx.ide.flow.patterns.PoolPattern.INACTIVE'/>
+<pictograms.RenderingStyle m:c='1' m:i='E0C8279EDD2BDBD2CD9B11E9C045547C7E8EAE14' predefinedStyleId='light-gray'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' lineWidth='2' filled='true' id='com.sap.glx.ide.flow.patterns.LaneObjectPattern'/>
+<datatypes.Color m:c='1' m:i='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' red='98' green='131' blue='167'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2C120CCD9B11E99D96547C7E8EAE14' lineWidth='2' lineStyle='SOLID' renderingStyle='E0C8279EDD2C120DCD9B11E9B02C547C7E8EAE14' id='com.sap.glx.ide.flow.patterns.ActivityPattern'/>
+<pictograms.RenderingStyle m:c='1' m:i='E0C8279EDD2C120DCD9B11E9B02C547C7E8EAE14' predefinedStyleId='blue-white-gloss'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2C2279CD9B11E9C782547C7E8EAE14' lineVisible='false' transparency='0.4' id='com.sap.glx.ide.flow.patterns.AnnotationPattern'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2C227ACD9B11E996D5547C7E8EAE14' lineWidth='1' filled='true' id='com.sap.glx.ide.flow.patterns.BoundaryEventPattern'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' id='com.sap.glx.ide.flow.patterns.WorkflowPattern.TEXT' font='E0A44266DD2C4329CD9B11E99444547C7E8EAE14' horizontalAlignment='ALIGNMENT_CENTER' verticalAlignment='ALIGNMENT_CENTER'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2C432ACD9B11E9A484547C7E8EAE14' id='com.sap.glx.ide.flow.patterns.PoolPattern.TEXT' font='E0A44266DD2C432BCD9B11E9C377547C7E8EAE14'/>
+<pictograms.Style m:c='1' m:i='E0C8279EDD2C432CCD9B11E9B4B9547C7E8EAE14' id='com.sap.glx.ide.flow.patterns.LanePattern.TEXT' font='E0A44266DD2C432DCD9B11E9B843547C7E8EAE14'/>
+<pictograms.FreeFormConnection m:c='1' m:i='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14' visible='true' active='true'>
+<properties key='mTC' value='true'/>
+<bendpoints x='220' y='170' before='0' after='0'/>
+<bendpoints x='247' y='170' before='0' after='0'/>
+</pictograms.FreeFormConnection>
+<links.PictogramLink m:c='1' m:i='E0C8279EED9426F2CDA211E99543547C7E8EAE14'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279EED94356DCDA211E987CE547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'/>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279EED94356ECDA211E9881B547C7E8EAE14' visible='true' active='false' locationRelative='true' location='1.0'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279EED94356FCDA211E99E13547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'>
+<points x='-7' y='3' before='0' after='0'/>
+<points x='0' y='0' before='0' after='0'/>
+<points x='-7' y='-3' before='0' after='0'/>
+</pictograms.Polyline>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279EED94781BCDA211E9A89D547C7E8EAE14' visible='true' active='true' locationRelative='true' location='0.4'/>
+<pictograms.Text m:c='1' m:i='E0C8279EED94781CCDA211E9B55A547C7E8EAE14' width='50' height='12' x='3' y='-20' font='E0C8279EED94781DCDA211E9900E547C7E8EAE14' value='Linea 1'/>
+<pictograms.Font m:c='1' m:i='E0C8279EED94781DCDA211E9900E547C7E8EAE14' name='Arial' size='8' italic='false' bold='false'/>
+<links.PictogramLink m:c='1' m:i='E0C8279EED94872DCDA211E98F2B547C7E8EAE14'/>
+<pictograms.FreeFormConnection m:c='1' m:i='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14' visible='true' active='true'/>
+<links.PictogramLink m:c='1' m:i='E0C8279EF4A64F6DCD9F11E99162547C7E8EAE14'/>
+<pictograms.Polyline m:c='1' m:i='E0C8279EF4A66C67CD9F11E9A554547C7E8EAE14' lineWidth='2' filled='false' width='0' height='0' x='0' y='0'/>
+<pictograms.ConnectionDecorator m:c='1' m:i='E0C8279EF4A694CACD9F11E98C5B547C7E8EAE14' visible='true' active='true' locationRelative='true' location='0.4'/>
+<pictograms.Text m:c='1' m:i='E0C8279EF4A694CBCD9F11E996A5547C7E8EAE14' width='50' height='12' x='5' y='5' font='E0C8279EF4A694CCCD9F11E9CBEE547C7E8EAE14' value='Linea 7'/>
+<pictograms.Font m:c='1' m:i='E0C8279EF4A694CCCD9F11E9CBEE547C7E8EAE14' name='Arial' size='8' italic='false' bold='false'/>
+<links.PictogramLink m:c='1' m:i='E0C8279EF4A6BDE2CD9F11E99C19547C7E8EAE14'/>
+<pictograms.ContainerShape m:c='1' m:i='E0E14F869A6AEB45CDB211E981C2547C7E8EAE14' visible='true' active='true'/>
+<pictograms.Rectangle m:c='1' m:i='E0E14F869A6AEB46CDB211E99DA0547C7E8EAE14' filled='false' lineVisible='false' width='190' height='107' x='176' y='167'/>
+<pictograms.RoundedRectangle m:c='1' m:i='E0E14F869A6B1BF2CDB211E9B060547C7E8EAE14' width='138' height='55' x='26' y='26' cornerHeight='12' cornerWidth='12'/>
+<pictograms.ChopboxAnchor m:c='1' m:i='E0E14F869A6B1BF3CDB211E9BFBB547C7E8EAE14' visible='false' active='false'/>
+<pictograms.MultiText m:c='1' m:i='E0E14F869A6B5731CDB211E9CC49547C7E8EAE14' width='120' height='45' x='15' y='5' value='Notificar producto L1 a MDG'/>
+<pictograms.Image m:c='1' m:i='E0E14F869A6B77A7CDB211E9C82E547C7E8EAE14' width='24' height='24' x='0' y='0' id='Automated' stretchH='false' stretchV='false' proportional='false'/>
+<pictograms.Image m:c='1' m:i='E0E14F869A6B8C51CDB211E9A90F547C7E8EAE14' width='48' height='24' x='45' y='31' id='image.common.empty' stretchH='false' stretchV='false' proportional='false'/>
+<links.PictogramLink m:c='1' m:i='E0E14F869A6B8C52CDB211E98CA8547C7E8EAE14'/>
+<links.PictogramLinkReferencesBusinessObjects c='1'>
+<L f='local:E012BF1E2DC1B0DECE9311E9B8B0547C7E8EAE14' s='E012BF1E2DC7F13BCE9311E9C402547C7E8EAE14'/>
+<L f='local:E06CA680DC6250B3CD9B11E9AAA8547C7E8EAE14' s='E06CA680DC93C2DBCD9B11E9A2E0547C7E8EAE14'/>
+<L f='local:E06CA680DC6278E6CD9B11E9BE0E547C7E8EAE14' s='E06CA680DC93C2DBCD9B11E9A2E0547C7E8EAE14'/>
+<L f='local:E06CA680DC75A05ACD9B11E99178547C7E8EAE14' s='E06CA680DC93C2DBCD9B11E9A2E0547C7E8EAE14'/>
+<L f='local:E0A44266ABC795D6CDA011E9B722547C7E8EAE14' s='E0A44266ABC8858CCDA011E9B0F7547C7E8EAE14'/>
+<L f='local:E0A44266B47E6715CD9F11E994D8547C7E8EAE14' s='E0A44266B47F6581CD9F11E9B900547C7E8EAE14'/>
+<L f='local:E06CA680DC93F349CD9B11E9CF02547C7E8EAE14' s='E0A44266DD2C8F8BCD9B11E9965D547C7E8EAE14'/>
+<L f='local:E06CA680DCA4AA2DCD9B11E9AAC7547C7E8EAE14' s='E0A44266DD2E8DEACD9B11E9835A547C7E8EAE14'/>
+<L f='local:E06CA680DCC2576FCD9B11E99C92547C7E8EAE14' s='E0A44266DD3113D4CD9B11E9CFBC547C7E8EAE14'/>
+<L f='local:E06CA680DCC2D918CD9B11E9B420547C7E8EAE14' s='E0A44266DD31CDB6CD9B11E9824C547C7E8EAE14'/>
+<L f='local:E0E14F86A0DBC668CDB211E99814547C7E8EAE14' s='E0A44266DD31CDB6CD9B11E9824C547C7E8EAE14'/>
+<L f='local:E0E14F86A0DBC665CDB211E9BBD7547C7E8EAE14' s='E0A44266DD31CDB6CD9B11E9824C547C7E8EAE14'/>
+<L f='local:E0A44266E946FD35CD9B11E9AAEF547C7E8EAE14' s='E0A44266E96C428CCD9B11E98A34547C7E8EAE14'/>
+<L f='local:E0A44266ED8C06ADCDA211E9B6EB547C7E8EAE14' s='E0A44266ED8FE5BACDA211E9AFD5547C7E8EAE14'/>
+<L f='local:E0A44266F42BA745CD9F11E99C41547C7E8EAE14' s='E0A44266F42D0D64CD9F11E999F0547C7E8EAE14'/>
+<L f='local:E0A4426681FFBFBCCDA111E9B5B1547C7E8EAE14' s='E0C8279E82032493CDA111E9936B547C7E8EAE14'/>
+<L f='local:E0E14F869A7A618FCDB211E99DC6547C7E8EAE14' s='E0C8279E9A7B0910CDB211E9BAB3547C7E8EAE14'/>
+<L f='local:E0E14F86A0DB5288CDB211E9B471547C7E8EAE14' s='E0C8279EA0DD091FCDB211E9AA85547C7E8EAE14'/>
+<L f='local:E0A44266B4814C58CD9F11E9C856547C7E8EAE14' s='E0C8279EB48187A2CD9F11E98294547C7E8EAE14'/>
+<L f='local:E0A44266ED93E2B6CDA211E9B60C547C7E8EAE14' s='E0C8279EED9426F2CDA211E99543547C7E8EAE14'/>
+<L f='local:E0A44266ED93E2B6CDA211E9B60C547C7E8EAE14' s='E0C8279EED94872DCDA211E98F2B547C7E8EAE14'/>
+<L f='local:E0A44266F4A5FD15CD9F11E9CD2B547C7E8EAE14' s='E0C8279EF4A64F6DCD9F11E99162547C7E8EAE14'/>
+<L f='local:E0A44266F4A5FD15CD9F11E9CD2B547C7E8EAE14' s='E0C8279EF4A6BDE2CD9F11E99C19547C7E8EAE14'/>
+<L f='local:E0E14F869A697FAECDB211E9CFBB547C7E8EAE14' s='E0E14F869A6B8C52CDB211E98CA8547C7E8EAE14'/>
+</links.PictogramLinkReferencesBusinessObjects>
+<pictograms.ConnectionStartsAtAnchor c='1'>
+<L f='E0A44266F42C9D23CD9F11E98711547C7E8EAE14' s='E0C8279E82032492CDA111E9AA18547C7E8EAE14'/>
+<L f='E0A44266ED8F92DBCDA211E98E8F547C7E8EAE14' s='E0C8279E9A7AC614CDB211E9AAB7547C7E8EAE14'/>
+<L f='E0E14F869A6B1BF3CDB211E9BFBB547C7E8EAE14' s='E0C8279EA0DD091ECDB211E9993B547C7E8EAE14'/>
+<L f='E0A44266DD30D38DCD9B11E983E3547C7E8EAE14' s='E0C8279EB4817AEFCD9F11E9C709547C7E8EAE14'/>
+<L f='E0A44266B47F0681CD9F11E99978547C7E8EAE14' s='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14'/>
+<L f='E0A44266B47F0681CD9F11E99978547C7E8EAE14' s='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14'/>
+</pictograms.ConnectionStartsAtAnchor>
+<pictograms.ConnectionContainsConnectionDecorators c='1'>
+<L f='E0C8279E820358B1CDA111E9A7DF547C7E8EAE14' s='E0C8279E82032492CDA111E9AA18547C7E8EAE14'/>
+<L f='E0C8279E9A7B6E25CDB211E9CAF1547C7E8EAE14' s='E0C8279E9A7AC614CDB211E9AAB7547C7E8EAE14'/>
+<L f='E0C8279EA0DD8BB1CDB211E9C19B547C7E8EAE14' s='E0C8279EA0DD091ECDB211E9993B547C7E8EAE14'/>
+<L f='E0C8279EB481DA52CD9F11E9B6FD547C7E8EAE14' s='E0C8279EB4817AEFCD9F11E9C709547C7E8EAE14'/>
+<L f='E0C8279EED94356ECDA211E9881B547C7E8EAE14' s='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14'/>
+<L f='E0C8279EED94781BCDA211E9A89D547C7E8EAE14' s='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14'/>
+<L f='E0C8279E627DACE6CDA111E9BDF3547C7E8EAE14' s='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14'/>
+<L f='E0C8279E6B753CA0CDA111E98A8E547C7E8EAE14' s='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14'/>
+<L f='E0C8279E6B75E36DCDA111E9A32A547C7E8EAE14' s='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14'/>
+<L f='E0C8279EF4A694CACD9F11E98C5B547C7E8EAE14' s='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14'/>
+</pictograms.ConnectionContainsConnectionDecorators>
+<pictograms.GraphicsAlgorithmHasForegroundColor c='1'>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E012BF1E2DC7BB39CE9311E99455547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E012BF1E2DC7BB3ACE9311E9B4FB547C7E8EAE14'/>
+<L f='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' s='E012BF1E2DC7F139CE9311E9C55A547C7E8EAE14'/>
+<L f='E06CA680DC938E38CD9B11E9BF3C547C7E8EAE14' s='E06CA680DC936C31CD9B11E98BE9547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0A44266ABC828BDCDA011E99F11547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0A44266ABC86575CDA011E999EC547C7E8EAE14'/>
+<L f='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' s='E0A44266ABC86577CDA011E9A920547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279E627DE85ACDA111E9C24B547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279E6B758F91CDA111E9B3D0547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279E6B75F21DCDA111E9C547547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279E820358B0CDA111E9C254547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279E820358B2CDA111E9B16B547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279E9A7B4619CDB211E9AF8D547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279E9A7B6E26CDB211E9B17D547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EA0DD6A4ECDB211E99253547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EA0DD8BB2CDB211E9B4E6547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EB481A5A1CD9F11E981D1547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EB481DA53CD9F11E9925F547C7E8EAE14'/>
+<L f='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' s='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14'/>
+<L f='E0C8279EDD2BB3FCCD9B11E99792547C7E8EAE14' s='E0C8279EDD2BB3FBCD9B11E9C741547C7E8EAE14'/>
+<L f='E0C8279EDD2BB3FCCD9B11E99792547C7E8EAE14' s='E0C8279EDD2BDBCFCD9B11E9856A547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EDD2C120CCD9B11E99D96547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EDD2C227ACD9B11E996D5547C7E8EAE14'/>
+<L f='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' s='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EED94356DCDA211E987CE547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EED94356FCDA211E99E13547C7E8EAE14'/>
+<L f='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' s='E0C8279EED94781CCDA211E9B55A547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E0C8279EF4A66C67CD9F11E9A554547C7E8EAE14'/>
+<L f='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' s='E0C8279EF4A694CBCD9F11E996A5547C7E8EAE14'/>
+</pictograms.GraphicsAlgorithmHasForegroundColor>
+<pictograms.DiagramContainsColors c='1'>
+<L f='E06CA680DC938E38CD9B11E9BF3C547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EDD2B899CCD9B11E9CEE2547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EDD2BB3FCCD9B11E99792547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+</pictograms.DiagramContainsColors>
+<links.DiagramLinkReferencesDiagram c='1'>
+<L f='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+</links.DiagramLinkReferencesDiagram>
+<pictograms.ContainershapeContainsShapes c='1'>
+<L f='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0A44266DD2C6F0CCD9B11E9BBFE547C7E8EAE14' s='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14'/>
+<L f='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14' s='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14'/>
+<L f='E0A44266E96C08DECD9B11E9BA91547C7E8EAE14' s='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14'/>
+<L f='E0A44266DD2E8DE7CD9B11E98EC9547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0A44266DD30CBA5CD9B11E9BC1E547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0A44266DD319559CD9B11E98A25547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0A44266B47EAF44CD9F11E98B90547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0A44266F42C36B3CD9F11E9865E547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0A44266ED8F6AA4CDA211E9AE6C547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0E14F869A6AEB45CDB211E981C2547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0A44266E96C1555CD9B11E9B939547C7E8EAE14' s='E0A44266E96C08DECD9B11E9BA91547C7E8EAE14'/>
+<L f='E0A44266ABC828BBCDA011E99249547C7E8EAE14' s='E0A44266E96C08DECD9B11E9BA91547C7E8EAE14'/>
+<L f='E012BF1E2DC7BB37CE9311E9C910547C7E8EAE14' s='E0A44266E96C08DECD9B11E9BA91547C7E8EAE14'/>
+</pictograms.ContainershapeContainsShapes>
+<pictograms.GraphicsAlgorithmContainsGraphicsAlgorithms c='1'>
+<L f='E012BF1E2DC7BB38CE9311E9B935547C7E8EAE14' s='E012BF1E2DC7BB39CE9311E99455547C7E8EAE14'/>
+<L f='E012BF1E2DC7BB38CE9311E9B935547C7E8EAE14' s='E012BF1E2DC7F139CE9311E9C55A547C7E8EAE14'/>
+<L f='E012BF1E2DC7BB39CE9311E99455547C7E8EAE14' s='E012BF1E2DC7BB3ACE9311E9B4FB547C7E8EAE14'/>
+<L f='E0A44266ABC828BCCDA011E9C521547C7E8EAE14' s='E0A44266ABC828BDCDA011E99F11547C7E8EAE14'/>
+<L f='E0A44266ABC828BCCDA011E9C521547C7E8EAE14' s='E0A44266ABC86577CDA011E9A920547C7E8EAE14'/>
+<L f='E0A44266ABC828BDCDA011E99F11547C7E8EAE14' s='E0A44266ABC86575CDA011E999EC547C7E8EAE14'/>
+<L f='E0A44266B47EAF45CD9F11E9B65B547C7E8EAE14' s='E0A44266B47ED912CD9F11E99CDF547C7E8EAE14'/>
+<L f='E0A44266B47EAF45CD9F11E9B65B547C7E8EAE14' s='E0A44266B47F1E79CD9F11E99E43547C7E8EAE14'/>
+<L f='E0A44266B47ED912CD9F11E99CDF547C7E8EAE14' s='E0A44266B47F3716CD9F11E9C289547C7E8EAE14'/>
+<L f='E0A44266B47ED912CD9F11E99CDF547C7E8EAE14' s='E0A44266B47F3717CD9F11E98BDD547C7E8EAE14'/>
+<L f='E0A44266DD30CBA6CD9B11E9C2E9547C7E8EAE14' s='E0A44266DD30CBA7CD9B11E991EA547C7E8EAE14'/>
+<L f='E0A44266DD30CBA6CD9B11E9C2E9547C7E8EAE14' s='E0A44266DD3113D3CD9B11E9835C547C7E8EAE14'/>
+<L f='E0A44266DD30CBA7CD9B11E991EA547C7E8EAE14' s='E0C8279E703DEEB6CE5011E9AB9F547C7E8EAE14'/>
+<L f='E0A44266DD31955ACD9B11E9A6F6547C7E8EAE14' s='E0A44266DD31AFCFCD9B11E995A3547C7E8EAE14'/>
+<L f='E0A44266DD31955ACD9B11E9A6F6547C7E8EAE14' s='E0A44266DD31CDB5CD9B11E9A0AA547C7E8EAE14'/>
+<L f='E0A44266DD31AFCFCD9B11E995A3547C7E8EAE14' s='E0C8279E634F70DBCE5011E9999D547C7E8EAE14'/>
+<L f='E0A44266ED8F92D9CDA211E98CC0547C7E8EAE14' s='E0A44266ED8F92DACDA211E9883B547C7E8EAE14'/>
+<L f='E0A44266ED8F92DACDA211E9883B547C7E8EAE14' s='E0A44266ED8FB225CDA211E998CC547C7E8EAE14'/>
+<L f='E0A44266ED8F92DACDA211E9883B547C7E8EAE14' s='E0A44266ED8FB227CDA211E9A679547C7E8EAE14'/>
+<L f='E0A44266ED8F92DACDA211E9883B547C7E8EAE14' s='E0A44266ED8FE5B9CDA211E9A904547C7E8EAE14'/>
+<L f='E0A44266F42C36B4CD9F11E9C236547C7E8EAE14' s='E0A44266F42C6043CD9F11E9C67B547C7E8EAE14'/>
+<L f='E0A44266F42C6043CD9F11E9C67B547C7E8EAE14' s='E0A44266F42C9D24CD9F11E9AB7A547C7E8EAE14'/>
+<L f='E0A44266F42C6043CD9F11E9C67B547C7E8EAE14' s='E0A44266F42CDD72CD9F11E9CAE0547C7E8EAE14'/>
+<L f='E0A44266F42C6043CD9F11E9C67B547C7E8EAE14' s='E0A44266F42CDD73CD9F11E99560547C7E8EAE14'/>
+<L f='E0C8279E703DEEB6CE5011E9AB9F547C7E8EAE14' s='E0C8279E703E206ACE5011E98A62547C7E8EAE14'/>
+<L f='E0C8279E703DEEB6CE5011E9AB9F547C7E8EAE14' s='E0C8279E703E206BCE5011E9BE2C547C7E8EAE14'/>
+<L f='E0E14F869A6AEB46CDB211E99DA0547C7E8EAE14' s='E0E14F869A6B1BF2CDB211E9B060547C7E8EAE14'/>
+<L f='E0E14F869A6B1BF2CDB211E9B060547C7E8EAE14' s='E0E14F869A6B5731CDB211E9CC49547C7E8EAE14'/>
+<L f='E0E14F869A6B1BF2CDB211E9B060547C7E8EAE14' s='E0E14F869A6B77A7CDB211E9C82E547C7E8EAE14'/>
+<L f='E0E14F869A6B1BF2CDB211E9B060547C7E8EAE14' s='E0E14F869A6B8C51CDB211E9A90F547C7E8EAE14'/>
+</pictograms.GraphicsAlgorithmContainsGraphicsAlgorithms>
+<links.DiagramLinkReferencesPictogramLinks c='1'>
+<L f='E012BF1E2DC7F13BCE9311E9C402547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E06CA680DC93C2DBCD9B11E9A2E0547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266ABC8858CCDA011E9B0F7547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266B47F6581CD9F11E9B900547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266DD2C8F8BCD9B11E9965D547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266DD2E8DEACD9B11E9835A547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266DD3113D4CD9B11E9CFBC547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266DD31CDB6CD9B11E9824C547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266E96C428CCD9B11E98A34547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266ED8FE5BACDA211E9AFD5547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0A44266F42D0D64CD9F11E999F0547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279E82032493CDA111E9936B547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279E9A7B0910CDB211E9BAB3547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279EA0DD091FCDB211E9AA85547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279EB48187A2CD9F11E98294547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279EED9426F2CDA211E99543547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279EED94872DCDA211E98F2B547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279EF4A64F6DCD9F11E99162547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0C8279EF4A6BDE2CD9F11E99C19547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+<L f='E0E14F869A6B8C52CDB211E98CA8547C7E8EAE14' s='E06CA680DC93C2DCCD9B11E99652547C7E8EAE14'/>
+</links.DiagramLinkReferencesPictogramLinks>
+<pictograms.DiagramAggregatesConnections c='1'>
+<L f='E0C8279E82032492CDA111E9AA18547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279E9A7AC614CDB211E9AAB7547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EA0DD091ECDB211E9993B547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EB4817AEFCD9F11E9C709547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+</pictograms.DiagramAggregatesConnections>
+<pictograms.GraphicsAlgorithmHasBackgroundColor c='1'>
+<L f='E012BF1E2DC7BB39CE9311E99455547C7E8EAE14' s='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14'/>
+<L f='E012BF1E2DC7BB3ACE9311E9B4FB547C7E8EAE14' s='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14'/>
+<L f='E06CA680DC936C31CD9B11E98BE9547C7E8EAE14' s='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14'/>
+<L f='E0A44266ABC828BDCDA011E99F11547C7E8EAE14' s='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14'/>
+<L f='E0A44266ABC86575CDA011E999EC547C7E8EAE14' s='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14'/>
+<L f='E0A44266B47F3716CD9F11E9C289547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0A44266B47F3717CD9F11E98BDD547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279E627DE85ACDA111E9C24B547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279E6B758F91CDA111E9B3D0547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279E6B75F21DCDA111E9C547547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279E820358B2CDA111E9B16B547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279E9A7B6E26CDB211E9B17D547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279EA0DD8BB2CDB211E9B4E6547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279EB481DA53CD9F11E9925F547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+<L f='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14' s='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14'/>
+<L f='E0C8279EDD2C120CCD9B11E99D96547C7E8EAE14' s='E06CA680DC938E39CD9B11E9CCA8547C7E8EAE14'/>
+<L f='E0C8279EED94356FCDA211E99E13547C7E8EAE14' s='E0C8279EDD2C120BCD9B11E9AEB4547C7E8EAE14'/>
+</pictograms.GraphicsAlgorithmHasBackgroundColor>
+<links.PictogramElementContainsPictogramLink c='1'>
+<L f='E012BF1E2DC7BB37CE9311E9C910547C7E8EAE14' s='E012BF1E2DC7F13BCE9311E9C402547C7E8EAE14'/>
+<L f='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14' s='E06CA680DC93C2DBCD9B11E9A2E0547C7E8EAE14'/>
+<L f='E0A44266ABC828BBCDA011E99249547C7E8EAE14' s='E0A44266ABC8858CCDA011E9B0F7547C7E8EAE14'/>
+<L f='E0A44266B47EAF44CD9F11E98B90547C7E8EAE14' s='E0A44266B47F6581CD9F11E9B900547C7E8EAE14'/>
+<L f='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14' s='E0A44266DD2C8F8BCD9B11E9965D547C7E8EAE14'/>
+<L f='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14' s='E0A44266DD2E8DEACD9B11E9835A547C7E8EAE14'/>
+<L f='E0A44266DD30CBA5CD9B11E9BC1E547C7E8EAE14' s='E0A44266DD3113D4CD9B11E9CFBC547C7E8EAE14'/>
+<L f='E0A44266DD319559CD9B11E98A25547C7E8EAE14' s='E0A44266DD31CDB6CD9B11E9824C547C7E8EAE14'/>
+<L f='E0A44266E96C08DECD9B11E9BA91547C7E8EAE14' s='E0A44266E96C428CCD9B11E98A34547C7E8EAE14'/>
+<L f='E0A44266ED8F6AA4CDA211E9AE6C547C7E8EAE14' s='E0A44266ED8FE5BACDA211E9AFD5547C7E8EAE14'/>
+<L f='E0A44266F42C36B3CD9F11E9865E547C7E8EAE14' s='E0A44266F42D0D64CD9F11E999F0547C7E8EAE14'/>
+<L f='E0C8279E82032492CDA111E9AA18547C7E8EAE14' s='E0C8279E82032493CDA111E9936B547C7E8EAE14'/>
+<L f='E0C8279E9A7AC614CDB211E9AAB7547C7E8EAE14' s='E0C8279E9A7B0910CDB211E9BAB3547C7E8EAE14'/>
+<L f='E0C8279EA0DD091ECDB211E9993B547C7E8EAE14' s='E0C8279EA0DD091FCDB211E9AA85547C7E8EAE14'/>
+<L f='E0C8279EB4817AEFCD9F11E9C709547C7E8EAE14' s='E0C8279EB48187A2CD9F11E98294547C7E8EAE14'/>
+<L f='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14' s='E0C8279EED9426F2CDA211E99543547C7E8EAE14'/>
+<L f='E0C8279EED94781BCDA211E9A89D547C7E8EAE14' s='E0C8279EED94872DCDA211E98F2B547C7E8EAE14'/>
+<L f='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14' s='E0C8279EF4A64F6DCD9F11E99162547C7E8EAE14'/>
+<L f='E0C8279EF4A694CACD9F11E98C5B547C7E8EAE14' s='E0C8279EF4A6BDE2CD9F11E99C19547C7E8EAE14'/>
+<L f='E0E14F869A6AEB45CDB211E981C2547C7E8EAE14' s='E0E14F869A6B8C52CDB211E98CA8547C7E8EAE14'/>
+</links.PictogramElementContainsPictogramLink>
+<pictograms.AnchorcontainerAggregatesAnchors c='1'>
+<L f='E012BF1E2DC7F138CE9311E98204547C7E8EAE14' s='E012BF1E2DC7BB37CE9311E9C910547C7E8EAE14'/>
+<L f='E0A44266ABC86576CDA011E9C4E6547C7E8EAE14' s='E0A44266ABC828BBCDA011E99249547C7E8EAE14'/>
+<L f='E0A44266B47F0681CD9F11E99978547C7E8EAE14' s='E0A44266B47EAF44CD9F11E98B90547C7E8EAE14'/>
+<L f='E0A44266DD2C6F0BCD9B11E98F64547C7E8EAE14' s='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14'/>
+<L f='E0A44266DD30D38DCD9B11E983E3547C7E8EAE14' s='E0A44266DD30CBA5CD9B11E9BC1E547C7E8EAE14'/>
+<L f='E0A44266DD31CDB4CD9B11E98540547C7E8EAE14' s='E0A44266DD319559CD9B11E98A25547C7E8EAE14'/>
+<L f='E0A44266ED8F92DBCDA211E98E8F547C7E8EAE14' s='E0A44266ED8F6AA4CDA211E9AE6C547C7E8EAE14'/>
+<L f='E0A44266F42C9D23CD9F11E98711547C7E8EAE14' s='E0A44266F42C36B3CD9F11E9865E547C7E8EAE14'/>
+<L f='E0E14F869A6B1BF3CDB211E9BFBB547C7E8EAE14' s='E0E14F869A6AEB45CDB211E981C2547C7E8EAE14'/>
+</pictograms.AnchorcontainerAggregatesAnchors>
+<pictograms.ConnectionEndsAtAnchor c='1'>
+<L f='E0A44266DD31CDB4CD9B11E98540547C7E8EAE14' s='E0C8279E82032492CDA111E9AA18547C7E8EAE14'/>
+<L f='E0E14F869A6B1BF3CDB211E9BFBB547C7E8EAE14' s='E0C8279E9A7AC614CDB211E9AAB7547C7E8EAE14'/>
+<L f='E0A44266DD31CDB4CD9B11E98540547C7E8EAE14' s='E0C8279EA0DD091ECDB211E9993B547C7E8EAE14'/>
+<L f='E0A44266B47F0681CD9F11E99978547C7E8EAE14' s='E0C8279EB4817AEFCD9F11E9C709547C7E8EAE14'/>
+<L f='E0A44266ED8F92DBCDA211E98E8F547C7E8EAE14' s='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14'/>
+<L f='E0A44266F42C9D23CD9F11E98711547C7E8EAE14' s='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14'/>
+</pictograms.ConnectionEndsAtAnchor>
+<pictograms.PictogramelementContainsGraphicsalgorithm c='1'>
+<L f='E012BF1E2DC7BB38CE9311E9B935547C7E8EAE14' s='E012BF1E2DC7BB37CE9311E9C910547C7E8EAE14'/>
+<L f='E06CA680DC936C31CD9B11E98BE9547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0A44266ABC828BCCDA011E9C521547C7E8EAE14' s='E0A44266ABC828BBCDA011E99249547C7E8EAE14'/>
+<L f='E0A44266B47EAF45CD9F11E9B65B547C7E8EAE14' s='E0A44266B47EAF44CD9F11E98B90547C7E8EAE14'/>
+<L f='E0A44266DD2B4D95CD9B11E98000547C7E8EAE14' s='E0A44266DD2B4D94CD9B11E98CC2547C7E8EAE14'/>
+<L f='E0A44266DD2C6F0DCD9B11E98FC0547C7E8EAE14' s='E0A44266DD2C6F0CCD9B11E9BBFE547C7E8EAE14'/>
+<L f='E0A44266DD2E84EDCD9B11E994A5547C7E8EAE14' s='E0A44266DD2E84ECCD9B11E9BDCA547C7E8EAE14'/>
+<L f='E0A44266DD2E8DE8CD9B11E99B46547C7E8EAE14' s='E0A44266DD2E8DE7CD9B11E98EC9547C7E8EAE14'/>
+<L f='E0A44266DD30CBA6CD9B11E9C2E9547C7E8EAE14' s='E0A44266DD30CBA5CD9B11E9BC1E547C7E8EAE14'/>
+<L f='E0A44266DD31955ACD9B11E9A6F6547C7E8EAE14' s='E0A44266DD319559CD9B11E98A25547C7E8EAE14'/>
+<L f='E0A44266E96C08DFCD9B11E9C503547C7E8EAE14' s='E0A44266E96C08DECD9B11E9BA91547C7E8EAE14'/>
+<L f='E0A44266E96C1556CD9B11E9A504547C7E8EAE14' s='E0A44266E96C1555CD9B11E9B939547C7E8EAE14'/>
+<L f='E0A44266ED8F92D9CDA211E98CC0547C7E8EAE14' s='E0A44266ED8F6AA4CDA211E9AE6C547C7E8EAE14'/>
+<L f='E0A44266F42C36B4CD9F11E9C236547C7E8EAE14' s='E0A44266F42C36B3CD9F11E9865E547C7E8EAE14'/>
+<L f='E0C8279E627DE85ACDA111E9C24B547C7E8EAE14' s='E0C8279E627DACE6CDA111E9BDF3547C7E8EAE14'/>
+<L f='E0C8279E6B758F91CDA111E9B3D0547C7E8EAE14' s='E0C8279E6B753CA0CDA111E98A8E547C7E8EAE14'/>
+<L f='E0C8279E6B75F21DCDA111E9C547547C7E8EAE14' s='E0C8279E6B75E36DCDA111E9A32A547C7E8EAE14'/>
+<L f='E0C8279E820358B0CDA111E9C254547C7E8EAE14' s='E0C8279E82032492CDA111E9AA18547C7E8EAE14'/>
+<L f='E0C8279E820358B2CDA111E9B16B547C7E8EAE14' s='E0C8279E820358B1CDA111E9A7DF547C7E8EAE14'/>
+<L f='E0C8279E9A7B4619CDB211E9AF8D547C7E8EAE14' s='E0C8279E9A7AC614CDB211E9AAB7547C7E8EAE14'/>
+<L f='E0C8279E9A7B6E26CDB211E9B17D547C7E8EAE14' s='E0C8279E9A7B6E25CDB211E9CAF1547C7E8EAE14'/>
+<L f='E0C8279EA0DD6A4ECDB211E99253547C7E8EAE14' s='E0C8279EA0DD091ECDB211E9993B547C7E8EAE14'/>
+<L f='E0C8279EA0DD8BB2CDB211E9B4E6547C7E8EAE14' s='E0C8279EA0DD8BB1CDB211E9C19B547C7E8EAE14'/>
+<L f='E0C8279EB481A5A1CD9F11E981D1547C7E8EAE14' s='E0C8279EB4817AEFCD9F11E9C709547C7E8EAE14'/>
+<L f='E0C8279EB481DA53CD9F11E9925F547C7E8EAE14' s='E0C8279EB481DA52CD9F11E9B6FD547C7E8EAE14'/>
+<L f='E0C8279EED94356DCDA211E987CE547C7E8EAE14' s='E0C8279EED9426F1CDA211E9BE0D547C7E8EAE14'/>
+<L f='E0C8279EED94356FCDA211E99E13547C7E8EAE14' s='E0C8279EED94356ECDA211E9881B547C7E8EAE14'/>
+<L f='E0C8279EED94781CCDA211E9B55A547C7E8EAE14' s='E0C8279EED94781BCDA211E9A89D547C7E8EAE14'/>
+<L f='E0C8279EF4A66C67CD9F11E9A554547C7E8EAE14' s='E0C8279EF4A64F6CCD9F11E9AAF4547C7E8EAE14'/>
+<L f='E0C8279EF4A694CBCD9F11E996A5547C7E8EAE14' s='E0C8279EF4A694CACD9F11E98C5B547C7E8EAE14'/>
+<L f='E0E14F869A6AEB46CDB211E99DA0547C7E8EAE14' s='E0E14F869A6AEB45CDB211E981C2547C7E8EAE14'/>
+</pictograms.PictogramelementContainsGraphicsalgorithm>
+<pictograms.StyleContainerContainsStyles c='1'>
+<L f='E0C8279EDD2B899ACD9B11E9C61E547C7E8EAE14' s='E06CA680DC936C30CD9B11E9C41C547C7E8EAE14'/>
+<L f='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14' s='E0C8279EDD2B899ACD9B11E9C61E547C7E8EAE14'/>
+<L f='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' s='E0C8279EDD2B899ACD9B11E9C61E547C7E8EAE14'/>
+<L f='E0C8279EDD2BB3FBCD9B11E9C741547C7E8EAE14' s='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBCFCD9B11E9856A547C7E8EAE14' s='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' s='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14'/>
+<L f='E0C8279EDD2C120CCD9B11E99D96547C7E8EAE14' s='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14'/>
+<L f='E0C8279EDD2C2279CD9B11E9C782547C7E8EAE14' s='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14'/>
+<L f='E0C8279EDD2C227ACD9B11E996D5547C7E8EAE14' s='E0C8279EDD2B899BCD9B11E99D2F547C7E8EAE14'/>
+<L f='E0C8279EDD2BB3FECD9B11E98C93547C7E8EAE14' s='E0C8279EDD2BB3FBCD9B11E9C741547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBD1CD9B11E9C4A1547C7E8EAE14' s='E0C8279EDD2BDBCFCD9B11E9856A547C7E8EAE14'/>
+<L f='E0C8279EDD2C432ACD9B11E9A484547C7E8EAE14' s='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14'/>
+<L f='E0C8279EDD2C432CCD9B11E9B4B9547C7E8EAE14' s='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14'/>
+</pictograms.StyleContainerContainsStyles>
+<pictograms.GraphicsAlgorithmReferencesStyle c='1'>
+<L f='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' s='E0A44266B47ED912CD9F11E99CDF547C7E8EAE14'/>
+<L f='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' s='E0A44266B47F1E79CD9F11E99E43547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBCFCD9B11E9856A547C7E8EAE14' s='E0A44266DD2B4D95CD9B11E98000547C7E8EAE14'/>
+<L f='E0C8279EDD2C432ACD9B11E9A484547C7E8EAE14' s='E0A44266DD2C6F0DCD9B11E98FC0547C7E8EAE14'/>
+<L f='E0C8279EDD2BB3FBCD9B11E9C741547C7E8EAE14' s='E0A44266DD2E84EDCD9B11E994A5547C7E8EAE14'/>
+<L f='E0C8279EDD2C432CCD9B11E9B4B9547C7E8EAE14' s='E0A44266DD2E8DE8CD9B11E99B46547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' s='E0A44266DD30CBA7CD9B11E991EA547C7E8EAE14'/>
+<L f='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' s='E0A44266DD3113D3CD9B11E9835C547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' s='E0A44266DD31AFCFCD9B11E995A3547C7E8EAE14'/>
+<L f='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' s='E0A44266DD31CDB5CD9B11E9A0AA547C7E8EAE14'/>
+<L f='E0C8279EDD2BB3FBCD9B11E9C741547C7E8EAE14' s='E0A44266E96C08DFCD9B11E9C503547C7E8EAE14'/>
+<L f='E0C8279EDD2C432CCD9B11E9B4B9547C7E8EAE14' s='E0A44266E96C1556CD9B11E9A504547C7E8EAE14'/>
+<L f='E0C8279EDD2C120CCD9B11E99D96547C7E8EAE14' s='E0A44266ED8F92DACDA211E9883B547C7E8EAE14'/>
+<L f='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' s='E0A44266ED8FB225CDA211E998CC547C7E8EAE14'/>
+<L f='E0C8279EDD2C120CCD9B11E99D96547C7E8EAE14' s='E0A44266F42C6043CD9F11E9C67B547C7E8EAE14'/>
+<L f='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' s='E0A44266F42C9D24CD9F11E9AB7A547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' s='E0C8279E703DEEB6CE5011E9AB9F547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' s='E0C8279E703E206ACE5011E98A62547C7E8EAE14'/>
+<L f='E0C8279EDD2BDBD3CD9B11E9BB62547C7E8EAE14' s='E0C8279E703E206BCE5011E9BE2C547C7E8EAE14'/>
+<L f='E0C8279EDD2C120CCD9B11E99D96547C7E8EAE14' s='E0E14F869A6B1BF2CDB211E9B060547C7E8EAE14'/>
+<L f='E0C8279EDD2C227BCD9B11E9942E547C7E8EAE14' s='E0E14F869A6B5731CDB211E9CC49547C7E8EAE14'/>
+</pictograms.GraphicsAlgorithmReferencesStyle>
+</Partition>

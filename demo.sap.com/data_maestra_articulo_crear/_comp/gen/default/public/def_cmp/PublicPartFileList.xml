@@ -2,7 +2,7 @@
 <content version="4">
 <metadata>
 <development-component>
-<name>calculadora_con_bpm</name>
+<name>data_maestra_articulo_crear</name>
 <vendor>demo.sap.com</vendor>
 <component-type>
 <vendor>sap.com</vendor>
@@ -266,7 +266,7 @@
 </metadata>
 <source-components/>
 <archives>
-<archive location="modelinglibrary" path="lib/moin/demo.sap.com~calculadora_con_bpm~def_cmp.zip" type="zip"/>
+<archive location="modelinglibrary" path="lib/moin/demo.sap.com~data_maestra_articulo_crear~def_cmp.zip" type="zip"/>
 </archives>
 <entities>
 <entity>
@@ -274,19 +274,17 @@
 <entity-type>Model Folder Tree</entity-type>
 <entity-type-vendor>sap.com</entity-type-vendor>
 <fileset location="modelinglibrary" source-location="DC" source-path="">
-<file path="mc/4b04ca19-d0b1-464e-bac4-343525f29129.consgroup"/>
-<file path="mc/4b04ca19-d0b1-464e-bac4-343525f29129.consgroup.xlf"/>
-<file path="mc/7a0f2b94-162b-4e1c-9c2b-680e7ef410f2.consgroup"/>
-<file path="mc/7a0f2b94-162b-4e1c-9c2b-680e7ef410f2.consgroup.xlf"/>
+<file path="mc/1f98a3f9-10d5-4617-8507-f57218850ee7.consgroup"/>
+<file path="mc/1f98a3f9-10d5-4617-8507-f57218850ee7.consgroup.xlf"/>
 <file path="mc/META-INF/servicereferences.servicerefs"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/Business User.authprofile"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/Business User.authprofile.xlf"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/Business or Technical User.authprofile"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/Business or Technical User.authprofile.xlf"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/No Authentication.authprofile"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/No Authentication.authprofile.xlf"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/Technical User.authprofile"/>
-<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calculadora_con_bpm~demo/sap/com/Technical User.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/Business User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/Business User.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/Business or Technical User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/Business or Technical User.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/No Authentication.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/No Authentication.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/Technical User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~data_maestra_articulo_crear~demo/sap/com/Technical User.authprofile.xlf"/>
 </fileset>
 </entity>
 <entity>
@@ -294,9 +292,8 @@
 <entity-type>Model Folder Tree</entity-type>
 <entity-type-vendor>sap.com</entity-type-vendor>
 <fileset location="modelinglibrary" source-location="DC" source-path="">
-<file path="rep/wsdl/empresasadoc.com&amp;cltest.services"/>
-<file path="rep/wsdl/empresasadoc.com&amp;cltest.types"/>
-<file path="rep/wsdl/tempuri.org.types"/>
+<file path="rep/wsdl/empresasadoc.com&amp;cldata_maestra&amp;clphp&amp;clbpm.services"/>
+<file path="rep/wsdl/empresasadoc.com&amp;cldata_maestra&amp;clphp&amp;clestructuras.types"/>
 </fileset>
 </entity>
 <entity>
@@ -304,17 +301,14 @@
 <entity-type>Model Folder Tree</entity-type>
 <entity-type-vendor>sap.com</entity-type-vendor>
 <fileset location="modelinglibrary" source-location="DC" source-path="">
-<file path="src/bpmn/calculadora_con_bpm.bpmn"/>
-<file path="src/bpmn/calculadora_con_bpm.bpmn.xlf"/>
-<file path="src/bpmn/calculadora_con_bpm.diagram"/>
-<file path="src/triggers/calculadora_iniciar.eventdef"/>
-<file path="src/triggers/calculadora_iniciar.eventdef.xlf"/>
-<file path="src/wsdl/BPM_CalWEB_OutB.wsdl"/>
-<file path="src/wsdl/BPM_Calc_OutB.wsdl"/>
-<file path="src/wsdl/Calc_BPM_InBo.wsdl"/>
-<file path="src/wsdl/CalculadoraWEB_InBo.wsdl"/>
-<file path="src/wsdl/Calculadora_InBo.wsdl"/>
-<file path="src/wsdl/Calculadora_OutB.wsdl"/>
+<file path="src/bpmn/articulo_crear_apr_fox_mdg.bpmn"/>
+<file path="src/bpmn/articulo_crear_apr_fox_mdg.bpmn.xlf"/>
+<file path="src/bpmn/articulo_crear_apr_fox_mdg.diagram"/>
+<file path="src/triggers/start_notificarplaceholderproduct.eventdef"/>
+<file path="src/triggers/start_notificarplaceholderproduct.eventdef.xlf"/>
+<file path="src/wsdl/CrearArticulo_Out.wsdl"/>
+<file path="src/wsdl/PlaceholderProduct_Inb.wsdl"/>
+<file path="src/wsdl/QueryLinea1_Out.wsdl"/>
 </fileset>
 </entity>
 </entities>

@@ -1,11 +1,11 @@
-Development Component Build (2019-07-30 16:09:09 GMT-05:00 (COT))
-  Component name: calculadora_con_bpm
+Development Component Build (2019-09-06 11:57:54 GMT-05:00 (COT))
+  Component name: data_maestra_articulo_crear
   Component vendor: demo.sap.com
   SC compartment: MyComponents
   Configuration: LocalDevelopment
   Location: localDevelopment
   Source code location: Ivan.Arzuza@IVANARZUZA
-  DC root folder: C:\Users\ivan.arzuza\git\GitHub_ADOC\LocalDevelopment~calculadora_con_bpm~demo.sap.com\
+  DC root folder: C:\Users\ivan.arzuza\git\GitHub_ADOC\demo.sap.com\data_maestra_articulo_crear\_comp\
   DC type: Process Composer
   Host: IVANARZUZA
 
@@ -40,15 +40,15 @@ Start build plugin:
 
 
 Build Plugin 'sap.com/tc/bpem/bi/bp/buildtool', Version 7.30 SP 13 (NW731CORE_13_REL, built on 2014-08-29 20:31:11 +0200, CL199495)
-   development component:  calculadora_con_bpm (demo.sap.com)
+   development component:  data_maestra_articulo_crear (demo.sap.com)
       software component:  MyComponents (demo.sap.com)
                 location:  localDevelopment
                     type:  Process Composer
            build variant:  default
          source location:  Ivan.Arzuza@IVANARZUZA
-         output location:  D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default
-       generation folder:  D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\2C4F59D4CB0BD33F36C5EE77AD0F8B5C
-       plugin start time:  2019-07-30 16:09:09 GMT-05:00 (COT)
+         output location:  D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default
+       generation folder:  D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\12654E7FD312AE69D42A7FDF65B87132
+       plugin start time:  2019-09-06 11:57:54 GMT-05:00 (COT)
                  Java VM:  Java HotSpot(TM) Client VM, 10.0-b23 (1.6, Sun Microsystems Inc.)
 
 
@@ -59,13 +59,14 @@ General options:
 
 
 Checking path lengths for sources
-Path length checks finished in 0.008 seconds
+This component contains long pathnames, this may lead to build errors or unexpected results. (For example: C:\Users\ivan.arzuza\git\GitHub_ADOC\demo.sap.com\data_maestra_articulo_crear\_comp\mc\com\sap\netweaver\developerstudio\cc\LocalDevelopment~data_maestra_articulo_crear~demo\sap\com\Business or Technical User.authprofile.xlf )
+Path length checks finished in 0.003 seconds
  
 Preparing data context..
-Data context preparation finished in 0.016 seconds
+Data context preparation finished in 0.034 seconds
  
 Creating Ant build file..
-  Creating output file: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\logs\build.xml
+  Creating output file: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\logs\build.xml
   Using Java class:     com.sap.tc.glx.BuildFileCreator
 Mapped output path "default" of generator "sap.com~bpem_chain/moininit" is not defined.
 MoinInit generator started.
@@ -83,10 +84,10 @@ Metamodels found.
 Output folder found.
 Target "Xlf2PropBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
 Target "ScdlBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
-Build file creation finished in 0.117 seconds
+Build file creation finished in 0.107 seconds
  
 Starting Ant..
-  Using build file:     D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\logs\build.xml
+  Using build file:     D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\logs\build.xml
   Using build target:   build
   Using Ant version:    1.7.1
  
@@ -101,28 +102,28 @@ ScdlBase:
   [MOINInit] Referenced meta-model: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
   [MOINInit] Referenced meta-model: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
   [MOINInit] DataArea name: DefaultDataArea
-  [MOINInit] Moin initialized in 990 milliseconds.
-      [echo] Registering folder: gensrc/extcfg for path: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\gensrc\extcfg/
+  [MOINInit] Moin initialized in 849 milliseconds.
+      [echo] Registering folder: gensrc/extcfg for path: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\12654E7FD312AE69D42A7FDF65B87132\gensrc\extcfg/
       [echo] Starting Extension Configuration generator...
   [gen_scdl] 		[SCDL_GEN] Initializing Scdl Generation...
   [gen_scdl] 		[SCDL_GEN] Initialization successfully completed.
   [gen_scdl] 		[SCDL_GEN] Starting retrieval of information from contributors...
   [gen_scdl] 		[SCDL_GEN] Information retrieval from contributors successfully completed!
   [gen_scdl] 		[SCDL_GEN] Starting composite export to SCDL...
-  [gen_scdl] 			[SCDL-EXPORT] Scdl file output location: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\2C4F59D4CB0BD33F36C5EE77AD0F8B5C/scdl_output\META-INF\calculadora_con_bpm.composite
-  [gen_scdl] 			[SCDL-EXPORT] sca contribution XML output location: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\2C4F59D4CB0BD33F36C5EE77AD0F8B5C/scdl_output\META-INF\sca-contribution.xml
+  [gen_scdl] 			[SCDL-EXPORT] Scdl file output location: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\12654E7FD312AE69D42A7FDF65B87132/scdl_output\META-INF\data_maestra_articulo_crear.composite
+  [gen_scdl] 			[SCDL-EXPORT] sca contribution XML output location: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\12654E7FD312AE69D42A7FDF65B87132/scdl_output\META-INF\sca-contribution.xml
   [gen_scdl] 		[SCDL_GEN] Conversion successfully completed!
-     [timer] Extension Configuration generator finished in 0.41 seconds
+     [timer] Extension Configuration generator finished in 0.315 seconds
  
 [MOINShutdown] About to shutdown MOIN...
-[MOINShutdown] MOIN shut down in 60 milliseconds.
+[MOINShutdown] MOIN shut down in 54 milliseconds.
  
 Xlf2PropBase:
       [echo] Start XLF conversion
-  [xlf2prop] Found 6 XLF files to convert in folder "C:\Users\ivan.arzuza\git\GitHub_ADOC\LocalDevelopment~calculadora_con_bpm~demo.sap.com\mc"
-     [timer] XLF conversion finished in 0.048 seconds
+  [xlf2prop] Found 5 XLF files to convert in folder "mc"
+     [timer] XLF conversion finished in 0.023 seconds
  
-      [copy] Copying 6 files to D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\xlf_out
+      [copy] Copying 5 files to D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t\12654E7FD312AE69D42A7FDF65B87132\xlf_out
  
 Bpem:
   [MOINInit] Meta models found.
@@ -135,23 +136,17 @@ Bpem:
   [MOINInit] Referenced meta-model: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
   [MOINInit] Referenced meta-model: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
   [MOINInit] DataArea name: DefaultDataArea
-  [MOINInit] Moin initialized in 1113 milliseconds.
+  [MOINInit] Moin initialized in 844 milliseconds.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Metamodel version validation...
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Sanity check is enabled, com.glx.sanity.check system property isn't false.
-  [BpemTask] WSDL Location:src/wsdl/CalculadoraWEB_InBo.wsdl
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm
-  [BpemTask] WSDL Location:src/wsdl/BPM_CalWEB_OutB.wsdl
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm
+  [BpemTask] WSDL Location:src/wsdl/PlaceholderProduct_Inb.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear
   [BpemTask] WSDL Location:src/wsdl/rootwsdl_SimpleTimerServices.wsdl
   [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/default
-  [BpemTask] WSDL Location:src/wsdl/Calc_BPM_InBo.wsdl
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm
-  [BpemTask] WSDL Location:src/wsdl/BPM_Calc_OutB.wsdl
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm
-  [BpemTask] WSDL Location:src/wsdl/Calculadora_InBo.wsdl
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm
-  [BpemTask] WSDL Location:src/wsdl/Calculadora_OutB.wsdl
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm
+  [BpemTask] WSDL Location:src/wsdl/CrearArticulo_Out.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear
+  [BpemTask] WSDL Location:src/wsdl/QueryLinea1_Out.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.SourceVersioner compile(host, artifact) - Generating version IDs for sources...
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating rule compilation.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition constraint check.
@@ -159,143 +154,147 @@ Bpem:
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition compilation.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
   [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/triggers/calculadora_iniciar.eventdef#E012BF1EBC2DE72F944311E9AF70547C7E8EAE14 (MRI)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/triggers/start_notificarplaceholderproduct.eventdef#E0A442668A21EF6CCD9F11E9902C547C7E8EAE14 (MRI)
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/rep/wsdl/empresasadoc.com&cltest.types#E01DFA6E45A93E66944311E9926A547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/rep/wsdl/empresasadoc.com&cldata_maestra&clphp&clestructuras.types#E04695305BBCF152CE9211E9B3E9547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
   [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/triggers/calculadora_iniciar.eventdef#E012BF1EBC2DE72F944311E9AF70547C7E8EAE14 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/triggers/start_notificarplaceholderproduct.eventdef#E0A442668A21EF6CCD9F11E9902C547C7E8EAE14 (MRI), CompilerType: INTERFACECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task constraint check.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for Tasks is done.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task compilation.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating data mapping validation.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Data mapping validation is done.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process constraint check.
-  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask constraintCheck(conn,partitions) - Constraint violation: Assign an administrator to pool "Calculadora con BPM"
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask constraintCheck(conn,partitions) - Constraint violation: Assign an administrator to pool "Notificar creación de articulo (APR to MDG)"
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for processes is done
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process compilation.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
   [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F83B6E024939B11E98C65547C7E8EAE14 (MRI), CompilerType: XLFFACTORY
-  [BpemTask] Packaging XLF file 'C:\Users\ivan.arzuza\git\GitHub_ADOC\LocalDevelopment~calculadora_con_bpm~demo.sap.com\src\bpmn\calculadora_con_bpm.bpmn.xlf'.
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DC6250B3CD9B11E9AAA8547C7E8EAE14 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\ivan.arzuza\git\GitHub_ADOC\demo.sap.com\data_maestra_articulo_crear\_comp\src\bpmn\articulo_crear_apr_fox_mdg.bpmn.xlf'.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
   [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F83B6E024939B11E98C65547C7E8EAE14 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DC6250B3CD9B11E9AAA8547C7E8EAE14 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
   [BpemTask] PV file generation: parsing...
   [BpemTask] PV file generation done.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F840170AF939B11E9CD7B547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/rep/wsdl/empresasadoc.com&cldata_maestra&clphp&clestructuras.types#E0469530B400A0A1D0BC11E9B79C547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/rep/wsdl/tempuri.org.types#E0469530F799851EB24311E9C15F547C7E8EAE14 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
-  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/rep/wsdl/tempuri.org.types#E0469530F794ECE9B24311E9A8D6547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E0A44266ABC7BE13CDA011E99E1E547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E012BF1E97D1B232943911E985C4547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E0A44266E95CA355CD9B11E99773547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F84111A61939B11E9CF4A547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/string-equal.function#481F3B3295D916401AC311DD8E890018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/string-equal.function#481F3B3295D45B571AC311DDB2BA0018717335EB (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F83F03C97939B11E9CEF6547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DC9453BBCD9B11E99BE0547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F83F16D30939B11E9B053547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DCA51F60CD9B11E9A5E9547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F842F592B939B11E99263547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DC95A449CD9B11E99F0A547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/rep/wsdl/empresasadoc.com&cltest.types#E01DFA6E69CBF075944511E98787547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/rep/wsdl/empresasadoc.com&cldata_maestra&clphp&clestructuras.types#E0469530D0DAE302D0C511E9B4FB547C7E8EAE14 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/rep/wsdl/empresasadoc.com&cldata_maestra&clphp&clestructuras.types#E0469530D0DA9628D0C511E9B328547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F83F10833939B11E9B86B547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E0A44266E94A58C7CD9B11E99254547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F84204EF7939B11E99537547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E012BF1E2DC1D46FCE9311E99AB4547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
   [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0BC3D25D3B7049593A011E9ACBF547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DC951C39CD9B11E9A3D7547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DCB37424CD9B11E9AF35547C7E8EAE14 (MRI)], CompilerType: TYPECOMPILER
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
   [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
-  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/calculadora_con_bpm/_comp/src/bpmn/calculadora_con_bpm.bpmn#E0B4872F83B6E024939B11E98C65547C7E8EAE14 (MRI), CompilerType: BPMN2CSVCOMPILER
-  [BpemTask] Compiling process 'Calculadora con BPM' ...
-  [BpemTask] Node 'SWITCH_Calculadora_con_BPM_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/data_maestra_articulo_crear/_comp/src/bpmn/articulo_crear_apr_fox_mdg.bpmn#E06CA680DC6250B3CD9B11E9AAA8547C7E8EAE14 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Notificar creación de articulo (APR to MDG)' ...
+  [BpemTask] Node 'SWITCH_Notificar_creaci_n_de_articulo__APR_to_MDG__token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
   [BpemTask] Transforming Trigger Network into CSV...
-  [BpemTask] Node 'SWITCH_Calculadora_con_BPM_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Node 'SWITCH_Notificar_creaci_n_de_articulo__APR_to_MDG__token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
   [BpemTask] WS Provisioning post processing started for %d artifacts found.
   [BpemTask] 1
   [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
-  [BpemTask] demo.sap.com/calculadora_con_bpm/Calculadora_Iniciar
-  [BpemTask] Calc_BPM_InBo
-  [BpemTask] urn:empresasadoc.com:test
-  [BpemTask] Calc_BPM_InBo
+  [BpemTask] demo.sap.com/data_maestra_articulo_crear/Start_NotificarPlaceHolderProduct
+  [BpemTask] PlaceholderProduct_Inb
+  [BpemTask] urn:empresasadoc.com:data_maestra:php:bpm
+  [BpemTask] PlaceholderProduct_Inb
   [BpemTask] Writing WSDL location '%s' to file '%s'.
-  [BpemTask] src/wsdl/Calc_BPM_InBo.wsdl
-  [BpemTask] META-INF/wsdl/demosapcom2Fcalculadoraconbpm2FCalculadoraIniciar/src/wsdl/Calc_BPM_InBo.wsdl
+  [BpemTask] src/wsdl/PlaceholderProduct_Inb.wsdl
+  [BpemTask] META-INF/wsdl/demosapcom2Fdatamaestraarticulocrear2FStartNotificarPlaceHolderProduct/src/wsdl/PlaceholderProduct_Inb.wsdl
   [BpemTask] Creating metadata for service url '%s'.
-  [BpemTask] /bpm/demosapcom/calculadoraconbpm/CalculadoraIniciar
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx\demo.sap.com~calculadora_con_bpm.wsar archive is generated
+  [BpemTask] /bpm/demosapcom/datamaestraarticulocrear/StartNotificarPlaceHolderProduct
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx\demo.sap.com~data_maestra_articulo_crear.wsar archive is generated
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyMcArchive(File publicFolder) -Including Mass Configuration archive into sda
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlFiles(File scdlFolder) - Including SCDL files into sda
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/calculadora_con_bpm.composite
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/sca-contribution.xml
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx/data_maestra_articulo_crear.composite
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx/sca-contribution.xml
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - Including SCDL globalization files into sda
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/4b04ca19-d0b1-464e-bac4-343525f29129.consgroup.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/7a0f2b94-162b-4e1c-9c2b-680e7ef410f2.consgroup.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/Business or Technical User.authprofile.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/Business User.authprofile.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/No Authentication.authprofile.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx/Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx/1f98a3f9-10d5-4617-8507-f57218850ee7.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx/Business or Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx/Business User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx/No Authentication.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx/Technical User.authprofile.properties
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA execute(name, vendor, location, version, srcDir) -Generating SDA...
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx\demo.sap.com~calculadora_con_bpm.bpem archive is generated
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx\demo.sap.com~data_maestra_articulo_crear.bpem archive is generated
 [MOINShutdown] About to shutdown MOIN...
-[MOINShutdown] MOIN shut down in 81 milliseconds.
-    [delete] Deleting directory D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\ctx
-    [delete] Deleting: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\deploy\sda-dd.xml
+[MOINShutdown] MOIN shut down in 61 milliseconds.
+    [delete] Deleting directory D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\ctx
+    [delete] Deleting: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\deploy\sda-dd.xml
  
 createPublicParts:
   [pppacker] Packing public part 'def_cmp'
-  [pppacker] DC being built: calculadora_con_bpm
+  [pppacker] DC being built: data_maestra_articulo_crear
   [pppacker] Searching for entity: mc.
   [pppacker] Checking path: mc
   [pppacker] Checking path: rep
   [pppacker] Checking path: src
-  [pppacker] Packed  13 files for entity mc (Model Folder Tree)
-  [pppacker] DC being built: calculadora_con_bpm
+  [pppacker] Packed  11 files for entity mc (Model Folder Tree)
+  [pppacker] DC being built: data_maestra_articulo_crear
   [pppacker] Searching for entity: rep.
   [pppacker] Checking path: mc
   [pppacker] Checking path: rep
   [pppacker] Checking path: src
-  [pppacker] Packed   3 files for entity rep (Model Folder Tree)
-  [pppacker] DC being built: calculadora_con_bpm
+  [pppacker] Packed   2 files for entity rep (Model Folder Tree)
+  [pppacker] DC being built: data_maestra_articulo_crear
   [pppacker] Searching for entity: src.
   [pppacker] Checking path: mc
   [pppacker] Checking path: rep
   [pppacker] Checking path: src
-  [pppacker] Packed  11 files for entity src (Model Folder Tree)
+  [pppacker] Packed   8 files for entity src (Model Folder Tree)
   [pppacker] Packed 3 entities for public part 'def_cmp'
-     [timer] Packing of public part 'def_cmp' finished in 0.174 seconds
+     [timer] Packing of public part 'def_cmp' finished in 0.144 seconds
  
  
 build:
  
-Ant runtime 6.024 seconds
+Ant runtime 5.108 seconds
  
 Ant build finished OK
 MOIN forced shutdown initiated.
  
-Build plugin finished at 2019-07-30 16:09:16 GMT-05:00 (COT)
-Total build plugin runtime: 6.728 seconds
+Build plugin finished at 2019-09-06 11:58:00 GMT-05:00 (COT)
+Total build plugin runtime: 5.753 seconds
  
 Build finished with WARNING
 
-==== Post-Processing ====   started at 2019-07-30 16:09:16.346 COT
-Comparison of previous and actual build results took: 0.033 seconds
+==== Post-Processing ====   started at 2019-09-06 11:58:00.743 COT
+Comparison of previous and actual build results took: 0.011 seconds
 
 Copy the build results 
-  from: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\2C4F59D4CB0BD33F36C5EE77AD0F8B5C\default\
-  to:   C:\Users\ivan.arzuza\git\GitHub_ADOC\LocalDevelopment~calculadora_con_bpm~demo.sap.com\gen\default\
+  from: D:\IvanArzuza\NWDS\NWDS7_31_8_SP13_PAT0000\eclipse\workspace.jdi\LocalDevelopment\t2\12654E7FD312AE69D42A7FDF65B87132\default\
+  to:   C:\Users\ivan.arzuza\git\GitHub_ADOC\demo.sap.com\data_maestra_articulo_crear\_comp\gen\default\

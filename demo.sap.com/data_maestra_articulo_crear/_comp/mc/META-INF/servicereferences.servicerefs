@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.QName' i='471DAFAC55EC9E6C814111DCA447003005C6B92C'/>
+<M c='1' q='mc.servicereferences.ServiceReference' i='471DAFAC55EE250E814111DC8ECA003005C6B92C'/>
+<M c='1' q='mc.servicereferences.serviceref_logicalSystem' i='471DAFAC55EFABA2814111DCC1B9003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_authenticationProfile' i='471DAFAC55EFABA5814111DCA3E1003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_qname' i='471DAFAC55F13240814111DCC062003005C6B92C' se='1' ce='1' oe='-1'/>
+<M c='1' q='mc.servicereferences.ServiceReferenceCustomAttributes' i='E071FFE67B8562C5384611E09E32002710A58A9C'/>
+<M c='1' q='mc.servicereferences.ref_CustomAttributes' i='E071FFE6FAC645EF384611E08198002710A58A9C' se='1' ce='-1' oe='-1'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E00EA3B7EEC0E7B6CE4C11E9C765547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0116CBD361371EDD0C611E9934D547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.logicalsystem.QName m:c='1' m:i='E016575C5BA491A2CE9211E9BC97547C7E8EAE14' name='PlaceholderProduct_Inb' namespace='urn:empresasadoc.com:data_maestra:php:bpm'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E016575C5BA491A3CE9211E9AC0B547C7E8EAE14' id='f4d449be-77fe-4d4f-9d1b-b3b6588e992c' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E016575CF89B312ABED511E9919B547C7E8EAE14' name='SampleTimer' namespace='http://sap.com/glx/sampletimer/'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E016575CF89B312BBED511E997B2547C7E8EAE14' id='87bcc94d-c55f-4b31-b84c-9e1a9c6443df' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E01DFA6E5D6B83F5CDBC11E9C6CB547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E01DFA6E600898ABCDBC11E987A1547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E01DFA6E62AAA65FCDBC11E98D5D547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.logicalsystem.QName m:c='1' m:i='E0367719B3DF19A2D0BC11E996E2547C7E8EAE14' name='CrearArticulo_Out' namespace='urn:empresasadoc.com:data_maestra:php:BPM'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E0367719B3DF19A3D0BC11E99127547C7E8EAE14' id='64fe1653-c616-4f62-b4fa-c1224874aed6' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E0367719D0C9963DD0C511E98B12547C7E8EAE14' name='QueryLinea1_Out' namespace='urn:empresasadoc.com:data_maestra:php:BPM'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E0367719D0C9963ED0C511E9915C547C7E8EAE14' id='cc373733-fd2e-4144-b50c-e4763a9a24d9' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E057AD9694DAB427CE9811E9A8C1547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E057AD969C1331F3CE9811E9BBAD547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E057AD96A2DB372BCE9811E98B07547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0677A9A482EBF5BBED511E9A8E5547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0677A9A4AD24DF3BED511E9BA34547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0A5ADB5FB8B1E74BED711E98413547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B1AF74BB25CBDED0BC11E9BDB0547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B1AF74C20523E0D0BC11E9B792547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B918410D6C196CCE9111E9AA2F547C7E8EAE14' key='senderServiceName' value='BPM'/>
+<mc.servicereferences.serviceref_logicalSystem c='1'>
+<L f='local:E016575C6EDC2BE8CD9911E9A88C547C7E8EAE14' s='E016575C5BA491A3CE9211E9AC0B547C7E8EAE14'/>
+<L f='local:4925559F5D230461B6FD11DD82620018717335EB' s='E016575CF89B312BBED511E997B2547C7E8EAE14'/>
+<L f='local:E016575C6EDC2BE8CD9911E9A88C547C7E8EAE14' s='E0367719B3DF19A3D0BC11E99127547C7E8EAE14'/>
+<L f='local:E016575C6EDC2BE8CD9911E9A88C547C7E8EAE14' s='E0367719D0C9963ED0C511E9915C547C7E8EAE14'/>
+</mc.servicereferences.serviceref_logicalSystem>
+<mc.servicereferences.serviceref_authenticationProfile c='1'>
+<L f='local:E012BF1EDB0B33AABE1411E9C009547C7E8EAE14' s='E016575C5BA491A3CE9211E9AC0B547C7E8EAE14'/>
+<L f='local:E012BF1EDB0B33AABE1411E9C009547C7E8EAE14' s='E016575CF89B312BBED511E997B2547C7E8EAE14'/>
+<L f='local:E012BF1EDB0B33AABE1411E9C009547C7E8EAE14' s='E0367719B3DF19A3D0BC11E99127547C7E8EAE14'/>
+<L f='local:E012BF1EDB0B33AABE1411E9C009547C7E8EAE14' s='E0367719D0C9963ED0C511E9915C547C7E8EAE14'/>
+</mc.servicereferences.serviceref_authenticationProfile>
+<mc.servicereferences.serviceref_qname c='1'>
+<L f='E016575C5BA491A2CE9211E9BC97547C7E8EAE14' s='E016575C5BA491A3CE9211E9AC0B547C7E8EAE14'/>
+<L f='E016575CF89B312ABED511E9919B547C7E8EAE14' s='E016575CF89B312BBED511E997B2547C7E8EAE14'/>
+<L f='E0367719B3DF19A2D0BC11E996E2547C7E8EAE14' s='E0367719B3DF19A3D0BC11E99127547C7E8EAE14'/>
+<L f='E0367719D0C9963DD0C511E98B12547C7E8EAE14' s='E0367719D0C9963ED0C511E9915C547C7E8EAE14'/>
+</mc.servicereferences.serviceref_qname>
+<mc.servicereferences.ref_CustomAttributes c='1'>
+<L f='E057AD9694DAB427CE9811E9A8C1547C7E8EAE14' s='E016575C5BA491A3CE9211E9AC0B547C7E8EAE14'/>
+<L f='E0B1AF74C20523E0D0BC11E9B792547C7E8EAE14' s='E0367719B3DF19A3D0BC11E99127547C7E8EAE14'/>
+<L f='E0116CBD361371EDD0C611E9934D547C7E8EAE14' s='E0367719D0C9963ED0C511E9915C547C7E8EAE14'/>
+</mc.servicereferences.ref_CustomAttributes>
+</Partition>

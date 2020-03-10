@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/tc/esmp/model/xsd1' i='1' v='1.0.0'/>
+<M c='1' q='XSD1.AnnnotationForComponent' i='469C6D40015756C9232844583EFAAD8759D50C40' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.XsdComplexTypeDefinition' i='469C6D4001D5DA3CD6A340A7386DB365661C1178' ova='attributes'/>
+<M c='1' q='XSD1.XsdModelGroup' i='469C6D4007F20F8124A0489617CEAAA4FC3F33B2' ova='attributes'/>
+<M c='1' q='XSD1.ElementDeclarationsForSchema' i='469C6D400C4DCDF84560411F368FD039C03CB967' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.AttributeContentsForComplexTypeDefinition' i='469C6D4013642D30133B40501C8EDED98DEFEB40' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.XsdSchemaDocument' i='469C6D402172D8D944DF4AAE11EDBA7FA5E4BC95' ova='attributes'/>
+<M c='1' q='XSD1.TypeDefinitionForElementDeclaration' i='469C6D40336985B2134640A40FFEE35867EBBE13' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.XsdFractionDigitsFacet' i='469C6D404AF545107BE645BE2BE8819BB38CD4B7' ova='attributes'/>
+<M c='1' q='XSD1.AttributeDeclarationForAttributeUse' i='469C6D40546037C31A4C4A4E2D6EBDA44E3B51B2' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.dom.ChildsOfDomNode' i='469C6D40613622D8441C441A26178D080838F852' se='1' ce='1' oe='0'/>
+<M c='1' q='XSD1.dom.DomElement' i='469C6D40670B63EEEBF54DB92DD6F0D4D1644BCB'/>
+<M c='1' q='XSD1.XsdMaxLengthFacet' i='469C6D406A90886DB4A148532F15A4A1B0803893' ova='attributes'/>
+<M c='1' q='XSD1.XsdAttributeDeclaration' i='469C6D4070504340CBFC43181DED908F9190A28A' ova='attributes'/>
+<M c='1' q='XSD1.dom.DomText' i='469C6D407EF59150AAB5477F1D8B918A40FEB328'/>
+<M c='1' q='XSD1.XsdParticle' i='469C6D4085546763E30A4AD433C8EC4CA6CDE116' ova='attributes'/>
+<M c='1' q='XSD1.XsdElementDeclaration' i='469C6D4087FB3855FECB4BED2DC9DDBA2FA3696D' ova='attributes'/>
+<M c='1' q='XSD1.TypeDefinitionsForSchema' i='469C6D408A6373D35BB942C41354D9B93371299B' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.ContentForParticle' i='469C6D4098BBD57540A74F522A7BCCBAA2B5A8C3' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.AnonymousTypeDefinitionForElementDeclaration' i='469C6D409A16FDE30B934709069AB54ABF49936F' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.BaseTypeDefinitionForSimpleTypeDefinition' i='469C6D40A208ED90CA834F5C0968F1019547E4E9' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.ContentForComplexTypeDefinition' i='469C6D40ABCACE61F92C445C0CBA9A980D1E9C13' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.ParticlesForModelGroup' i='469C6D40CAFF0A17CA644BB2119F9A4BE480C258' se='0' ce='0' oe='1'/>
+<M c='1' q='XSD1.FacetContentsForSimpleTypeDefinition' i='469C6D40D19EB329A80E4A592D6586EE6D0B027F' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.XsdSimpleTypeDefinition' i='469C6D40DD0FA88DEA9141480725DC432B868FEF' ova='attributes'/>
+<M c='1' q='XSD1.XsdAttributeUse' i='469C6D40DD3379BFBCA74DC10B13854E43C34CE8' ova='attributes'/>
+<M c='1' q='XSD1.BaseTypeDefinitionForComplexTypeDefinition' i='469C6D40DE39D6DC759E49DD25E18652EE32DB38' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.XsdAnnotation' i='469C6D40E882BA07CA47410E14098CA99192DE1F' ova='attributes,applicationInformation,userInformation'/>
+<M c='1' q='XSD1.TypeDefinitionForAttributeDeclaration' i='469C6D40F168333427474211390B8963FB62E17B' se='0' ce='-1' oe='-1'/>
+<XSD1.XsdSchemaDocument m:c='1' m:i='E04695305BB0F067CE9211E98ADD547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='src/wsdl/PlaceholderProduct_Inb.wsdl' attributeFormDefault='unqualified' elementFormDefault='unqualified'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E04695305BB12CAFCE9211E98145547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='APR_Producto' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E04695305BB195A1CE9211E9C3C3547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB195A2CE9211E9CDAC547C7E8EAE14' namespace='' name='row' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E04695305BB195A3CE9211E9A67F547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB195A5CE9211E9C38C547C7E8EAE14' namespace='' name='MARA_MTART' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB2064DCE9211E9972E547C7E8EAE14' userInformation='E04695305BB2064ECE9211E98DBB547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB2064ECE9211E98DBB547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB2064FCE9211E9BB65547C7E8EAE14' data='MODE (L7) o ZMOD (L1)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB20650CE9211E9CFE3547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB24CA2CE9211E98EDC547C7E8EAE14' namespace='' name='MARA_ATTYP' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB24CA3CE9211E99B24547C7E8EAE14' userInformation='E04695305BB24CA4CE9211E98A03547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB24CA4CE9211E98A03547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB24CA5CE9211E98E7B547C7E8EAE14' data='CATEGORIA'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB24CA6CE9211E9903F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB24CA7CE9211E9B2E2547C7E8EAE14' namespace='' name='MARA_MATKL' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB26307CE9211E98E00547C7E8EAE14' userInformation='E04695305BB26308CE9211E9A0C2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB26308CE9211E9A0C2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB26309CE9211E9925D547C7E8EAE14' data='GRUPO ARTICULO'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB2630ACE9211E9A540547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB2630BCE9211E9A785547C7E8EAE14' namespace='' name='MARA_CHAR_VALUE' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB2630CCE9211E9A492547C7E8EAE14' userInformation='E04695305BB2630DCE9211E986D8547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB2630DCE9211E986D8547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB2630ECE9211E980E4547C7E8EAE14' data='TALLAS INTRODUCIR SI ES ROPA O ACCESORIO'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB28216CE9211E9C853547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB2B889CE9211E9844C547C7E8EAE14' namespace='' name='MARA_NODE' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB2B88ACE9211E9AA38547C7E8EAE14' userInformation='E04695305BB2B88BCE9211E9808A547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB2B88BCE9211E9808A547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB2B88CCE9211E9A495547C7E8EAE14' data='NODO'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB2D5A3CE9211E9802E547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB2D5A4CE9211E9BB03547C7E8EAE14' namespace='' name='MARA_MAKTX' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB2FC0ECE9211E9B50D547C7E8EAE14' userInformation='E04695305BB2FC0FCE9211E999FC547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB2FC0FCE9211E999FC547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB2FC10CE9211E99C88547C7E8EAE14' data='DESCRIPCION'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB32E6DCE9211E999C2547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB32E6ECE9211E9968C547C7E8EAE14' namespace='' name='MARA_GROES' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB34549CE9211E9C8F9547C7E8EAE14' userInformation='E04695305BB3454ACE9211E990E0547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB3454ACE9211E990E0547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB3454BCE9211E9A577547C7E8EAE14' data='ESTILO'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB36BC0CE9211E9C91F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB3A6C9CE9211E995F2547C7E8EAE14' namespace='' name='MARA_FREE_CHAR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB3A6CACE9211E9B38B547C7E8EAE14' userInformation='E04695305BB3A6CBCE9211E9AB70547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB3A6CBCE9211E9AB70547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB3A6CCCE9211E996F1547C7E8EAE14' data='COLOR'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB3BE8ACE9211E9CE12547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB3BE8BCE9211E994A9547C7E8EAE14' namespace='' name='MARA_BRAND_ID' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB3BE8CCE9211E98A41547C7E8EAE14' userInformation='E04695305BB3F1AFCE9211E98EA2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB3F1AFCE9211E98EA2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB3F1B0CE9211E9BF5E547C7E8EAE14' data='MARCA'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB3F1B1CE9211E98107547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB41B17CE9211E9810C547C7E8EAE14' namespace='' name='MARA_WHERL' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB41B18CE9211E9A77C547C7E8EAE14' userInformation='E04695305BB42B3CCE9211E99592547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB42B3CCE9211E99592547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB42B3DCE9211E9C480547C7E8EAE14' data='PAIS DE FABRICACION'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB42B3ECE9211E9C208547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB46F88CE9211E9CAB4547C7E8EAE14' namespace='' name='MARA_WSTAW' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB50FDACE9211E990FF547C7E8EAE14' userInformation='E04695305BB50FDBCE9211E998D9547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB50FDBCE9211E998D9547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB50FDCCE9211E98360547C7E8EAE14' data='PARTIDA ARANCELARIA'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB53BAFCE9211E9B42D547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB53BB0CE9211E9A8D2547C7E8EAE14' namespace='' name='MARA_SEASON' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB580E6CE9211E99A65547C7E8EAE14' userInformation='E04695305BB580E7CE9211E9C05B547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB580E7CE9211E9C05B547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB580E8CE9211E9C4FA547C7E8EAE14' data='TEMPORADA'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB58311CE9211E9CA08547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB58312CE9211E9BB58547C7E8EAE14' namespace='' name='MARA_SEASON_YR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB58313CE9211E9CAFC547C7E8EAE14' userInformation='E04695305BB5C915CE9211E99493547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB5C915CE9211E99493547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB5C916CE9211E9936F547C7E8EAE14' data='AÑO'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB5C917CE9211E98EB7547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB5EB86CE9211E98341547C7E8EAE14' namespace='' name='MARA_ZZ_PUERTO_ORIG' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB5EB87CE9211E98B6E547C7E8EAE14' userInformation='E04695305BB5EB88CE9211E9C7AA547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB5EB88CE9211E9C7AA547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB5EB89CE9211E9C2B2547C7E8EAE14' data='PUERTO SALIDA'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB60F64CE9211E9813F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB635E6CE9211E9B7E6547C7E8EAE14' namespace='' name='MARA_ZZ_ESTATUS' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB635E7CE9211E9C8A6547C7E8EAE14' userInformation='E04695305BB635E8CE9211E9AABB547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB635E8CE9211E9AABB547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB635E9CE9211E99F1C547C7E8EAE14' data='ESTATUS'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB664ABCE9211E9C5CB547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB664ACCE9211E9CB30547C7E8EAE14' namespace='' name='MARA_ZZ_ART_PROV' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB6B53ECE9211E9B730547C7E8EAE14' userInformation='E04695305BB6B53FCE9211E9AD2D547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB6B53FCE9211E9AD2D547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB6B540CE9211E9C93D547C7E8EAE14' data='GENERO'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB6B541CE9211E98691547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB6B542CE9211E99393547C7E8EAE14' namespace='' name='MARA_ZZ_TIP_ESTILO' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB6C801CE9211E9C874547C7E8EAE14' userInformation='E04695305BB6C802CE9211E9CAA6547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB6C802CE9211E9CAA6547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB6C803CE9211E9A018547C7E8EAE14' data='CLASIFICACION NUEVA'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB72E09CE9211E989DA547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB72E0ACE9211E99D28547C7E8EAE14' namespace='' name='MARA_ZZ_COD_PICT' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB755E6CE9211E9A01D547C7E8EAE14' userInformation='E04695305BB755E7CE9211E98F8D547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB755E7CE9211E98F8D547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB755E8CE9211E9965B547C7E8EAE14' data='CODIGO DEL PICTOGRAMA (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB76266CE9211E99551547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB76267CE9211E9BA67547C7E8EAE14' namespace='' name='MARA_ZZ_DELTAM' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB76268CE9211E9C7DE547C7E8EAE14' userInformation='E04695305BB76269CE9211E9C47C547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB76269CE9211E9C47C547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB7626ACE9211E9B9CB547C7E8EAE14' data='DELTAM (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB7626BCE9211E9A60F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB790FDCE9211E9A208547C7E8EAE14' namespace='' name='MARA_ZZ_ALTAM' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB790FECE9211E9A0F1547C7E8EAE14' userInformation='E04695305BB790FFCE9211E996AA547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB790FFCE9211E996AA547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB79100CE9211E992B5547C7E8EAE14' data='ALTAM (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB7BB37CE9211E9C0E5547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB7BB38CE9211E9C4FA547C7E8EAE14' namespace='' name='MARA_ZZ_TAM_MED' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB7BB39CE9211E9CEA2547C7E8EAE14' userInformation='E04695305BB7BB3ACE9211E9A18D547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB7BB3ACE9211E9A18D547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB7BB3BCE9211E9B9F6547C7E8EAE14' data='TAMAÑO MEDIO &quot;flag&quot; (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB7BB3CCE9211E9B10F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB7BB3DCE9211E9C26B547C7E8EAE14' namespace='' name='MARA_ZZ_ALU' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB7D5C1CE9211E99F9C547C7E8EAE14' userInformation='E04695305BB7D5C2CE9211E98CB2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB7D5C2CE9211E98CB2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB7D5C3CE9211E9B962547C7E8EAE14' data='ALU (BISMT) (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB8029BCE9211E9BE57547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB8029CCE9211E9B2FD547C7E8EAE14' namespace='' name='MARA_ZZ_CLASE' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB8029DCE9211E989DC547C7E8EAE14' userInformation='E04695305BB8029ECE9211E9C965547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB8029ECE9211E9C965547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB8029FCE9211E99DE9547C7E8EAE14' data='CLASE'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB83CCECE9211E9B240547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB83CCFCE9211E98448547C7E8EAE14' namespace='' name='MARA_EAN11' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB8612FCE9211E9898E547C7E8EAE14' userInformation='E04695305BB86130CE9211E9CB21547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB86130CE9211E9CB21547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB86131CE9211E9AE3F547C7E8EAE14' data='UPC (L1 - L7 - CAT - TNF)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB86132CE9211E9BEDC547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB884C5CE9211E99425547C7E8EAE14' namespace='' name='MARA_LIFNR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB884C6CE9211E99B0C547C7E8EAE14' userInformation='E04695305BB884C7CE9211E9B578547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB884C7CE9211E9B578547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB884C8CE9211E983FB547C7E8EAE14' data='PROVEEDOR'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB884C9CE9211E9AE36547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB8B0DCCE9211E9C44F547C7E8EAE14' namespace='' name='MARA_IDNLF' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSimpleTypeDefinition m:c='1' m:i='E04695305BB8B0DDCE9211E99FFD547C7E8EAE14'/>
+<XSD1.XsdMaxLengthFacet m:c='1' m:i='E04695305BB8B0DECE9211E9A6D2547C7E8EAE14' lexicalValue='50' fixed='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB8B0DFCE9211E98991547C7E8EAE14' userInformation='E04695305BB8B0E0CE9211E98679547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB8B0E0CE9211E98679547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB8B0E1CE9211E99A66547C7E8EAE14' data='DESCRIPCION ARTICULO PROVEEDOR'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB8D974CE9211E98AE8547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB8D975CE9211E9A295547C7E8EAE14' namespace='' name='MARA_IDNLF_2' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSimpleTypeDefinition m:c='1' m:i='E04695305BB8D976CE9211E9CB19547C7E8EAE14'/>
+<XSD1.XsdMaxLengthFacet m:c='1' m:i='E04695305BB8D977CE9211E9C2A2547C7E8EAE14' lexicalValue='50' fixed='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB8DE2CCE9211E9B777547C7E8EAE14' userInformation='E04695305BB8DE2DCE9211E9BD78547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB8DE2DCE9211E9BD78547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB8DE2ECE9211E9CECB547C7E8EAE14' data='DESCRIPCION ARTICULO PROVEEDOR 2'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB8DE2FCE9211E993FD547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB8DE30CE9211E9B9CE547C7E8EAE14' namespace='' name='EINE_NETPR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSimpleTypeDefinition m:c='1' m:i='E04695305BB8DE31CE9211E9CB00547C7E8EAE14'/>
+<XSD1.XsdFractionDigitsFacet m:c='1' m:i='E04695305BB98289CE9211E99031547C7E8EAE14' lexicalValue='2' fixed='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB9828ACE9211E9BE83547C7E8EAE14' userInformation='E04695305BB9828BCE9211E984A5547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB9828BCE9211E984A5547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB9828CCE9211E9C133547C7E8EAE14' data='PRECIO NETO  (FOB)'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB9828DCE9211E99BA1547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BB9A704CE9211E997FC547C7E8EAE14' namespace='' name='VERPR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E04695305BB9A705CE9211E98A65547C7E8EAE14' userInformation='E04695305BB9A706CE9211E9AB77547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E04695305BB9A706CE9211E9AB77547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E04695305BB9A707CE9211E9C002547C7E8EAE14' data='PRECIO VENTA'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB9A708CE9211E9C32F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB9A709CE9211E9CF22547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB9EB5DCE9211E9B9BD547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E04695305BB9EB5ECE9211E9C4B9547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E04695305BBCF152CE9211E9B3E9547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='APR_Producto_Req' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSchemaDocument m:c='1' m:i='E0469530B3ED59E5D0BC11E9CAC5547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='src/wsdl/CrearArticulo_Out.wsdl' attributeFormDefault='unqualified' elementFormDefault='unqualified'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530B3ED59E6D0BC11E998CE547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='MDG_Articulo' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530B3EDC155D0BC11E9A2A2547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EDC156D0BC11E989C0547C7E8EAE14' namespace='' name='row' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530B3EDC157D0BC11E9C969547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530B3EDC158D0BC11E99696547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EDC159D0BC11E9CBDD547C7E8EAE14' namespace='' name='MARA_MTART' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EDC15AD0BC11E99154547C7E8EAE14' userInformation='E0469530B3EDC15BD0BC11E98602547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EDC15BD0BC11E98602547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EDC15CD0BC11E9ADA2547C7E8EAE14' data='MODE (L7) o ZMOD (L1)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EDE8D0D0BC11E9BEDF547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EDE8D1D0BC11E9AB20547C7E8EAE14' namespace='' name='MARA_ATTYP' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EE34C5D0BC11E9BCC1547C7E8EAE14' userInformation='E0469530B3EE34C6D0BC11E9CC34547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EE34C6D0BC11E9CC34547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EE6D6AD0BC11E9BA0D547C7E8EAE14' data='CATEGORIA'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EE7913D0BC11E991A6547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EEA917D0BC11E9B6D7547C7E8EAE14' namespace='' name='MARA_MATKL' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EEA918D0BC11E9C900547C7E8EAE14' userInformation='E0469530B3EEA919D0BC11E9C134547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EEA919D0BC11E9C134547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EEA91AD0BC11E9AA64547C7E8EAE14' data='GRUPO ARTICULO'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EECF0CD0BC11E99F05547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EECF0DD0BC11E9AA65547C7E8EAE14' namespace='' name='MARA_CHAR_VALUE' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EECF0ED0BC11E9A79D547C7E8EAE14' userInformation='E0469530B3EECF0FD0BC11E980E1547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EECF0FD0BC11E980E1547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EECF10D0BC11E9C595547C7E8EAE14' data='TALLAS INTRODUCIR SI ES ROPA O ACCESORIO'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EF2C09D0BC11E9CA14547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EF48A5D0BC11E98D70547C7E8EAE14' namespace='' name='MARA_NODE' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EF48A6D0BC11E9BD14547C7E8EAE14' userInformation='E0469530B3EF48A7D0BC11E99EC2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EF48A7D0BC11E99EC2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EF48A8D0BC11E9991F547C7E8EAE14' data='NODO'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EF721ED0BC11E98A9C547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EF721FD0BC11E9C10B547C7E8EAE14' namespace='' name='MARA_MAKTX' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EF7220D0BC11E9AED9547C7E8EAE14' userInformation='E0469530B3EF7221D0BC11E9B496547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EF7221D0BC11E9B496547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EF7222D0BC11E9BA26547C7E8EAE14' data='DESCRIPCION'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EF7223D0BC11E9914C547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EFA400D0BC11E9839E547C7E8EAE14' namespace='' name='MARA_GROES' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EFA401D0BC11E9A28A547C7E8EAE14' userInformation='E0469530B3EFA402D0BC11E99825547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EFA402D0BC11E99825547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EFA403D0BC11E99658547C7E8EAE14' data='ESTILO'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EFA404D0BC11E98166547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EFD03CD0BC11E9BC12547C7E8EAE14' namespace='' name='MARA_FREE_CHAR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EFD03DD0BC11E9C9DB547C7E8EAE14' userInformation='E0469530B3EFD03ED0BC11E984AC547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EFD03ED0BC11E984AC547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EFD03FD0BC11E99A34547C7E8EAE14' data='COLOR'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EFD040D0BC11E99772547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EFDEB5D0BC11E9CDCD547C7E8EAE14' namespace='' name='MARA_BRAND_ID' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3EFDEB6D0BC11E99563547C7E8EAE14' userInformation='E0469530B3EFDEB7D0BC11E9CE7D547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3EFDEB7D0BC11E9CE7D547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3EFDEB8D0BC11E99557547C7E8EAE14' data='MARCA'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3EFDEB9D0BC11E9B1AC547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3EFDEBAD0BC11E9A8A4547C7E8EAE14' namespace='' name='MARA_WHERL' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F00E8AD0BC11E9A9AA547C7E8EAE14' userInformation='E0469530B3F00E8BD0BC11E98EB2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F00E8BD0BC11E98EB2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F00E8CD0BC11E99A4F547C7E8EAE14' data='PAIS DE FABRICACION'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F00E8DD0BC11E99E8B547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F05DA9D0BC11E9A365547C7E8EAE14' namespace='' name='MARA_WSTAW' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F09CA1D0BC11E9CFC9547C7E8EAE14' userInformation='E0469530B3F0DBC0D0BC11E9A351547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F0DBC0D0BC11E9A351547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F0DBC1D0BC11E9BD09547C7E8EAE14' data='PARTIDA ARANCELARIA'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F0DBC2D0BC11E9B958547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F0DBC3D0BC11E9983D547C7E8EAE14' namespace='' name='MARA_SEASON' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F0ED7FD0BC11E9C57E547C7E8EAE14' userInformation='E0469530B3F0ED80D0BC11E9B770547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F0ED80D0BC11E9B770547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F0ED81D0BC11E9CB1E547C7E8EAE14' data='TEMPORADA'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F0ED82D0BC11E985CD547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F0ED83D0BC11E9A937547C7E8EAE14' namespace='' name='MARA_SEASON_YR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F0ED84D0BC11E9B6C7547C7E8EAE14' userInformation='E0469530B3F0ED85D0BC11E9A6A8547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F0ED85D0BC11E9A6A8547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F11A00D0BC11E992C5547C7E8EAE14' data='AÑO'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F11A01D0BC11E9C0A4547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F11A02D0BC11E9C54E547C7E8EAE14' namespace='' name='MARA_ZZ_PUERTO_ORIG' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F11A03D0BC11E98052547C7E8EAE14' userInformation='E0469530B3F11A04D0BC11E9B5B2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F11A04D0BC11E9B5B2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F11A05D0BC11E9BAF5547C7E8EAE14' data='PUERTO SALIDA'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F14CC1D0BC11E9CC36547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F14CC2D0BC11E9A813547C7E8EAE14' namespace='' name='MARA_ZZ_ESTATUS' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F192F6D0BC11E9A073547C7E8EAE14' userInformation='E0469530B3F192F7D0BC11E98F0C547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F192F7D0BC11E98F0C547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F192F8D0BC11E9C490547C7E8EAE14' data='ESTATUS'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F1B24ED0BC11E9B654547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F1B24FD0BC11E99DC2547C7E8EAE14' namespace='' name='MARA_ZZ_ART_PROV' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F1B250D0BC11E9CE49547C7E8EAE14' userInformation='E0469530B3F1B251D0BC11E9C5D5547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F1B251D0BC11E9C5D5547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F1B252D0BC11E9ACC9547C7E8EAE14' data='GENERO'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F1B253D0BC11E9C1D4547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F1F325D0BC11E9A732547C7E8EAE14' namespace='' name='MARA_ZZ_TIP_ESTILO' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F1F326D0BC11E9B942547C7E8EAE14' userInformation='E0469530B3F1F327D0BC11E99067547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F1F327D0BC11E99067547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F1F328D0BC11E9AFC6547C7E8EAE14' data='CLASIFICACION NUEVA'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F1FC78D0BC11E9B680547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F1FC79D0BC11E9A75C547C7E8EAE14' namespace='' name='MARA_ZZ_COD_PICT' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F1FC7AD0BC11E9BA41547C7E8EAE14' userInformation='E0469530B3F1FC7BD0BC11E9B3B2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F1FC7BD0BC11E9B3B2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F1FC7CD0BC11E9875A547C7E8EAE14' data='CODIGO DEL PICTOGRAMA (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F1FC7DD0BC11E9A691547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F238FAD0BC11E9C380547C7E8EAE14' namespace='' name='MARA_ZZ_DELTAM' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F238FBD0BC11E9A1F6547C7E8EAE14' userInformation='E0469530B3F238FCD0BC11E9B85F547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F238FCD0BC11E9B85F547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F238FDD0BC11E9BFC3547C7E8EAE14' data='DELTAM (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F238FED0BC11E9B36C547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F24E00D0BC11E9BC59547C7E8EAE14' namespace='' name='MARA_ZZ_ALTAM' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F24E01D0BC11E99A72547C7E8EAE14' userInformation='E0469530B3F24E02D0BC11E99785547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F24E02D0BC11E99785547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F24E03D0BC11E9B622547C7E8EAE14' data='ALTAM (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F24E04D0BC11E9B529547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F352C9D0BC11E9841F547C7E8EAE14' namespace='' name='MARA_ZZ_TAM_MED' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F352CAD0BC11E9ACAB547C7E8EAE14' userInformation='E0469530B3F352CBD0BC11E98D69547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F352CBD0BC11E98D69547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F352CCD0BC11E99C39547C7E8EAE14' data='TAMAÑO MEDIO &quot;flag&quot; (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F38536D0BC11E98E3F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F38537D0BC11E99F42547C7E8EAE14' namespace='' name='MARA_ZZ_ALU' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F38538D0BC11E9BA93547C7E8EAE14' userInformation='E0469530B3F38539D0BC11E9CB81547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F38539D0BC11E9CB81547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F3853AD0BC11E98024547C7E8EAE14' data='ALU (BISMT) (L1 - L7)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F3BB69D0BC11E9C19C547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F3D5C3D0BC11E9AADF547C7E8EAE14' namespace='' name='MARA_ZZ_CLASE' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F3D5C4D0BC11E9BD27547C7E8EAE14' userInformation='E0469530B3F3D5C5D0BC11E9C5C7547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F3D5C5D0BC11E9C5C7547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F3D5C6D0BC11E9809A547C7E8EAE14' data='CLASE'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F4010CD0BC11E99680547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F4010DD0BC11E99194547C7E8EAE14' namespace='' name='MARA_EAN11' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F4010ED0BC11E9CEAE547C7E8EAE14' userInformation='E0469530B3F4010FD0BC11E98DD3547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F4010FD0BC11E98DD3547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F42298D0BC11E9B0CA547C7E8EAE14' data='UPC (L1 - L7 - CAT - TNF)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F42299D0BC11E9B12A547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F4229AD0BC11E9AD07547C7E8EAE14' namespace='' name='MARA_LIFNR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F46B88D0BC11E9C66F547C7E8EAE14' userInformation='E0469530B3F46B89D0BC11E9A977547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F46B89D0BC11E9A977547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F46B8AD0BC11E9A8B2547C7E8EAE14' data='PROVEEDOR'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F46B8BD0BC11E9CCAB547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F46B8CD0BC11E9CA9A547C7E8EAE14' namespace='' name='MARA_IDNLF' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSimpleTypeDefinition m:c='1' m:i='E0469530B3F46B8DD0BC11E9BC1B547C7E8EAE14'/>
+<XSD1.XsdMaxLengthFacet m:c='1' m:i='E0469530B3F48245D0BC11E9CD40547C7E8EAE14' lexicalValue='50' fixed='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F506F2D0BC11E9A7FB547C7E8EAE14' userInformation='E0469530B3F506F3D0BC11E98428547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F506F3D0BC11E98428547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F52885D0BC11E984E8547C7E8EAE14' data='DESCRIPCION ARTICULO PROVEEDOR'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F52886D0BC11E9A346547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F52887D0BC11E98FD8547C7E8EAE14' namespace='' name='MARA_IDNLF_2' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSimpleTypeDefinition m:c='1' m:i='E0469530B3F53FBBD0BC11E993BB547C7E8EAE14'/>
+<XSD1.XsdMaxLengthFacet m:c='1' m:i='E0469530B3F53FBCD0BC11E98701547C7E8EAE14' lexicalValue='50' fixed='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F5609BD0BC11E9AD8E547C7E8EAE14' userInformation='E0469530B3F5609CD0BC11E9A8F2547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F5609CD0BC11E9A8F2547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F5609DD0BC11E9C1D0547C7E8EAE14' data='DESCRIPCION ARTICULO PROVEEDOR 2'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F58DAAD0BC11E9ADA8547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F58DABD0BC11E9A2D2547C7E8EAE14' namespace='' name='EINE_NETPR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSimpleTypeDefinition m:c='1' m:i='E0469530B3F5CA04D0BC11E99259547C7E8EAE14'/>
+<XSD1.XsdFractionDigitsFacet m:c='1' m:i='E0469530B3F62B88D0BC11E99F93547C7E8EAE14' lexicalValue='2' fixed='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F663F4D0BC11E99C67547C7E8EAE14' userInformation='E0469530B3F663F5D0BC11E9C077547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F663F5D0BC11E9C077547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F663F6D0BC11E9ACD0547C7E8EAE14' data='PRECIO NETO  (FOB)'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F663F7D0BC11E9C8B8547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F68E90D0BC11E98FC5547C7E8EAE14' namespace='' name='VERPR' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3F68E91D0BC11E994E5547C7E8EAE14' userInformation='E0469530B3F68E92D0BC11E98969547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3F68E92D0BC11E98969547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3F6AF37D0BC11E9AB5F547C7E8EAE14' data='PRECIO VENTA'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F6AF38D0BC11E987E9547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3F6DBD0D0BC11E9B229547C7E8EAE14' namespace='' name='Linea_1' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F71D4FD0BC11E98822547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F71D50D0BC11E9CB82547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F771B2D0BC11E9CA48547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3F771B3D0BC11E9A8AF547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530B3FB2F93D0BC11E9AF5C547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='FOX_L1_Statement' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530B3FBA908D0BC11E9C14E547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FBC41AD0BC11E98784547C7E8EAE14' namespace='' name='Statement_response' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530B3FBC41BD0BC11E9A34A547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530B3FBC41CD0BC11E99B13547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FBC41DD0BC11E98B64547C7E8EAE14' namespace='' name='row' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530B3FBC41ED0BC11E9B184547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FBF8FDD0BC11E99597547C7E8EAE14' namespace='' name='bismt' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FBF8FED0BC11E9A557547C7E8EAE14' userInformation='E0469530B3FBF8FFD0BC11E9B1C6547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FBF8FFD0BC11E9B1C6547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FBF900D0BC11E99A00547C7E8EAE14' data='Numero de material anterior'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FC5EC4D0BC11E98901547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FC5EC5D0BC11E99386547C7E8EAE14' namespace='' name='zz_desc_tec' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FC5EC6D0BC11E9A218547C7E8EAE14' userInformation='E0469530B3FC5EC7D0BC11E9CD3D547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FC5EC7D0BC11E9CD3D547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FC5EC8D0BC11E9A998547C7E8EAE14' data='Desc. Técnica'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FC8A10D0BC11E987C9547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FC8A11D0BC11E9C80C547C7E8EAE14' namespace='' name='zz_avio_ext' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FC8A12D0BC11E9807B547C7E8EAE14' userInformation='E0469530B3FC8A13D0BC11E9BE44547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FC8A13D0BC11E9BE44547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FC8A14D0BC11E9801B547C7E8EAE14' data='Avio externo'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FCC502D0BC11E99045547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FCC503D0BC11E9A676547C7E8EAE14' namespace='' name='zz_patron' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FCC504D0BC11E99592547C7E8EAE14' userInformation='E0469530B3FCC505D0BC11E994E3547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FCC505D0BC11E994E3547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FCC506D0BC11E9CFB0547C7E8EAE14' data='Patrón'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FCEC16D0BC11E99145547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FCEC17D0BC11E9C847547C7E8EAE14' namespace='' name='zz_horma' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FCEC18D0BC11E99E40547C7E8EAE14' userInformation='E0469530B3FCEC19D0BC11E9BEF6547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FCEC19D0BC11E9BEF6547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FCEC1AD0BC11E99A7F547C7E8EAE14' data='Horma'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FD1708D0BC11E9B168547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FD1709D0BC11E99336547C7E8EAE14' namespace='' name='zz_tip_const' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FD170AD0BC11E99186547C7E8EAE14' userInformation='E0469530B3FD170BD0BC11E9AD5E547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FD170BD0BC11E9AD5E547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FD170CD0BC11E9B7C9547C7E8EAE14' data='Tipo Construcción'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FD170DD0BC11E9AB6E547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FD2F1CD0BC11E98B8F547C7E8EAE14' namespace='' name='zz_mezcla' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FD2F1DD0BC11E98AD1547C7E8EAE14' userInformation='E0469530B3FD2F1ED0BC11E9B70B547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FD2F1ED0BC11E9B70B547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FD2F1FD0BC11E9A1FE547C7E8EAE14' data='Codigo de mezcla'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FD2F20D0BC11E9C8A4547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FD7828D0BC11E9B2E2547C7E8EAE14' namespace='' name='zz_plant_fab' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdAnnotation m:c='1' m:i='E0469530B3FD7829D0BC11E9AD98547C7E8EAE14' userInformation='E0469530B3FD782AD0BC11E9A24C547C7E8EAE14'/>
+<XSD1.dom.DomElement m:c='1' m:i='E0469530B3FD782AD0BC11E9A24C547C7E8EAE14' namespace='http://www.w3.org/2001/XMLSchema' name='documentation'/>
+<XSD1.dom.DomText m:c='1' m:i='E0469530B3FD782BD0BC11E98757547C7E8EAE14' data='Planta de Fabricación'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FDB939D0BC11E99259547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FDB93AD0BC11E995FC547C7E8EAE14' namespace='' name='zz_cod_pict' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FDB93BD0BC11E9A590547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FDC223D0BC11E994FE547C7E8EAE14' namespace='' name='zz_deltam' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FDC224D0BC11E9A8F1547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FDC225D0BC11E9C198547C7E8EAE14' namespace='' name='zz_altam' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FDC226D0BC11E99A33547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FDC227D0BC11E9B7C7547C7E8EAE14' namespace='' name='zz_tam_med' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FDF96FD0BC11E9B0A9547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FDF970D0BC11E9BF68547C7E8EAE14' namespace='' name='estatus' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FDF971D0BC11E9C711547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B3FDF972D0BC11E982B6547C7E8EAE14' namespace='' name='fecha_registro' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FE10F9D0BC11E9CD52547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FE10FAD0BC11E9C108547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FE10FBD0BC11E98586547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FE10FCD0BC11E9C3C5547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FE56E0D0BC11E9C103547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530B3FE56E1D0BC11E99D02547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530B400A0A1D0BC11E9B79C547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='MDG_Articulo_Req' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdSchemaDocument m:c='1' m:i='E0469530D0D17618D0C511E98190547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='src/wsdl/QueryLinea1_Out.wsdl' attributeFormDefault='unqualified' elementFormDefault='unqualified'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530D0D64EE7D0C511E98FFD547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='FOX_L1_Query' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530D0D64EE8D0C511E9A61C547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D680C0D0C511E9CC1E547C7E8EAE14' namespace='' name='Statement' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530D0D680C1D0C511E99439547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530D0D680C2D0C511E9854F547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D680C3D0C511E9824B547C7E8EAE14' namespace='' name='dbTableName' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530D0D680C4D0C511E9886C547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530D0D680C5D0C511E9B628547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D680C6D0C511E9B5AC547C7E8EAE14' namespace='' name='table' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D680C7D0C511E9A394547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D680C8D0C511E9AD96547C7E8EAE14' namespace='' name='access' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530D0D680C9D0C511E9BCBF547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530D0D680CAD0C511E998A9547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D680CBD0C511E9B5E8547C7E8EAE14' namespace='' name='bismt' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D6986CD0C511E988B0547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D6986DD0C511E99E22547C7E8EAE14' namespace='' name='zz_desc_tec' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D6986ED0C511E9A57E547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D6986FD0C511E9B2F7547C7E8EAE14' namespace='' name='zz_avio_ext' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D69870D0C511E99751547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D69871D0C511E9835B547C7E8EAE14' namespace='' name='zz_patron' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D6C78AD0C511E98F7B547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D6C78BD0C511E9C56F547C7E8EAE14' namespace='' name='zz_horma' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D6C78CD0C511E98920547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D6C78DD0C511E9B128547C7E8EAE14' namespace='' name='zz_tip_const' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D70039D0C511E9BACE547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D7003AD0C511E98E89547C7E8EAE14' namespace='' name='zz_mezcla' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D7003BD0C511E98597547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D71C51D0C511E9AB1E547C7E8EAE14' namespace='' name='zz_plant_fab' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D71C52D0C511E9BF95547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D71C53D0C511E9B703547C7E8EAE14' namespace='' name='zz_cod_pict' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D743D9D0C511E9CE82547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D743DAD0C511E99074547C7E8EAE14' namespace='' name='zz_deltam' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D743DBD0C511E9AA70547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D743DCD0C511E9C9DC547C7E8EAE14' namespace='' name='zz_altam' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D75BA9D0C511E9B1D0547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D75BAAD0C511E9CCEC547C7E8EAE14' namespace='' name='zz_tam_med' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D75BABD0C511E99D51547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D75BACD0C511E9939A547C7E8EAE14' namespace='' name='estatus' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D78F21D0C511E9AC78547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D78F22D0C511E9C97C547C7E8EAE14' namespace='' name='fecha_registro' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D78F23D0C511E9C62F547C7E8EAE14' minOccurs='0' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D7A9E6D0C511E99C2C547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D7A9E7D0C511E987B4547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D7A9E8D0C511E9A51F547C7E8EAE14' namespace='' name='key' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530D0D7A9E9D0C511E9B473547C7E8EAE14' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0469530D0D7A9EAD0C511E9C5C3547C7E8EAE14' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0D7A9EBD0C511E99BF0547C7E8EAE14' namespace='' name='bismt' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0469530D0D7A9ECD0C511E9A9AC547C7E8EAE14' derivationMethod='extension' isAbstract='false' mixed='false'/>
+<XSD1.XsdSimpleTypeDefinition m:c='1' m:i='E0469530D0D7A9EDD0C511E9BD8D547C7E8EAE14'/>
+<XSD1.XsdAttributeUse m:c='1' m:i='E0469530D0D7D0CAD0C511E9AA0A547C7E8EAE14' use='optional'/>
+<XSD1.XsdAttributeDeclaration m:c='1' m:i='E0469530D0D7D0CBD0C511E9ACF7547C7E8EAE14' namespace='' name='compareOperation' form='unqualified'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D7D0CCD0C511E9A8CE547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D7D0CDD0C511E9CF67547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D80730D0C511E9A69B547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D80731D0C511E98BDF547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdAttributeUse m:c='1' m:i='E0469530D0D80732D0C511E98208547C7E8EAE14' use='optional'/>
+<XSD1.XsdAttributeDeclaration m:c='1' m:i='E0469530D0D80733D0C511E9887F547C7E8EAE14' namespace='' name='action' form='unqualified'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D81EC9D0C511E98073547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D81ECAD0C511E9980C547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D81ECBD0C511E9B384547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0469530D0D81ECCD0C511E9BC02547C7E8EAE14' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0DA9628D0C511E9B328547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='FOX_L1_Query_Req_response' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0469530D0DAE302D0C511E9B4FB547C7E8EAE14' namespace='urn:empresasadoc.com:data_maestra:php:estructuras' name='FOX_L1_Query_Req' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.AnnnotationForComponent c='1'>
+<L f='E04695305BB195A5CE9211E9C38C547C7E8EAE14' s='E04695305BB2064DCE9211E9972E547C7E8EAE14'/>
+<L f='E04695305BB24CA2CE9211E98EDC547C7E8EAE14' s='E04695305BB24CA3CE9211E99B24547C7E8EAE14'/>
+<L f='E04695305BB24CA7CE9211E9B2E2547C7E8EAE14' s='E04695305BB26307CE9211E98E00547C7E8EAE14'/>
+<L f='E04695305BB2630BCE9211E9A785547C7E8EAE14' s='E04695305BB2630CCE9211E9A492547C7E8EAE14'/>
+<L f='E04695305BB2B889CE9211E9844C547C7E8EAE14' s='E04695305BB2B88ACE9211E9AA38547C7E8EAE14'/>
+<L f='E04695305BB2D5A4CE9211E9BB03547C7E8EAE14' s='E04695305BB2FC0ECE9211E9B50D547C7E8EAE14'/>
+<L f='E04695305BB32E6ECE9211E9968C547C7E8EAE14' s='E04695305BB34549CE9211E9C8F9547C7E8EAE14'/>
+<L f='E04695305BB3A6C9CE9211E995F2547C7E8EAE14' s='E04695305BB3A6CACE9211E9B38B547C7E8EAE14'/>
+<L f='E04695305BB3BE8BCE9211E994A9547C7E8EAE14' s='E04695305BB3BE8CCE9211E98A41547C7E8EAE14'/>
+<L f='E04695305BB41B17CE9211E9810C547C7E8EAE14' s='E04695305BB41B18CE9211E9A77C547C7E8EAE14'/>
+<L f='E04695305BB46F88CE9211E9CAB4547C7E8EAE14' s='E04695305BB50FDACE9211E990FF547C7E8EAE14'/>
+<L f='E04695305BB53BB0CE9211E9A8D2547C7E8EAE14' s='E04695305BB580E6CE9211E99A65547C7E8EAE14'/>
+<L f='E04695305BB58312CE9211E9BB58547C7E8EAE14' s='E04695305BB58313CE9211E9CAFC547C7E8EAE14'/>
+<L f='E04695305BB5EB86CE9211E98341547C7E8EAE14' s='E04695305BB5EB87CE9211E98B6E547C7E8EAE14'/>
+<L f='E04695305BB635E6CE9211E9B7E6547C7E8EAE14' s='E04695305BB635E7CE9211E9C8A6547C7E8EAE14'/>
+<L f='E04695305BB664ACCE9211E9CB30547C7E8EAE14' s='E04695305BB6B53ECE9211E9B730547C7E8EAE14'/>
+<L f='E04695305BB6B542CE9211E99393547C7E8EAE14' s='E04695305BB6C801CE9211E9C874547C7E8EAE14'/>
+<L f='E04695305BB72E0ACE9211E99D28547C7E8EAE14' s='E04695305BB755E6CE9211E9A01D547C7E8EAE14'/>
+<L f='E04695305BB76267CE9211E9BA67547C7E8EAE14' s='E04695305BB76268CE9211E9C7DE547C7E8EAE14'/>
+<L f='E04695305BB790FDCE9211E9A208547C7E8EAE14' s='E04695305BB790FECE9211E9A0F1547C7E8EAE14'/>
+<L f='E04695305BB7BB38CE9211E9C4FA547C7E8EAE14' s='E04695305BB7BB39CE9211E9CEA2547C7E8EAE14'/>
+<L f='E04695305BB7BB3DCE9211E9C26B547C7E8EAE14' s='E04695305BB7D5C1CE9211E99F9C547C7E8EAE14'/>
+<L f='E04695305BB8029CCE9211E9B2FD547C7E8EAE14' s='E04695305BB8029DCE9211E989DC547C7E8EAE14'/>
+<L f='E04695305BB83CCFCE9211E98448547C7E8EAE14' s='E04695305BB8612FCE9211E9898E547C7E8EAE14'/>
+<L f='E04695305BB884C5CE9211E99425547C7E8EAE14' s='E04695305BB884C6CE9211E99B0C547C7E8EAE14'/>
+<L f='E04695305BB8B0DCCE9211E9C44F547C7E8EAE14' s='E04695305BB8B0DFCE9211E98991547C7E8EAE14'/>
+<L f='E04695305BB8D975CE9211E9A295547C7E8EAE14' s='E04695305BB8DE2CCE9211E9B777547C7E8EAE14'/>
+<L f='E04695305BB8DE30CE9211E9B9CE547C7E8EAE14' s='E04695305BB9828ACE9211E9BE83547C7E8EAE14'/>
+<L f='E04695305BB9A704CE9211E997FC547C7E8EAE14' s='E04695305BB9A705CE9211E98A65547C7E8EAE14'/>
+<L f='E0469530B3EDC159D0BC11E9CBDD547C7E8EAE14' s='E0469530B3EDC15AD0BC11E99154547C7E8EAE14'/>
+<L f='E0469530B3EDE8D1D0BC11E9AB20547C7E8EAE14' s='E0469530B3EE34C5D0BC11E9BCC1547C7E8EAE14'/>
+<L f='E0469530B3EEA917D0BC11E9B6D7547C7E8EAE14' s='E0469530B3EEA918D0BC11E9C900547C7E8EAE14'/>
+<L f='E0469530B3EECF0DD0BC11E9AA65547C7E8EAE14' s='E0469530B3EECF0ED0BC11E9A79D547C7E8EAE14'/>
+<L f='E0469530B3EF48A5D0BC11E98D70547C7E8EAE14' s='E0469530B3EF48A6D0BC11E9BD14547C7E8EAE14'/>
+<L f='E0469530B3EF721FD0BC11E9C10B547C7E8EAE14' s='E0469530B3EF7220D0BC11E9AED9547C7E8EAE14'/>
+<L f='E0469530B3EFA400D0BC11E9839E547C7E8EAE14' s='E0469530B3EFA401D0BC11E9A28A547C7E8EAE14'/>
+<L f='E0469530B3EFD03CD0BC11E9BC12547C7E8EAE14' s='E0469530B3EFD03DD0BC11E9C9DB547C7E8EAE14'/>
+<L f='E0469530B3EFDEB5D0BC11E9CDCD547C7E8EAE14' s='E0469530B3EFDEB6D0BC11E99563547C7E8EAE14'/>
+<L f='E0469530B3EFDEBAD0BC11E9A8A4547C7E8EAE14' s='E0469530B3F00E8AD0BC11E9A9AA547C7E8EAE14'/>
+<L f='E0469530B3F05DA9D0BC11E9A365547C7E8EAE14' s='E0469530B3F09CA1D0BC11E9CFC9547C7E8EAE14'/>
+<L f='E0469530B3F0DBC3D0BC11E9983D547C7E8EAE14' s='E0469530B3F0ED7FD0BC11E9C57E547C7E8EAE14'/>
+<L f='E0469530B3F0ED83D0BC11E9A937547C7E8EAE14' s='E0469530B3F0ED84D0BC11E9B6C7547C7E8EAE14'/>
+<L f='E0469530B3F11A02D0BC11E9C54E547C7E8EAE14' s='E0469530B3F11A03D0BC11E98052547C7E8EAE14'/>
+<L f='E0469530B3F14CC2D0BC11E9A813547C7E8EAE14' s='E0469530B3F192F6D0BC11E9A073547C7E8EAE14'/>
+<L f='E0469530B3F1B24FD0BC11E99DC2547C7E8EAE14' s='E0469530B3F1B250D0BC11E9CE49547C7E8EAE14'/>
+<L f='E0469530B3F1F325D0BC11E9A732547C7E8EAE14' s='E0469530B3F1F326D0BC11E9B942547C7E8EAE14'/>
+<L f='E0469530B3F1FC79D0BC11E9A75C547C7E8EAE14' s='E0469530B3F1FC7AD0BC11E9BA41547C7E8EAE14'/>
+<L f='E0469530B3F238FAD0BC11E9C380547C7E8EAE14' s='E0469530B3F238FBD0BC11E9A1F6547C7E8EAE14'/>
+<L f='E0469530B3F24E00D0BC11E9BC59547C7E8EAE14' s='E0469530B3F24E01D0BC11E99A72547C7E8EAE14'/>
+<L f='E0469530B3F352C9D0BC11E9841F547C7E8EAE14' s='E0469530B3F352CAD0BC11E9ACAB547C7E8EAE14'/>
+<L f='E0469530B3F38537D0BC11E99F42547C7E8EAE14' s='E0469530B3F38538D0BC11E9BA93547C7E8EAE14'/>
+<L f='E0469530B3F3D5C3D0BC11E9AADF547C7E8EAE14' s='E0469530B3F3D5C4D0BC11E9BD27547C7E8EAE14'/>
+<L f='E0469530B3F4010DD0BC11E99194547C7E8EAE14' s='E0469530B3F4010ED0BC11E9CEAE547C7E8EAE14'/>
+<L f='E0469530B3F4229AD0BC11E9AD07547C7E8EAE14' s='E0469530B3F46B88D0BC11E9C66F547C7E8EAE14'/>
+<L f='E0469530B3F46B8CD0BC11E9CA9A547C7E8EAE14' s='E0469530B3F506F2D0BC11E9A7FB547C7E8EAE14'/>
+<L f='E0469530B3F52887D0BC11E98FD8547C7E8EAE14' s='E0469530B3F5609BD0BC11E9AD8E547C7E8EAE14'/>
+<L f='E0469530B3F58DABD0BC11E9A2D2547C7E8EAE14' s='E0469530B3F663F4D0BC11E99C67547C7E8EAE14'/>
+<L f='E0469530B3F68E90D0BC11E98FC5547C7E8EAE14' s='E0469530B3F68E91D0BC11E994E5547C7E8EAE14'/>
+<L f='E0469530B3FBF8FDD0BC11E99597547C7E8EAE14' s='E0469530B3FBF8FED0BC11E9A557547C7E8EAE14'/>
+<L f='E0469530B3FC5EC5D0BC11E99386547C7E8EAE14' s='E0469530B3FC5EC6D0BC11E9A218547C7E8EAE14'/>
+<L f='E0469530B3FC8A11D0BC11E9C80C547C7E8EAE14' s='E0469530B3FC8A12D0BC11E9807B547C7E8EAE14'/>
+<L f='E0469530B3FCC503D0BC11E9A676547C7E8EAE14' s='E0469530B3FCC504D0BC11E99592547C7E8EAE14'/>
+<L f='E0469530B3FCEC17D0BC11E9C847547C7E8EAE14' s='E0469530B3FCEC18D0BC11E99E40547C7E8EAE14'/>
+<L f='E0469530B3FD1709D0BC11E99336547C7E8EAE14' s='E0469530B3FD170AD0BC11E99186547C7E8EAE14'/>
+<L f='E0469530B3FD2F1CD0BC11E98B8F547C7E8EAE14' s='E0469530B3FD2F1DD0BC11E98AD1547C7E8EAE14'/>
+<L f='E0469530B3FD7828D0BC11E9B2E2547C7E8EAE14' s='E0469530B3FD7829D0BC11E9AD98547C7E8EAE14'/>
+</XSD1.AnnnotationForComponent>
+<XSD1.ElementDeclarationsForSchema c='1'>
+<L f='E04695305BB0F067CE9211E98ADD547C7E8EAE14' s='E04695305BBCF152CE9211E9B3E9547C7E8EAE14'/>
+<L f='E0469530B3ED59E5D0BC11E9CAC5547C7E8EAE14' s='E0469530B400A0A1D0BC11E9B79C547C7E8EAE14'/>
+<L f='E0469530D0D17618D0C511E98190547C7E8EAE14' s='E0469530D0DA9628D0C511E9B328547C7E8EAE14'/>
+<L f='E0469530D0D17618D0C511E98190547C7E8EAE14' s='E0469530D0DAE302D0C511E9B4FB547C7E8EAE14'/>
+</XSD1.ElementDeclarationsForSchema>
+<XSD1.AttributeContentsForComplexTypeDefinition c='1'>
+<L f='E0469530D0D680C4D0C511E9886C547C7E8EAE14' s='E0469530D0D80732D0C511E98208547C7E8EAE14'/>
+<L f='E0469530D0D7A9ECD0C511E9A9AC547C7E8EAE14' s='E0469530D0D7D0CAD0C511E9AA0A547C7E8EAE14'/>
+</XSD1.AttributeContentsForComplexTypeDefinition>
+<XSD1.TypeDefinitionForElementDeclaration c='1'>
+<L f='E04695305BB195A2CE9211E9CDAC547C7E8EAE14' s='E04695305BB195A3CE9211E9A67F547C7E8EAE14'/>
+<L f='E04695305BB195A5CE9211E9C38C547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB24CA2CE9211E98EDC547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB24CA7CE9211E9B2E2547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB2630BCE9211E9A785547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB2B889CE9211E9844C547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB2D5A4CE9211E9BB03547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB32E6ECE9211E9968C547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB3A6C9CE9211E995F2547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB3BE8BCE9211E994A9547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB41B17CE9211E9810C547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB46F88CE9211E9CAB4547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E04695305BB53BB0CE9211E9A8D2547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB58312CE9211E9BB58547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E04695305BB5EB86CE9211E98341547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB635E6CE9211E9B7E6547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB664ACCE9211E9CB30547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB6B542CE9211E99393547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB72E0ACE9211E99D28547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB76267CE9211E9BA67547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E04695305BB790FDCE9211E9A208547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E04695305BB7BB38CE9211E9C4FA547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB7BB3DCE9211E9C26B547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB8029CCE9211E9B2FD547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB83CCFCE9211E98448547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E04695305BB884C5CE9211E99425547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E04695305BB8B0DCCE9211E9C44F547C7E8EAE14' s='E04695305BB8B0DDCE9211E99FFD547C7E8EAE14'/>
+<L f='E04695305BB8D975CE9211E9A295547C7E8EAE14' s='E04695305BB8D976CE9211E9CB19547C7E8EAE14'/>
+<L f='E04695305BB8DE30CE9211E9B9CE547C7E8EAE14' s='E04695305BB8DE31CE9211E9CB00547C7E8EAE14'/>
+<L f='E04695305BB9A704CE9211E997FC547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E04695305BBCF152CE9211E9B3E9547C7E8EAE14' s='E04695305BB12CAFCE9211E98145547C7E8EAE14'/>
+<L f='E0469530B3EDC156D0BC11E989C0547C7E8EAE14' s='E0469530B3EDC157D0BC11E9C969547C7E8EAE14'/>
+<L f='E0469530B3EDC159D0BC11E9CBDD547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EDE8D1D0BC11E9AB20547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EEA917D0BC11E9B6D7547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EECF0DD0BC11E9AA65547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EF48A5D0BC11E98D70547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EF721FD0BC11E9C10B547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EFA400D0BC11E9839E547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EFD03CD0BC11E9BC12547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EFDEB5D0BC11E9CDCD547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3EFDEBAD0BC11E9A8A4547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F05DA9D0BC11E9A365547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E0469530B3F0DBC3D0BC11E9983D547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F0ED83D0BC11E9A937547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E0469530B3F11A02D0BC11E9C54E547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F14CC2D0BC11E9A813547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F1B24FD0BC11E99DC2547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F1F325D0BC11E9A732547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F1FC79D0BC11E9A75C547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F238FAD0BC11E9C380547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E0469530B3F24E00D0BC11E9BC59547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E0469530B3F352C9D0BC11E9841F547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F38537D0BC11E99F42547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F3D5C3D0BC11E9AADF547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F4010DD0BC11E99194547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E0469530B3F4229AD0BC11E9AD07547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E0469530B3F46B8CD0BC11E9CA9A547C7E8EAE14' s='E0469530B3F46B8DD0BC11E9BC1B547C7E8EAE14'/>
+<L f='E0469530B3F52887D0BC11E98FD8547C7E8EAE14' s='E0469530B3F53FBBD0BC11E993BB547C7E8EAE14'/>
+<L f='E0469530B3F58DABD0BC11E9A2D2547C7E8EAE14' s='E0469530B3F5CA04D0BC11E99259547C7E8EAE14'/>
+<L f='E0469530B3F68E90D0BC11E98FC5547C7E8EAE14' s='local:4743E048A5DE6962980411DC98C90011252E548A'/>
+<L f='E0469530B3F6DBD0D0BC11E9B229547C7E8EAE14' s='E0469530B3FB2F93D0BC11E9AF5C547C7E8EAE14'/>
+<L f='E0469530B3FBC41AD0BC11E98784547C7E8EAE14' s='E0469530B3FBC41BD0BC11E9A34A547C7E8EAE14'/>
+<L f='E0469530B3FBC41DD0BC11E98B64547C7E8EAE14' s='E0469530B3FBC41ED0BC11E9B184547C7E8EAE14'/>
+<L f='E0469530B3FBF8FDD0BC11E99597547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FC5EC5D0BC11E99386547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FC8A11D0BC11E9C80C547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FCC503D0BC11E9A676547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FCEC17D0BC11E9C847547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FD1709D0BC11E99336547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FD2F1CD0BC11E98B8F547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FD7828D0BC11E9B2E2547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FDB93AD0BC11E995FC547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FDC223D0BC11E994FE547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FDC225D0BC11E9C198547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FDC227D0BC11E9B7C7547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FDF970D0BC11E9BF68547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3FDF972D0BC11E982B6547C7E8EAE14' s='local:4743E048A5B843C2980411DC8D800011252E548A'/>
+<L f='E0469530B400A0A1D0BC11E9B79C547C7E8EAE14' s='E0469530B3ED59E6D0BC11E998CE547C7E8EAE14'/>
+<L f='E0469530D0D680C0D0C511E9CC1E547C7E8EAE14' s='E0469530D0D680C1D0C511E99439547C7E8EAE14'/>
+<L f='E0469530D0D680C3D0C511E9824B547C7E8EAE14' s='E0469530D0D680C4D0C511E9886C547C7E8EAE14'/>
+<L f='E0469530D0D680C6D0C511E9B5AC547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D680C8D0C511E9AD96547C7E8EAE14' s='E0469530D0D680C9D0C511E9BCBF547C7E8EAE14'/>
+<L f='E0469530D0D680CBD0C511E9B5E8547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D6986DD0C511E99E22547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D6986FD0C511E9B2F7547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D69871D0C511E9835B547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D6C78BD0C511E9C56F547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D6C78DD0C511E9B128547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D7003AD0C511E98E89547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D71C51D0C511E9AB1E547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D71C53D0C511E9B703547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D743DAD0C511E99074547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D743DCD0C511E9C9DC547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D75BAAD0C511E9CCEC547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D75BACD0C511E9939A547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D78F22D0C511E9C97C547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D7A9E8D0C511E9A51F547C7E8EAE14' s='E0469530D0D7A9E9D0C511E9B473547C7E8EAE14'/>
+<L f='E0469530D0D7A9EBD0C511E99BF0547C7E8EAE14' s='E0469530D0D7A9ECD0C511E9A9AC547C7E8EAE14'/>
+<L f='E0469530D0DA9628D0C511E9B328547C7E8EAE14' s='E0469530B3FB2F93D0BC11E9AF5C547C7E8EAE14'/>
+<L f='E0469530D0DAE302D0C511E9B4FB547C7E8EAE14' s='E0469530D0D64EE7D0C511E98FFD547C7E8EAE14'/>
+</XSD1.TypeDefinitionForElementDeclaration>
+<XSD1.AttributeDeclarationForAttributeUse c='1'>
+<L f='E0469530D0D7D0CAD0C511E9AA0A547C7E8EAE14' s='E0469530D0D7D0CBD0C511E9ACF7547C7E8EAE14'/>
+<L f='E0469530D0D80732D0C511E98208547C7E8EAE14' s='E0469530D0D80733D0C511E9887F547C7E8EAE14'/>
+</XSD1.AttributeDeclarationForAttributeUse>
+<XSD1.dom.ChildsOfDomNode c='1'>
+<L f='E04695305BB2064FCE9211E9BB65547C7E8EAE14' s='E04695305BB2064ECE9211E98DBB547C7E8EAE14'/>
+<L f='E04695305BB24CA5CE9211E98E7B547C7E8EAE14' s='E04695305BB24CA4CE9211E98A03547C7E8EAE14'/>
+<L f='E04695305BB26309CE9211E9925D547C7E8EAE14' s='E04695305BB26308CE9211E9A0C2547C7E8EAE14'/>
+<L f='E04695305BB2630ECE9211E980E4547C7E8EAE14' s='E04695305BB2630DCE9211E986D8547C7E8EAE14'/>
+<L f='E04695305BB2B88CCE9211E9A495547C7E8EAE14' s='E04695305BB2B88BCE9211E9808A547C7E8EAE14'/>
+<L f='E04695305BB2FC10CE9211E99C88547C7E8EAE14' s='E04695305BB2FC0FCE9211E999FC547C7E8EAE14'/>
+<L f='E04695305BB3454BCE9211E9A577547C7E8EAE14' s='E04695305BB3454ACE9211E990E0547C7E8EAE14'/>
+<L f='E04695305BB3A6CCCE9211E996F1547C7E8EAE14' s='E04695305BB3A6CBCE9211E9AB70547C7E8EAE14'/>
+<L f='E04695305BB3F1B0CE9211E9BF5E547C7E8EAE14' s='E04695305BB3F1AFCE9211E98EA2547C7E8EAE14'/>
+<L f='E04695305BB42B3DCE9211E9C480547C7E8EAE14' s='E04695305BB42B3CCE9211E99592547C7E8EAE14'/>
+<L f='E04695305BB50FDCCE9211E98360547C7E8EAE14' s='E04695305BB50FDBCE9211E998D9547C7E8EAE14'/>
+<L f='E04695305BB580E8CE9211E9C4FA547C7E8EAE14' s='E04695305BB580E7CE9211E9C05B547C7E8EAE14'/>
+<L f='E04695305BB5C916CE9211E9936F547C7E8EAE14' s='E04695305BB5C915CE9211E99493547C7E8EAE14'/>
+<L f='E04695305BB5EB89CE9211E9C2B2547C7E8EAE14' s='E04695305BB5EB88CE9211E9C7AA547C7E8EAE14'/>
+<L f='E04695305BB635E9CE9211E99F1C547C7E8EAE14' s='E04695305BB635E8CE9211E9AABB547C7E8EAE14'/>
+<L f='E04695305BB6B540CE9211E9C93D547C7E8EAE14' s='E04695305BB6B53FCE9211E9AD2D547C7E8EAE14'/>
+<L f='E04695305BB6C803CE9211E9A018547C7E8EAE14' s='E04695305BB6C802CE9211E9CAA6547C7E8EAE14'/>
+<L f='E04695305BB755E8CE9211E9965B547C7E8EAE14' s='E04695305BB755E7CE9211E98F8D547C7E8EAE14'/>
+<L f='E04695305BB7626ACE9211E9B9CB547C7E8EAE14' s='E04695305BB76269CE9211E9C47C547C7E8EAE14'/>
+<L f='E04695305BB79100CE9211E992B5547C7E8EAE14' s='E04695305BB790FFCE9211E996AA547C7E8EAE14'/>
+<L f='E04695305BB7BB3BCE9211E9B9F6547C7E8EAE14' s='E04695305BB7BB3ACE9211E9A18D547C7E8EAE14'/>
+<L f='E04695305BB7D5C3CE9211E9B962547C7E8EAE14' s='E04695305BB7D5C2CE9211E98CB2547C7E8EAE14'/>
+<L f='E04695305BB8029FCE9211E99DE9547C7E8EAE14' s='E04695305BB8029ECE9211E9C965547C7E8EAE14'/>
+<L f='E04695305BB86131CE9211E9AE3F547C7E8EAE14' s='E04695305BB86130CE9211E9CB21547C7E8EAE14'/>
+<L f='E04695305BB884C8CE9211E983FB547C7E8EAE14' s='E04695305BB884C7CE9211E9B578547C7E8EAE14'/>
+<L f='E04695305BB8B0E1CE9211E99A66547C7E8EAE14' s='E04695305BB8B0E0CE9211E98679547C7E8EAE14'/>
+<L f='E04695305BB8DE2ECE9211E9CECB547C7E8EAE14' s='E04695305BB8DE2DCE9211E9BD78547C7E8EAE14'/>
+<L f='E04695305BB9828CCE9211E9C133547C7E8EAE14' s='E04695305BB9828BCE9211E984A5547C7E8EAE14'/>
+<L f='E04695305BB9A707CE9211E9C002547C7E8EAE14' s='E04695305BB9A706CE9211E9AB77547C7E8EAE14'/>
+<L f='E0469530B3EDC15CD0BC11E9ADA2547C7E8EAE14' s='E0469530B3EDC15BD0BC11E98602547C7E8EAE14'/>
+<L f='E0469530B3EE6D6AD0BC11E9BA0D547C7E8EAE14' s='E0469530B3EE34C6D0BC11E9CC34547C7E8EAE14'/>
+<L f='E0469530B3EEA91AD0BC11E9AA64547C7E8EAE14' s='E0469530B3EEA919D0BC11E9C134547C7E8EAE14'/>
+<L f='E0469530B3EECF10D0BC11E9C595547C7E8EAE14' s='E0469530B3EECF0FD0BC11E980E1547C7E8EAE14'/>
+<L f='E0469530B3EF48A8D0BC11E9991F547C7E8EAE14' s='E0469530B3EF48A7D0BC11E99EC2547C7E8EAE14'/>
+<L f='E0469530B3EF7222D0BC11E9BA26547C7E8EAE14' s='E0469530B3EF7221D0BC11E9B496547C7E8EAE14'/>
+<L f='E0469530B3EFA403D0BC11E99658547C7E8EAE14' s='E0469530B3EFA402D0BC11E99825547C7E8EAE14'/>
+<L f='E0469530B3EFD03FD0BC11E99A34547C7E8EAE14' s='E0469530B3EFD03ED0BC11E984AC547C7E8EAE14'/>
+<L f='E0469530B3EFDEB8D0BC11E99557547C7E8EAE14' s='E0469530B3EFDEB7D0BC11E9CE7D547C7E8EAE14'/>
+<L f='E0469530B3F00E8CD0BC11E99A4F547C7E8EAE14' s='E0469530B3F00E8BD0BC11E98EB2547C7E8EAE14'/>
+<L f='E0469530B3F0DBC1D0BC11E9BD09547C7E8EAE14' s='E0469530B3F0DBC0D0BC11E9A351547C7E8EAE14'/>
+<L f='E0469530B3F0ED81D0BC11E9CB1E547C7E8EAE14' s='E0469530B3F0ED80D0BC11E9B770547C7E8EAE14'/>
+<L f='E0469530B3F11A00D0BC11E992C5547C7E8EAE14' s='E0469530B3F0ED85D0BC11E9A6A8547C7E8EAE14'/>
+<L f='E0469530B3F11A05D0BC11E9BAF5547C7E8EAE14' s='E0469530B3F11A04D0BC11E9B5B2547C7E8EAE14'/>
+<L f='E0469530B3F192F8D0BC11E9C490547C7E8EAE14' s='E0469530B3F192F7D0BC11E98F0C547C7E8EAE14'/>
+<L f='E0469530B3F1B252D0BC11E9ACC9547C7E8EAE14' s='E0469530B3F1B251D0BC11E9C5D5547C7E8EAE14'/>
+<L f='E0469530B3F1F328D0BC11E9AFC6547C7E8EAE14' s='E0469530B3F1F327D0BC11E99067547C7E8EAE14'/>
+<L f='E0469530B3F1FC7CD0BC11E9875A547C7E8EAE14' s='E0469530B3F1FC7BD0BC11E9B3B2547C7E8EAE14'/>
+<L f='E0469530B3F238FDD0BC11E9BFC3547C7E8EAE14' s='E0469530B3F238FCD0BC11E9B85F547C7E8EAE14'/>
+<L f='E0469530B3F24E03D0BC11E9B622547C7E8EAE14' s='E0469530B3F24E02D0BC11E99785547C7E8EAE14'/>
+<L f='E0469530B3F352CCD0BC11E99C39547C7E8EAE14' s='E0469530B3F352CBD0BC11E98D69547C7E8EAE14'/>
+<L f='E0469530B3F3853AD0BC11E98024547C7E8EAE14' s='E0469530B3F38539D0BC11E9CB81547C7E8EAE14'/>
+<L f='E0469530B3F3D5C6D0BC11E9809A547C7E8EAE14' s='E0469530B3F3D5C5D0BC11E9C5C7547C7E8EAE14'/>
+<L f='E0469530B3F42298D0BC11E9B0CA547C7E8EAE14' s='E0469530B3F4010FD0BC11E98DD3547C7E8EAE14'/>
+<L f='E0469530B3F46B8AD0BC11E9A8B2547C7E8EAE14' s='E0469530B3F46B89D0BC11E9A977547C7E8EAE14'/>
+<L f='E0469530B3F52885D0BC11E984E8547C7E8EAE14' s='E0469530B3F506F3D0BC11E98428547C7E8EAE14'/>
+<L f='E0469530B3F5609DD0BC11E9C1D0547C7E8EAE14' s='E0469530B3F5609CD0BC11E9A8F2547C7E8EAE14'/>
+<L f='E0469530B3F663F6D0BC11E9ACD0547C7E8EAE14' s='E0469530B3F663F5D0BC11E9C077547C7E8EAE14'/>
+<L f='E0469530B3F6AF37D0BC11E9AB5F547C7E8EAE14' s='E0469530B3F68E92D0BC11E98969547C7E8EAE14'/>
+<L f='E0469530B3FBF900D0BC11E99A00547C7E8EAE14' s='E0469530B3FBF8FFD0BC11E9B1C6547C7E8EAE14'/>
+<L f='E0469530B3FC5EC8D0BC11E9A998547C7E8EAE14' s='E0469530B3FC5EC7D0BC11E9CD3D547C7E8EAE14'/>
+<L f='E0469530B3FC8A14D0BC11E9801B547C7E8EAE14' s='E0469530B3FC8A13D0BC11E9BE44547C7E8EAE14'/>
+<L f='E0469530B3FCC506D0BC11E9CFB0547C7E8EAE14' s='E0469530B3FCC505D0BC11E994E3547C7E8EAE14'/>
+<L f='E0469530B3FCEC1AD0BC11E99A7F547C7E8EAE14' s='E0469530B3FCEC19D0BC11E9BEF6547C7E8EAE14'/>
+<L f='E0469530B3FD170CD0BC11E9B7C9547C7E8EAE14' s='E0469530B3FD170BD0BC11E9AD5E547C7E8EAE14'/>
+<L f='E0469530B3FD2F1FD0BC11E9A1FE547C7E8EAE14' s='E0469530B3FD2F1ED0BC11E9B70B547C7E8EAE14'/>
+<L f='E0469530B3FD782BD0BC11E98757547C7E8EAE14' s='E0469530B3FD782AD0BC11E9A24C547C7E8EAE14'/>
+</XSD1.dom.ChildsOfDomNode>
+<XSD1.TypeDefinitionsForSchema c='1'>
+<L f='E04695305BB0F067CE9211E98ADD547C7E8EAE14' s='E04695305BB12CAFCE9211E98145547C7E8EAE14'/>
+<L f='E0469530B3ED59E5D0BC11E9CAC5547C7E8EAE14' s='E0469530B3ED59E6D0BC11E998CE547C7E8EAE14'/>
+<L f='E0469530B3ED59E5D0BC11E9CAC5547C7E8EAE14' s='E0469530B3FB2F93D0BC11E9AF5C547C7E8EAE14'/>
+<L f='E0469530D0D17618D0C511E98190547C7E8EAE14' s='E0469530B3FB2F93D0BC11E9AF5C547C7E8EAE14'/>
+<L f='E0469530D0D17618D0C511E98190547C7E8EAE14' s='E0469530D0D64EE7D0C511E98FFD547C7E8EAE14'/>
+</XSD1.TypeDefinitionsForSchema>
+<XSD1.ContentForParticle c='1'>
+<L f='E04695305BB20650CE9211E9CFE3547C7E8EAE14' s='E04695305BB195A5CE9211E9C38C547C7E8EAE14'/>
+<L f='E04695305BB24CA6CE9211E9903F547C7E8EAE14' s='E04695305BB24CA2CE9211E98EDC547C7E8EAE14'/>
+<L f='E04695305BB2630ACE9211E9A540547C7E8EAE14' s='E04695305BB24CA7CE9211E9B2E2547C7E8EAE14'/>
+<L f='E04695305BB28216CE9211E9C853547C7E8EAE14' s='E04695305BB2630BCE9211E9A785547C7E8EAE14'/>
+<L f='E04695305BB2D5A3CE9211E9802E547C7E8EAE14' s='E04695305BB2B889CE9211E9844C547C7E8EAE14'/>
+<L f='E04695305BB32E6DCE9211E999C2547C7E8EAE14' s='E04695305BB2D5A4CE9211E9BB03547C7E8EAE14'/>
+<L f='E04695305BB36BC0CE9211E9C91F547C7E8EAE14' s='E04695305BB32E6ECE9211E9968C547C7E8EAE14'/>
+<L f='E04695305BB3BE8ACE9211E9CE12547C7E8EAE14' s='E04695305BB3A6C9CE9211E995F2547C7E8EAE14'/>
+<L f='E04695305BB3F1B1CE9211E98107547C7E8EAE14' s='E04695305BB3BE8BCE9211E994A9547C7E8EAE14'/>
+<L f='E04695305BB42B3ECE9211E9C208547C7E8EAE14' s='E04695305BB41B17CE9211E9810C547C7E8EAE14'/>
+<L f='E04695305BB53BAFCE9211E9B42D547C7E8EAE14' s='E04695305BB46F88CE9211E9CAB4547C7E8EAE14'/>
+<L f='E04695305BB58311CE9211E9CA08547C7E8EAE14' s='E04695305BB53BB0CE9211E9A8D2547C7E8EAE14'/>
+<L f='E04695305BB5C917CE9211E98EB7547C7E8EAE14' s='E04695305BB58312CE9211E9BB58547C7E8EAE14'/>
+<L f='E04695305BB60F64CE9211E9813F547C7E8EAE14' s='E04695305BB5EB86CE9211E98341547C7E8EAE14'/>
+<L f='E04695305BB664ABCE9211E9C5CB547C7E8EAE14' s='E04695305BB635E6CE9211E9B7E6547C7E8EAE14'/>
+<L f='E04695305BB6B541CE9211E98691547C7E8EAE14' s='E04695305BB664ACCE9211E9CB30547C7E8EAE14'/>
+<L f='E04695305BB72E09CE9211E989DA547C7E8EAE14' s='E04695305BB6B542CE9211E99393547C7E8EAE14'/>
+<L f='E04695305BB76266CE9211E99551547C7E8EAE14' s='E04695305BB72E0ACE9211E99D28547C7E8EAE14'/>
+<L f='E04695305BB7626BCE9211E9A60F547C7E8EAE14' s='E04695305BB76267CE9211E9BA67547C7E8EAE14'/>
+<L f='E04695305BB7BB37CE9211E9C0E5547C7E8EAE14' s='E04695305BB790FDCE9211E9A208547C7E8EAE14'/>
+<L f='E04695305BB7BB3CCE9211E9B10F547C7E8EAE14' s='E04695305BB7BB38CE9211E9C4FA547C7E8EAE14'/>
+<L f='E04695305BB8029BCE9211E9BE57547C7E8EAE14' s='E04695305BB7BB3DCE9211E9C26B547C7E8EAE14'/>
+<L f='E04695305BB83CCECE9211E9B240547C7E8EAE14' s='E04695305BB8029CCE9211E9B2FD547C7E8EAE14'/>
+<L f='E04695305BB86132CE9211E9BEDC547C7E8EAE14' s='E04695305BB83CCFCE9211E98448547C7E8EAE14'/>
+<L f='E04695305BB884C9CE9211E9AE36547C7E8EAE14' s='E04695305BB884C5CE9211E99425547C7E8EAE14'/>
+<L f='E04695305BB8D974CE9211E98AE8547C7E8EAE14' s='E04695305BB8B0DCCE9211E9C44F547C7E8EAE14'/>
+<L f='E04695305BB8DE2FCE9211E993FD547C7E8EAE14' s='E04695305BB8D975CE9211E9A295547C7E8EAE14'/>
+<L f='E04695305BB9828DCE9211E99BA1547C7E8EAE14' s='E04695305BB8DE30CE9211E9B9CE547C7E8EAE14'/>
+<L f='E04695305BB9A708CE9211E9C32F547C7E8EAE14' s='E04695305BB9A704CE9211E997FC547C7E8EAE14'/>
+<L f='E04695305BB9A709CE9211E9CF22547C7E8EAE14' s='E04695305BB195A4CE9211E9CD0F547C7E8EAE14'/>
+<L f='E04695305BB9EB5DCE9211E9B9BD547C7E8EAE14' s='E04695305BB195A2CE9211E9CDAC547C7E8EAE14'/>
+<L f='E04695305BB9EB5ECE9211E9C4B9547C7E8EAE14' s='E04695305BB195A1CE9211E9C3C3547C7E8EAE14'/>
+<L f='E0469530B3EDE8D0D0BC11E9BEDF547C7E8EAE14' s='E0469530B3EDC159D0BC11E9CBDD547C7E8EAE14'/>
+<L f='E0469530B3EE7913D0BC11E991A6547C7E8EAE14' s='E0469530B3EDE8D1D0BC11E9AB20547C7E8EAE14'/>
+<L f='E0469530B3EECF0CD0BC11E99F05547C7E8EAE14' s='E0469530B3EEA917D0BC11E9B6D7547C7E8EAE14'/>
+<L f='E0469530B3EF2C09D0BC11E9CA14547C7E8EAE14' s='E0469530B3EECF0DD0BC11E9AA65547C7E8EAE14'/>
+<L f='E0469530B3EF721ED0BC11E98A9C547C7E8EAE14' s='E0469530B3EF48A5D0BC11E98D70547C7E8EAE14'/>
+<L f='E0469530B3EF7223D0BC11E9914C547C7E8EAE14' s='E0469530B3EF721FD0BC11E9C10B547C7E8EAE14'/>
+<L f='E0469530B3EFA404D0BC11E98166547C7E8EAE14' s='E0469530B3EFA400D0BC11E9839E547C7E8EAE14'/>
+<L f='E0469530B3EFD040D0BC11E99772547C7E8EAE14' s='E0469530B3EFD03CD0BC11E9BC12547C7E8EAE14'/>
+<L f='E0469530B3EFDEB9D0BC11E9B1AC547C7E8EAE14' s='E0469530B3EFDEB5D0BC11E9CDCD547C7E8EAE14'/>
+<L f='E0469530B3F00E8DD0BC11E99E8B547C7E8EAE14' s='E0469530B3EFDEBAD0BC11E9A8A4547C7E8EAE14'/>
+<L f='E0469530B3F0DBC2D0BC11E9B958547C7E8EAE14' s='E0469530B3F05DA9D0BC11E9A365547C7E8EAE14'/>
+<L f='E0469530B3F0ED82D0BC11E985CD547C7E8EAE14' s='E0469530B3F0DBC3D0BC11E9983D547C7E8EAE14'/>
+<L f='E0469530B3F11A01D0BC11E9C0A4547C7E8EAE14' s='E0469530B3F0ED83D0BC11E9A937547C7E8EAE14'/>
+<L f='E0469530B3F14CC1D0BC11E9CC36547C7E8EAE14' s='E0469530B3F11A02D0BC11E9C54E547C7E8EAE14'/>
+<L f='E0469530B3F1B24ED0BC11E9B654547C7E8EAE14' s='E0469530B3F14CC2D0BC11E9A813547C7E8EAE14'/>
+<L f='E0469530B3F1B253D0BC11E9C1D4547C7E8EAE14' s='E0469530B3F1B24FD0BC11E99DC2547C7E8EAE14'/>
+<L f='E0469530B3F1FC78D0BC11E9B680547C7E8EAE14' s='E0469530B3F1F325D0BC11E9A732547C7E8EAE14'/>
+<L f='E0469530B3F1FC7DD0BC11E9A691547C7E8EAE14' s='E0469530B3F1FC79D0BC11E9A75C547C7E8EAE14'/>
+<L f='E0469530B3F238FED0BC11E9B36C547C7E8EAE14' s='E0469530B3F238FAD0BC11E9C380547C7E8EAE14'/>
+<L f='E0469530B3F24E04D0BC11E9B529547C7E8EAE14' s='E0469530B3F24E00D0BC11E9BC59547C7E8EAE14'/>
+<L f='E0469530B3F38536D0BC11E98E3F547C7E8EAE14' s='E0469530B3F352C9D0BC11E9841F547C7E8EAE14'/>
+<L f='E0469530B3F3BB69D0BC11E9C19C547C7E8EAE14' s='E0469530B3F38537D0BC11E99F42547C7E8EAE14'/>
+<L f='E0469530B3F4010CD0BC11E99680547C7E8EAE14' s='E0469530B3F3D5C3D0BC11E9AADF547C7E8EAE14'/>
+<L f='E0469530B3F42299D0BC11E9B12A547C7E8EAE14' s='E0469530B3F4010DD0BC11E99194547C7E8EAE14'/>
+<L f='E0469530B3F46B8BD0BC11E9CCAB547C7E8EAE14' s='E0469530B3F4229AD0BC11E9AD07547C7E8EAE14'/>
+<L f='E0469530B3F52886D0BC11E9A346547C7E8EAE14' s='E0469530B3F46B8CD0BC11E9CA9A547C7E8EAE14'/>
+<L f='E0469530B3F58DAAD0BC11E9ADA8547C7E8EAE14' s='E0469530B3F52887D0BC11E98FD8547C7E8EAE14'/>
+<L f='E0469530B3F663F7D0BC11E9C8B8547C7E8EAE14' s='E0469530B3F58DABD0BC11E9A2D2547C7E8EAE14'/>
+<L f='E0469530B3F6AF38D0BC11E987E9547C7E8EAE14' s='E0469530B3F68E90D0BC11E98FC5547C7E8EAE14'/>
+<L f='E0469530B3F71D4FD0BC11E98822547C7E8EAE14' s='E0469530B3F6DBD0D0BC11E9B229547C7E8EAE14'/>
+<L f='E0469530B3F71D50D0BC11E9CB82547C7E8EAE14' s='E0469530B3EDC158D0BC11E99696547C7E8EAE14'/>
+<L f='E0469530B3F771B2D0BC11E9CA48547C7E8EAE14' s='E0469530B3EDC156D0BC11E989C0547C7E8EAE14'/>
+<L f='E0469530B3F771B3D0BC11E9A8AF547C7E8EAE14' s='E0469530B3EDC155D0BC11E9A2A2547C7E8EAE14'/>
+<L f='E0469530B3FC5EC4D0BC11E98901547C7E8EAE14' s='E0469530B3FBF8FDD0BC11E99597547C7E8EAE14'/>
+<L f='E0469530B3FC8A10D0BC11E987C9547C7E8EAE14' s='E0469530B3FC5EC5D0BC11E99386547C7E8EAE14'/>
+<L f='E0469530B3FCC502D0BC11E99045547C7E8EAE14' s='E0469530B3FC8A11D0BC11E9C80C547C7E8EAE14'/>
+<L f='E0469530B3FCEC16D0BC11E99145547C7E8EAE14' s='E0469530B3FCC503D0BC11E9A676547C7E8EAE14'/>
+<L f='E0469530B3FD1708D0BC11E9B168547C7E8EAE14' s='E0469530B3FCEC17D0BC11E9C847547C7E8EAE14'/>
+<L f='E0469530B3FD170DD0BC11E9AB6E547C7E8EAE14' s='E0469530B3FD1709D0BC11E99336547C7E8EAE14'/>
+<L f='E0469530B3FD2F20D0BC11E9C8A4547C7E8EAE14' s='E0469530B3FD2F1CD0BC11E98B8F547C7E8EAE14'/>
+<L f='E0469530B3FDB939D0BC11E99259547C7E8EAE14' s='E0469530B3FD7828D0BC11E9B2E2547C7E8EAE14'/>
+<L f='E0469530B3FDB93BD0BC11E9A590547C7E8EAE14' s='E0469530B3FDB93AD0BC11E995FC547C7E8EAE14'/>
+<L f='E0469530B3FDC224D0BC11E9A8F1547C7E8EAE14' s='E0469530B3FDC223D0BC11E994FE547C7E8EAE14'/>
+<L f='E0469530B3FDC226D0BC11E99A33547C7E8EAE14' s='E0469530B3FDC225D0BC11E9C198547C7E8EAE14'/>
+<L f='E0469530B3FDF96FD0BC11E9B0A9547C7E8EAE14' s='E0469530B3FDC227D0BC11E9B7C7547C7E8EAE14'/>
+<L f='E0469530B3FDF971D0BC11E9C711547C7E8EAE14' s='E0469530B3FDF970D0BC11E9BF68547C7E8EAE14'/>
+<L f='E0469530B3FE10F9D0BC11E9CD52547C7E8EAE14' s='E0469530B3FDF972D0BC11E982B6547C7E8EAE14'/>
+<L f='E0469530B3FE10FAD0BC11E9C108547C7E8EAE14' s='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14'/>
+<L f='E0469530B3FE10FBD0BC11E98586547C7E8EAE14' s='E0469530B3FBC41DD0BC11E98B64547C7E8EAE14'/>
+<L f='E0469530B3FE10FCD0BC11E9C3C5547C7E8EAE14' s='E0469530B3FBC41CD0BC11E99B13547C7E8EAE14'/>
+<L f='E0469530B3FE56E0D0BC11E9C103547C7E8EAE14' s='E0469530B3FBC41AD0BC11E98784547C7E8EAE14'/>
+<L f='E0469530B3FE56E1D0BC11E99D02547C7E8EAE14' s='E0469530B3FBA908D0BC11E9C14E547C7E8EAE14'/>
+<L f='E0469530D0D680C7D0C511E9A394547C7E8EAE14' s='E0469530D0D680C6D0C511E9B5AC547C7E8EAE14'/>
+<L f='E0469530D0D6986CD0C511E988B0547C7E8EAE14' s='E0469530D0D680CBD0C511E9B5E8547C7E8EAE14'/>
+<L f='E0469530D0D6986ED0C511E9A57E547C7E8EAE14' s='E0469530D0D6986DD0C511E99E22547C7E8EAE14'/>
+<L f='E0469530D0D69870D0C511E99751547C7E8EAE14' s='E0469530D0D6986FD0C511E9B2F7547C7E8EAE14'/>
+<L f='E0469530D0D6C78AD0C511E98F7B547C7E8EAE14' s='E0469530D0D69871D0C511E9835B547C7E8EAE14'/>
+<L f='E0469530D0D6C78CD0C511E98920547C7E8EAE14' s='E0469530D0D6C78BD0C511E9C56F547C7E8EAE14'/>
+<L f='E0469530D0D70039D0C511E9BACE547C7E8EAE14' s='E0469530D0D6C78DD0C511E9B128547C7E8EAE14'/>
+<L f='E0469530D0D7003BD0C511E98597547C7E8EAE14' s='E0469530D0D7003AD0C511E98E89547C7E8EAE14'/>
+<L f='E0469530D0D71C52D0C511E9BF95547C7E8EAE14' s='E0469530D0D71C51D0C511E9AB1E547C7E8EAE14'/>
+<L f='E0469530D0D743D9D0C511E9CE82547C7E8EAE14' s='E0469530D0D71C53D0C511E9B703547C7E8EAE14'/>
+<L f='E0469530D0D743DBD0C511E9AA70547C7E8EAE14' s='E0469530D0D743DAD0C511E99074547C7E8EAE14'/>
+<L f='E0469530D0D75BA9D0C511E9B1D0547C7E8EAE14' s='E0469530D0D743DCD0C511E9C9DC547C7E8EAE14'/>
+<L f='E0469530D0D75BABD0C511E99D51547C7E8EAE14' s='E0469530D0D75BAAD0C511E9CCEC547C7E8EAE14'/>
+<L f='E0469530D0D78F21D0C511E9AC78547C7E8EAE14' s='E0469530D0D75BACD0C511E9939A547C7E8EAE14'/>
+<L f='E0469530D0D78F23D0C511E9C62F547C7E8EAE14' s='E0469530D0D78F22D0C511E9C97C547C7E8EAE14'/>
+<L f='E0469530D0D7A9E6D0C511E99C2C547C7E8EAE14' s='E0469530D0D680CAD0C511E998A9547C7E8EAE14'/>
+<L f='E0469530D0D7A9E7D0C511E987B4547C7E8EAE14' s='E0469530D0D680C8D0C511E9AD96547C7E8EAE14'/>
+<L f='E0469530D0D7D0CCD0C511E9A8CE547C7E8EAE14' s='E0469530D0D7A9EBD0C511E99BF0547C7E8EAE14'/>
+<L f='E0469530D0D7D0CDD0C511E9CF67547C7E8EAE14' s='E0469530D0D7A9EAD0C511E9C5C3547C7E8EAE14'/>
+<L f='E0469530D0D80730D0C511E9A69B547C7E8EAE14' s='E0469530D0D7A9E8D0C511E9A51F547C7E8EAE14'/>
+<L f='E0469530D0D80731D0C511E98BDF547C7E8EAE14' s='E0469530D0D680C5D0C511E9B628547C7E8EAE14'/>
+<L f='E0469530D0D81EC9D0C511E98073547C7E8EAE14' s='E0469530D0D680C3D0C511E9824B547C7E8EAE14'/>
+<L f='E0469530D0D81ECAD0C511E9980C547C7E8EAE14' s='E0469530D0D680C2D0C511E9854F547C7E8EAE14'/>
+<L f='E0469530D0D81ECBD0C511E9B384547C7E8EAE14' s='E0469530D0D680C0D0C511E9CC1E547C7E8EAE14'/>
+<L f='E0469530D0D81ECCD0C511E9BC02547C7E8EAE14' s='E0469530D0D64EE8D0C511E9A61C547C7E8EAE14'/>
+</XSD1.ContentForParticle>
+<XSD1.AnonymousTypeDefinitionForElementDeclaration c='1'>
+<L f='E04695305BB195A2CE9211E9CDAC547C7E8EAE14' s='E04695305BB195A3CE9211E9A67F547C7E8EAE14'/>
+<L f='E04695305BB8B0DCCE9211E9C44F547C7E8EAE14' s='E04695305BB8B0DDCE9211E99FFD547C7E8EAE14'/>
+<L f='E04695305BB8D975CE9211E9A295547C7E8EAE14' s='E04695305BB8D976CE9211E9CB19547C7E8EAE14'/>
+<L f='E04695305BB8DE30CE9211E9B9CE547C7E8EAE14' s='E04695305BB8DE31CE9211E9CB00547C7E8EAE14'/>
+<L f='E0469530B3EDC156D0BC11E989C0547C7E8EAE14' s='E0469530B3EDC157D0BC11E9C969547C7E8EAE14'/>
+<L f='E0469530B3F46B8CD0BC11E9CA9A547C7E8EAE14' s='E0469530B3F46B8DD0BC11E9BC1B547C7E8EAE14'/>
+<L f='E0469530B3F52887D0BC11E98FD8547C7E8EAE14' s='E0469530B3F53FBBD0BC11E993BB547C7E8EAE14'/>
+<L f='E0469530B3F58DABD0BC11E9A2D2547C7E8EAE14' s='E0469530B3F5CA04D0BC11E99259547C7E8EAE14'/>
+<L f='E0469530B3FBC41AD0BC11E98784547C7E8EAE14' s='E0469530B3FBC41BD0BC11E9A34A547C7E8EAE14'/>
+<L f='E0469530B3FBC41DD0BC11E98B64547C7E8EAE14' s='E0469530B3FBC41ED0BC11E9B184547C7E8EAE14'/>
+<L f='E0469530D0D680C0D0C511E9CC1E547C7E8EAE14' s='E0469530D0D680C1D0C511E99439547C7E8EAE14'/>
+<L f='E0469530D0D680C3D0C511E9824B547C7E8EAE14' s='E0469530D0D680C4D0C511E9886C547C7E8EAE14'/>
+<L f='E0469530D0D680C8D0C511E9AD96547C7E8EAE14' s='E0469530D0D680C9D0C511E9BCBF547C7E8EAE14'/>
+<L f='E0469530D0D7A9E8D0C511E9A51F547C7E8EAE14' s='E0469530D0D7A9E9D0C511E9B473547C7E8EAE14'/>
+<L f='E0469530D0D7A9EBD0C511E99BF0547C7E8EAE14' s='E0469530D0D7A9ECD0C511E9A9AC547C7E8EAE14'/>
+</XSD1.AnonymousTypeDefinitionForElementDeclaration>
+<XSD1.BaseTypeDefinitionForSimpleTypeDefinition c='1'>
+<L f='E04695305BB8B0DDCE9211E99FFD547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB8D976CE9211E9CB19547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E04695305BB8DE31CE9211E9CB00547C7E8EAE14' s='local:4743E048A5B3AFE8980411DCC6BD0011252E548A'/>
+<L f='E0469530B3F46B8DD0BC11E9BC1B547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F53FBBD0BC11E993BB547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530B3F5CA04D0BC11E99259547C7E8EAE14' s='local:4743E048A5B3AFE8980411DCC6BD0011252E548A'/>
+<L f='E0469530D0D7A9EDD0C511E9BD8D547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+</XSD1.BaseTypeDefinitionForSimpleTypeDefinition>
+<XSD1.ContentForComplexTypeDefinition c='1'>
+<L f='E04695305BB12CAFCE9211E98145547C7E8EAE14' s='E04695305BB9EB5ECE9211E9C4B9547C7E8EAE14'/>
+<L f='E04695305BB195A3CE9211E9A67F547C7E8EAE14' s='E04695305BB9A709CE9211E9CF22547C7E8EAE14'/>
+<L f='E0469530B3ED59E6D0BC11E998CE547C7E8EAE14' s='E0469530B3F771B3D0BC11E9A8AF547C7E8EAE14'/>
+<L f='E0469530B3EDC157D0BC11E9C969547C7E8EAE14' s='E0469530B3F71D50D0BC11E9CB82547C7E8EAE14'/>
+<L f='E0469530B3FB2F93D0BC11E9AF5C547C7E8EAE14' s='E0469530B3FE56E1D0BC11E99D02547C7E8EAE14'/>
+<L f='E0469530B3FBC41BD0BC11E9A34A547C7E8EAE14' s='E0469530B3FE10FCD0BC11E9C3C5547C7E8EAE14'/>
+<L f='E0469530B3FBC41ED0BC11E9B184547C7E8EAE14' s='E0469530B3FE10FAD0BC11E9C108547C7E8EAE14'/>
+<L f='E0469530D0D64EE7D0C511E98FFD547C7E8EAE14' s='E0469530D0D81ECCD0C511E9BC02547C7E8EAE14'/>
+<L f='E0469530D0D680C1D0C511E99439547C7E8EAE14' s='E0469530D0D81ECAD0C511E9980C547C7E8EAE14'/>
+<L f='E0469530D0D680C4D0C511E9886C547C7E8EAE14' s='E0469530D0D80731D0C511E98BDF547C7E8EAE14'/>
+<L f='E0469530D0D680C9D0C511E9BCBF547C7E8EAE14' s='E0469530D0D7A9E6D0C511E99C2C547C7E8EAE14'/>
+<L f='E0469530D0D7A9E9D0C511E9B473547C7E8EAE14' s='E0469530D0D7D0CDD0C511E9CF67547C7E8EAE14'/>
+<L f='E0469530D0D7A9ECD0C511E9A9AC547C7E8EAE14' s='E0469530D0D7A9EDD0C511E9BD8D547C7E8EAE14'/>
+</XSD1.ContentForComplexTypeDefinition>
+<XSD1.ParticlesForModelGroup c='1'>
+<L f='E04695305BB195A1CE9211E9C3C3547C7E8EAE14' s='E04695305BB9EB5DCE9211E9B9BD547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB20650CE9211E9CFE3547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB24CA6CE9211E9903F547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB2630ACE9211E9A540547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB28216CE9211E9C853547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB2D5A3CE9211E9802E547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB32E6DCE9211E999C2547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB36BC0CE9211E9C91F547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB3BE8ACE9211E9CE12547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB3F1B1CE9211E98107547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB42B3ECE9211E9C208547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB53BAFCE9211E9B42D547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB58311CE9211E9CA08547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB5C917CE9211E98EB7547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB60F64CE9211E9813F547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB664ABCE9211E9C5CB547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB6B541CE9211E98691547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB72E09CE9211E989DA547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB76266CE9211E99551547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB7626BCE9211E9A60F547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB7BB37CE9211E9C0E5547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB7BB3CCE9211E9B10F547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB8029BCE9211E9BE57547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB83CCECE9211E9B240547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB86132CE9211E9BEDC547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB884C9CE9211E9AE36547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB8D974CE9211E98AE8547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB8DE2FCE9211E993FD547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB9828DCE9211E99BA1547C7E8EAE14'/>
+<L f='E04695305BB195A4CE9211E9CD0F547C7E8EAE14' s='E04695305BB9A708CE9211E9C32F547C7E8EAE14'/>
+<L f='E0469530B3EDC155D0BC11E9A2A2547C7E8EAE14' s='E0469530B3F771B2D0BC11E9CA48547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EDE8D0D0BC11E9BEDF547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EE7913D0BC11E991A6547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EECF0CD0BC11E99F05547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EF2C09D0BC11E9CA14547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EF721ED0BC11E98A9C547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EF7223D0BC11E9914C547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EFA404D0BC11E98166547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EFD040D0BC11E99772547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3EFDEB9D0BC11E9B1AC547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F00E8DD0BC11E99E8B547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F0DBC2D0BC11E9B958547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F0ED82D0BC11E985CD547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F11A01D0BC11E9C0A4547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F14CC1D0BC11E9CC36547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F1B24ED0BC11E9B654547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F1B253D0BC11E9C1D4547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F1FC78D0BC11E9B680547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F1FC7DD0BC11E9A691547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F238FED0BC11E9B36C547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F24E04D0BC11E9B529547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F38536D0BC11E98E3F547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F3BB69D0BC11E9C19C547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F4010CD0BC11E99680547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F42299D0BC11E9B12A547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F46B8BD0BC11E9CCAB547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F52886D0BC11E9A346547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F58DAAD0BC11E9ADA8547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F663F7D0BC11E9C8B8547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F6AF38D0BC11E987E9547C7E8EAE14'/>
+<L f='E0469530B3EDC158D0BC11E99696547C7E8EAE14' s='E0469530B3F71D4FD0BC11E98822547C7E8EAE14'/>
+<L f='E0469530B3FBA908D0BC11E9C14E547C7E8EAE14' s='E0469530B3FE56E0D0BC11E9C103547C7E8EAE14'/>
+<L f='E0469530B3FBC41CD0BC11E99B13547C7E8EAE14' s='E0469530B3FE10FBD0BC11E98586547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FC5EC4D0BC11E98901547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FC8A10D0BC11E987C9547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FCC502D0BC11E99045547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FCEC16D0BC11E99145547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FD1708D0BC11E9B168547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FD170DD0BC11E9AB6E547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FD2F20D0BC11E9C8A4547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FDB939D0BC11E99259547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FDB93BD0BC11E9A590547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FDC224D0BC11E9A8F1547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FDC226D0BC11E99A33547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FDF96FD0BC11E9B0A9547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FDF971D0BC11E9C711547C7E8EAE14'/>
+<L f='E0469530B3FBF8FCD0BC11E9A452547C7E8EAE14' s='E0469530B3FE10F9D0BC11E9CD52547C7E8EAE14'/>
+<L f='E0469530D0D64EE8D0C511E9A61C547C7E8EAE14' s='E0469530D0D81ECBD0C511E9B384547C7E8EAE14'/>
+<L f='E0469530D0D680C2D0C511E9854F547C7E8EAE14' s='E0469530D0D81EC9D0C511E98073547C7E8EAE14'/>
+<L f='E0469530D0D680C5D0C511E9B628547C7E8EAE14' s='E0469530D0D680C7D0C511E9A394547C7E8EAE14'/>
+<L f='E0469530D0D680C5D0C511E9B628547C7E8EAE14' s='E0469530D0D7A9E7D0C511E987B4547C7E8EAE14'/>
+<L f='E0469530D0D680C5D0C511E9B628547C7E8EAE14' s='E0469530D0D80730D0C511E9A69B547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D6986CD0C511E988B0547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D6986ED0C511E9A57E547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D69870D0C511E99751547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D6C78AD0C511E98F7B547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D6C78CD0C511E98920547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D70039D0C511E9BACE547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D7003BD0C511E98597547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D71C52D0C511E9BF95547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D743D9D0C511E9CE82547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D743DBD0C511E9AA70547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D75BA9D0C511E9B1D0547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D75BABD0C511E99D51547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D78F21D0C511E9AC78547C7E8EAE14'/>
+<L f='E0469530D0D680CAD0C511E998A9547C7E8EAE14' s='E0469530D0D78F23D0C511E9C62F547C7E8EAE14'/>
+<L f='E0469530D0D7A9EAD0C511E9C5C3547C7E8EAE14' s='E0469530D0D7D0CCD0C511E9A8CE547C7E8EAE14'/>
+</XSD1.ParticlesForModelGroup>
+<XSD1.FacetContentsForSimpleTypeDefinition c='1'>
+<L f='E04695305BB8B0DDCE9211E99FFD547C7E8EAE14' s='E04695305BB8B0DECE9211E9A6D2547C7E8EAE14'/>
+<L f='E04695305BB8D976CE9211E9CB19547C7E8EAE14' s='E04695305BB8D977CE9211E9C2A2547C7E8EAE14'/>
+<L f='E04695305BB8DE31CE9211E9CB00547C7E8EAE14' s='E04695305BB98289CE9211E99031547C7E8EAE14'/>
+<L f='E0469530B3F46B8DD0BC11E9BC1B547C7E8EAE14' s='E0469530B3F48245D0BC11E9CD40547C7E8EAE14'/>
+<L f='E0469530B3F53FBBD0BC11E993BB547C7E8EAE14' s='E0469530B3F53FBCD0BC11E98701547C7E8EAE14'/>
+<L f='E0469530B3F5CA04D0BC11E99259547C7E8EAE14' s='E0469530B3F62B88D0BC11E99F93547C7E8EAE14'/>
+</XSD1.FacetContentsForSimpleTypeDefinition>
+<XSD1.BaseTypeDefinitionForComplexTypeDefinition c='1'>
+<L f='E04695305BB12CAFCE9211E98145547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E04695305BB195A3CE9211E9A67F547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530B3ED59E6D0BC11E998CE547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530B3EDC157D0BC11E9C969547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530B3FB2F93D0BC11E9AF5C547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530B3FBC41BD0BC11E9A34A547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530B3FBC41ED0BC11E9B184547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530D0D64EE7D0C511E98FFD547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530D0D680C1D0C511E99439547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530D0D680C4D0C511E9886C547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530D0D680C9D0C511E9BCBF547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530D0D7A9E9D0C511E9B473547C7E8EAE14' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0469530D0D7A9ECD0C511E9A9AC547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+</XSD1.BaseTypeDefinitionForComplexTypeDefinition>
+<XSD1.TypeDefinitionForAttributeDeclaration c='1'>
+<L f='E0469530D0D7D0CBD0C511E9ACF7547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0469530D0D80733D0C511E9887F547C7E8EAE14' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+</XSD1.TypeDefinitionForAttributeDeclaration>
+</Partition>

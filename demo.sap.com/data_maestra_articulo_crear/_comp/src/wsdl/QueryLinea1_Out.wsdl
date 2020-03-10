@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="urn:empresasadoc.com:data_maestra:php:BPM" xmlns:p2="urn:empresasadoc.com:data_maestra:php:estructuras" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="QueryLinea1_Out" targetNamespace="urn:empresasadoc.com:data_maestra:php:BPM">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>bb8c3773d0c411e9992d0000001b79ca</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="tegroup"/>
+      <changed by="tegroup" on="1567788035860"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:runtime:application:client"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_basic"/>
+    <ifw:interfacePattern p2p="true"/>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="a8a57cf181b734e299212640dfa17263"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="QueryLinea1_Out">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="p2.FOX_L1_Query_Req_response">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">FOX_L1_Query_Req_response</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:empresasadoc.com:data_maestra:php:estructuras</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:empresasadoc.com:data_maestra:php:estructuras</ifw:technicalNamespace>
+        <ifw:VersionID>8cac2144d0c411e9936d0000001b79ca</ifw:VersionID>
+        <ifw:xmlNamespace>urn:empresasadoc.com:data_maestra:php:estructuras</ifw:xmlNamespace>
+        <ifw:dataType name="FOX_L1_Statement" namespace="urn:empresasadoc.com:data_maestra:php:estructuras" swcvId="888847a0b85e11e9ba71d958c0a8107a" uri="name=FOX_L1_Statement~namespace=urn:empresasadoc.com:data_maestra:php:estructuras~swcvId=888847a0b85e11e9ba71d958c0a8107a"/>
+      </ifw:message>
+      <ifw:message name="p2.FOX_L1_Query_Req">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">FOX_L1_Query_Req</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:empresasadoc.com:data_maestra:php:estructuras</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:empresasadoc.com:data_maestra:php:estructuras</ifw:technicalNamespace>
+        <ifw:VersionID>bf9b11a2c06211e99eae0000001b79ca</ifw:VersionID>
+        <ifw:xmlNamespace>urn:empresasadoc.com:data_maestra:php:estructuras</ifw:xmlNamespace>
+        <ifw:dataType name="FOX_L1_Query" namespace="urn:empresasadoc.com:data_maestra:php:estructuras" swcvId="888847a0b85e11e9ba71d958c0a8107a" uri="name=FOX_L1_Query~namespace=urn:empresasadoc.com:data_maestra:php:estructuras~swcvId=888847a0b85e11e9ba71d958c0a8107a"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>888847a0b85e11e9ba71d958c0a8107a</ifw:guid>
+        <ifw:name>ADOC_I_DATA_MAESTRA_SENDER 1.0 of empresasadoc.com</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:folder>
+        <ifw:guid>1dj###o#####k##</ifw:guid>
+      </ifw:folder>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_a8a57cf181b734e299212640dfa17263_ifmmessif</name>
+        <namespace>urn:empresasadoc.com:data_maestra:php:BPM</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_QueryLinea1_Out"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:empresasadoc.com:data_maestra:php:estructuras" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:empresasadoc.com:data_maestra:php:estructuras">
+      <xsd:element name="FOX_L1_Query_Req_response" type="FOX_L1_Statement"/>
+      <xsd:element name="FOX_L1_Query_Req" type="FOX_L1_Query"/>
+      <xsd:complexType name="FOX_L1_Statement">
+        <xsd:sequence>
+          <xsd:element name="Statement_response">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="row">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="bismt" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Numero de material anterior</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_desc_tec" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Desc. Técnica</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_avio_ext" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Avio externo</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_patron" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Patrón</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_horma" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Horma</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_tip_const" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Tipo Construcción</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_mezcla" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Codigo de mezcla</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_plant_fab" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:documentation>Planta de Fabricación</xsd:documentation>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="zz_cod_pict" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="zz_deltam" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="zz_altam" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="zz_tam_med" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="estatus" type="xsd:string"/>
+                      <xsd:element minOccurs="0" name="fecha_registro" type="xsd:date"/>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FOX_L1_Query">
+        <xsd:sequence>
+          <xsd:element name="Statement">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="dbTableName">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="table" type="xsd:string"/>
+                      <xsd:element name="access">
+                        <xsd:complexType>
+                          <xsd:sequence>
+                            <xsd:element name="bismt" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_desc_tec" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_avio_ext" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_patron" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_horma" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_tip_const" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_mezcla" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_plant_fab" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_cod_pict" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_deltam" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_altam" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="zz_tam_med" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="estatus" type="xsd:string"/>
+                            <xsd:element minOccurs="0" name="fecha_registro" type="xsd:string"/>
+                          </xsd:sequence>
+                        </xsd:complexType>
+                      </xsd:element>
+                      <xsd:element name="key">
+                        <xsd:complexType>
+                          <xsd:sequence>
+                            <xsd:element name="bismt">
+                              <xsd:complexType>
+                                <xsd:simpleContent>
+                                  <xsd:extension base="xsd:string">
+                                    <xsd:attribute name="compareOperation" type="xsd:string"/>
+                                  </xsd:extension>
+                                </xsd:simpleContent>
+                              </xsd:complexType>
+                            </xsd:element>
+                          </xsd:sequence>
+                        </xsd:complexType>
+                      </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute name="action" type="xsd:string"/>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="p2.FOX_L1_Query_Req">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:FOX_L1_Query_Req" name="FOX_L1_Query_Req"/>
+  </wsdl:message>
+  <wsdl:message name="p2.FOX_L1_Query_Req_response">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:FOX_L1_Query_Req_response" name="FOX_L1_Query_Req_response"/>
+  </wsdl:message>
+  <wsdl:portType name="QueryLinea1_Out">
+    <wsdl:documentation/>
+    <wsdl:operation name="QueryLinea1_Out">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_QueryLinea1_Out"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:p2.FOX_L1_Query_Req"/>
+      <wsdl:output message="p1:p2.FOX_L1_Query_Req_response"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="QueryLinea1_OutBinding" type="p1:QueryLinea1_Out">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="QueryLinea1_Out">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>
